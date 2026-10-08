@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791487447657420433, "request_id": 1, "provider": "openai", "model": "gpt-5.6-sol", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791487448205493381, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791487449591750075, "request_id": 1, "bytes_forwarded": 105879}
+{"kind": "gateway_request", "observed_ns": 1791487449624050516, "request_id": 2, "provider": "openai", "model": "gpt-5.6-sol", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791487450057758951, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791487451161490244, "request_id": 2, "bytes_forwarded": 85631}
+{"kind": "gateway_request", "observed_ns": 1791487451187294922, "request_id": 3, "provider": "openai", "model": "gpt-5.6-sol", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791487451809411707, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791487460320145179, "request_id": 3, "bytes_forwarded": 374890}
+{"kind": "gateway_request", "observed_ns": 1791487460336585277, "request_id": 4, "provider": "openai", "model": "gpt-5.6-sol", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791487460851555194, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791487463206534784, "request_id": 4, "bytes_forwarded": 149386}
+{"kind": "gateway_request", "observed_ns": 1791487463620123965, "request_id": 5, "provider": "openai", "model": "gpt-5.6-sol", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791487464119850669, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791487466288059339, "request_id": 5, "bytes_forwarded": 141185}
+{"kind": "gateway_request", "observed_ns": 1791487467229331794, "request_id": 6, "provider": "openai", "model": "gpt-5.6-sol", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791487467790449061, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791487469781790646, "request_id": 6, "bytes_forwarded": 83812}

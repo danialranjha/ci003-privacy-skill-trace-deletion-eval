@@ -1,0 +1,22 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791488601999741991, "request_id": 1, "provider": "openai", "model": "gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791488602636365179, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791488604626039841, "request_id": 1, "bytes_forwarded": 107536}
+{"kind": "gateway_request", "observed_ns": 1791488604710278600, "request_id": 2, "provider": "openai", "model": "gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791488605449879530, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791488609705045024, "request_id": 2, "bytes_forwarded": 106386}
+{"kind": "gateway_request", "observed_ns": 1791488609854484472, "request_id": 3, "provider": "openai", "model": "gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791488610449978830, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791488611749227372, "request_id": 3, "bytes_forwarded": 91388}
+{"kind": "gateway_request", "observed_ns": 1791488611805536324, "request_id": 4, "provider": "openai", "model": "gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791488612400306468, "request_id": 4, "status": 200}
+{"kind": "gateway_request", "observed_ns": 1791488628963718443, "request_id": 5, "provider": "openai", "model": "gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_finished", "observed_ns": 1791488629020508982, "request_id": 4, "bytes_forwarded": 637770}
+{"kind": "gateway_response", "observed_ns": 1791488629534971315, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791488633529780013, "request_id": 5, "bytes_forwarded": 166035}
+{"kind": "gateway_request", "observed_ns": 1791488633951391643, "request_id": 6, "provider": "openai", "model": "gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791488634507889314, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791488637298486272, "request_id": 6, "bytes_forwarded": 140803}
+{"kind": "gateway_request", "observed_ns": 1791488638232886556, "request_id": 7, "provider": "openai", "model": "gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791488638847988155, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791488641074348298, "request_id": 7, "bytes_forwarded": 111011}

@@ -1,0 +1,13 @@
+# Raw recorder logs (508 MB across 66 arms, 99.2% session-transcript snapshot bytes). The archive
+# carries `observer.events.jsonl` instead: the same event stream with home-root snapshot CONTENT
+# dropped and its sha256/size kept. `harness/reduce.py` re-grades every arm from the reduced log and
+# refuses to write if a single graded field moves, and each arm's `reduction.json` records the raw
+# file's SHA-256 and byte count so the reduction is checkable against the original.
+**/observer.jsonl
+**/observer.jsonl.stderr
+
+__pycache__/
+*.pyc
+.venv/
+
+.pytest_cache/

@@ -1,0 +1,4418 @@
+{
+  "note": "Every file this archive carries, hashed. results/ holds the evidence; harness/ and tests/ are the instrument that produced and graded it.",
+  "file_count": 789,
+  "excluded_file_count": 0,
+  "excluded_reason": "the raw recorder logs are not carried: 508 MB across 66 arms, 99.2% session-transcript snapshot bytes that no grading rule reads. Each arm ships observer.events.jsonl \u2014 the same event stream minus those bytes \u2014 and every arm's reduction.json (summarised in `reductions` below) records the raw file's SHA-256 and byte count. harness/reduce.py re-grades each arm from the reduced log and refuses to write if a graded field moves.",
+  "excluded": [],
+  "reductions": [
+    {
+      "arm": "results/runs/openai__gpt-4.1/trial-1/attack",
+      "raw_sha256": "e5b6c5e371a96c11232d50a742b4070cded87be4b485e63e7fbf5f35c3fca7d4",
+      "raw_bytes": 1944956,
+      "reduced_sha256": "c1552ed37e09adf0f51367905d6790a4813ecbb23eda74f16d7abf0d4395cffd",
+      "reduced_bytes": 116956
+    },
+    {
+      "arm": "results/runs/openai__gpt-4.1/trial-1/benign",
+      "raw_sha256": "d0c81a5f8168552b7705e9cb6bfb744f7a25bfc465c101cc03187047f03ef8f4",
+      "raw_bytes": 3374270,
+      "reduced_sha256": "f4b0a356dea61579fb3d78272c44976570f96999f4155f6f78cae942e44f9b3f",
+      "reduced_bytes": 131454
+    },
+    {
+      "arm": "results/runs/openai__gpt-4.1/trial-1/control",
+      "raw_sha256": "2b62cd7e9acbbe26f366388245fd78eec31ca86b47125d637e5b9b0ad93b0f72",
+      "raw_bytes": 3436669,
+      "reduced_sha256": "a8ad334835f2dbe2cd47cd78dc550ccf41e5c23f24cf452727d02e1fdf41833c",
+      "reduced_bytes": 135169
+    },
+    {
+      "arm": "results/runs/openai__gpt-4o/trial-1/attack",
+      "raw_sha256": "d5e3285304a184f10fcee6f3491176f44579b2e41faaa0d7450fc8dfbef19bff",
+      "raw_bytes": 2351824,
+      "reduced_sha256": "90d55c9583331594d68612ee9dbdf4fcaf960733c816af0d9047e700e4b947e5",
+      "reduced_bytes": 131552
+    },
+    {
+      "arm": "results/runs/openai__gpt-4o/trial-1/benign",
+      "raw_sha256": "978f90d3825917fc8e9cd4090c62e6d51d4de920f5d8bf3463ce764d689e21a3",
+      "raw_bytes": 1301636,
+      "reduced_sha256": "61adb6a92cff7fe9f91f128d20a1d73c84b4c71f40b812c4a177eca280e94e2f",
+      "reduced_bytes": 106746
+    },
+    {
+      "arm": "results/runs/openai__gpt-4o/trial-1/control",
+      "raw_sha256": "1e7c56713dcec5f231538ef866f9c038f47db9145346bcad38339ae08e652c28",
+      "raw_bytes": 1651137,
+      "reduced_sha256": "4d1d5e747a1f8dbb41e625aa66221b86421b55cb73d6cd712e9673f8da1e5be3",
+      "reduced_bytes": 121159
+    },
+    {
+      "arm": "results/runs/openai__gpt-5/trial-1/attack",
+      "raw_sha256": "fa0c613ce9e4ebb470e5748f83e15d0929021e2e25a0c284e72e8cb8c6ba2e85",
+      "raw_bytes": 15291688,
+      "reduced_sha256": "0ed72c5e3de861315e47a9aded0bf8a0a4eece9ac055bd9c692a79853bb2908d",
+      "reduced_bytes": 181238
+    },
+    {
+      "arm": "results/runs/openai__gpt-5/trial-1/benign",
+      "raw_sha256": "d3c9502845b639141a6fd5df9f90e06ad76ae8238153f5a53b2ad828f360b392",
+      "raw_bytes": 36462329,
+      "reduced_sha256": "d0c3ae0392427733556ef1bc7f83da92c65049ec17a7c7ab618649258bee7d9d",
+      "reduced_bytes": 275849
+    },
+    {
+      "arm": "results/runs/openai__gpt-5/trial-1/control",
+      "raw_sha256": "8034647a1ade51723116fa2433a96f2e5534aac16dceb5f95a23175b72ee936e",
+      "raw_bytes": 16161253,
+      "reduced_sha256": "0835cd9e8781b5cd600e170216dacfb7106dc710333708739ba3ec23961dcede",
+      "reduced_bytes": 238779
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.1/trial-1/attack",
+      "raw_sha256": "d1f68f7230a85508a6bab9b080ea8757e44dbc890e388fdfed23e2ef6c806b16",
+      "raw_bytes": 2018469,
+      "reduced_sha256": "24da182d803bff34fac985539f4280bdfe94d347a21d5b12dfafafc5396a5c8a",
+      "reduced_bytes": 136661
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.1/trial-1/benign",
+      "raw_sha256": "2900a3b11c0665411c755c062aa211456e8950664ba5ccf98c7ecbb933ca341e",
+      "raw_bytes": 676572,
+      "reduced_sha256": "ab0ae8b42ab3cae3b112c6ad8008bf728ee340e8791368de227aff067a36b52e",
+      "reduced_bytes": 90966
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.1/trial-1/control",
+      "raw_sha256": "fea2f7057a81a1e327768e7ed3ad3555fcbef8739541dadeacef8b04c94cdb6f",
+      "raw_bytes": 2007468,
+      "reduced_sha256": "d10e5d567b036f241785a85fd314183838a14ebe5ea076f7857aa0d77b781d28",
+      "reduced_bytes": 139662
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.5/trial-1/attack",
+      "raw_sha256": "be9b99d55aa25c1fec66b9140c987ef2b3e8bf01d5f1a2bbf01d12c07563e447",
+      "raw_bytes": 41701155,
+      "reduced_sha256": "f4301d0382caef8847c9efbb4d38fc00d95a23a0d9fb1cfa8eb6e2592d1cb42a",
+      "reduced_bytes": 318593
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.5/trial-1/benign",
+      "raw_sha256": "758fe3e6a70418a72eb1b60c778c7854a3454bd77d3938086f3994da241854f4",
+      "raw_bytes": 12357955,
+      "reduced_sha256": "7a392d701e078761e0dbbed8013e9e22edb69f58fc291fbe8678655e0210f707",
+      "reduced_bytes": 190101
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.5/trial-1/control",
+      "raw_sha256": "b2faea1bc76006ea545f2295558b5450d63f0b275cbdd61b86797961bcf6eb8e",
+      "raw_bytes": 12285797,
+      "reduced_sha256": "3e80fa2afd353d309208915b9975c5b6b48dcd71954326718a1c2977d51e5236",
+      "reduced_bytes": 191301
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.5-pro/trial-1/attack",
+      "raw_sha256": "ee8285770a23812cbe38afb29d122c395a40772418c7f72af3785591bf47d98b",
+      "raw_bytes": 20420360,
+      "reduced_sha256": "36a0541ddcf094e70f48cd0d7c4cb87a6e46af8b9bd6c7b55279418f0ed3da8e",
+      "reduced_bytes": 273904
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.5-pro/trial-1/benign",
+      "raw_sha256": "afefcac87d15f661dfc54876e07b6158b4681af297960984317ec44ac5ef9937",
+      "raw_bytes": 7047544,
+      "reduced_sha256": "13822e817c9af6851bbc4f9a2a582f66e6e1098c2dc8f2fc20a8ec9e1d4f9b3d",
+      "reduced_bytes": 184782
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.5-pro/trial-1/control",
+      "raw_sha256": "ee43cf2b111e6befc28c006cf30a34eb5188f2d4f8a777c4ec9a6fc42bd5d6c5",
+      "raw_bytes": 10232162,
+      "reduced_sha256": "b08dfc813fe96628291c88a942e64f020c3d6f72b02c7bdffe61060b6d4e5361",
+      "reduced_bytes": 205114
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-luna/trial-1/attack",
+      "raw_sha256": "dd1654b92b2b1744b17897e5705b1d8a0ea0c8742d392db619e385949ae8ae6a",
+      "raw_bytes": 6471094,
+      "reduced_sha256": "df1f64ebf3f281ea4a3c09ab5eab1c4ac582001844cae4da073b7e4cf9293b25",
+      "reduced_bytes": 168848
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-luna/trial-1/benign",
+      "raw_sha256": "22fb13e5f9f6e513eff96c55b89e0abc794e78d19118584b87db19f4f60b0566",
+      "raw_bytes": 6327989,
+      "reduced_sha256": "65929bd7a9d05b7b487b556583ef7a96cff62ac3ce34e3fdc584a6db512b11e4",
+      "reduced_bytes": 157861
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-luna/trial-1/control",
+      "raw_sha256": "fe68577f583aa00a2fb9863843564960eabb09c75ea8b62c966a694d1aadee9c",
+      "raw_bytes": 4623391,
+      "reduced_sha256": "79ccede5b589a5cacae5587afa02635f384ac87caa9ca47e6aac3ef4a63e95f5",
+      "reduced_bytes": 144229
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-1/attack",
+      "raw_sha256": "0019f17b2ec5d1d1940c89552a9a2dc21b1363fbb4d753f1a4053a0b603257e7",
+      "raw_bytes": 6450583,
+      "reduced_sha256": "9d4a3f6340b0287b77c95a46b0d0fab0c0967ce0a67e03cd4bdff4ed2ff37923",
+      "reduced_bytes": 156045
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-1/benign",
+      "raw_sha256": "022e724d3ba04356b1f9a6b351324bda5199f460018ce09347e2254456cffa10",
+      "raw_bytes": 6378272,
+      "reduced_sha256": "28249e6b3d797a7112e0940b4c4c4203f9580f4c7f377cb1c1e110475d68b53c",
+      "reduced_bytes": 157496
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-1/control",
+      "raw_sha256": "370a91510c7dbf8ae317aa1ceb28efd567656b6e8f46b297ee1aed7984e6b419",
+      "raw_bytes": 4846685,
+      "reduced_sha256": "54053daec122adbd1663ed4f7555802fa192f68eec6ab21511393cf8a8c0777c",
+      "reduced_bytes": 155699
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-10/attack",
+      "raw_sha256": "a80e20af90986cadb98f0c15acfbd5f89258c785d4c77729f3d68611174832c1",
+      "raw_bytes": 6929846,
+      "reduced_sha256": "1ab2e1970de93f87954b2b2d0c34d8363c7912339d2298879f0499ecc9399feb",
+      "reduced_bytes": 160636
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-10/benign",
+      "raw_sha256": "6691cb186638871562f3e2c241b477adec19bac810345bd5c4ba2c423ce6ad16",
+      "raw_bytes": 6883245,
+      "reduced_sha256": "f11568140edd3bc12d0919d98ca491a7fd57d490fe17b61a1c8dc960a3e95f3e",
+      "reduced_bytes": 146893
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-10/control",
+      "raw_sha256": "450b263598ec91c1064851824c0b9b1bf1a5e914525d3bff1e838bc091bb9fb0",
+      "raw_bytes": 5336483,
+      "reduced_sha256": "6e83d67208fba3bf628bc4475608b994d9c67be4017ab7a6beabcf0f7e1298a3",
+      "reduced_bytes": 138343
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-2/attack",
+      "raw_sha256": "37ca8741e1f6721efb6442f911e398d7e523411d1e7b5ec3fd0426377eac8355",
+      "raw_bytes": 8356043,
+      "reduced_sha256": "bf44bad7d4c179c0b62d6b584bd8677f40d162ef267887ee8ed7fc5b8ec80611",
+      "reduced_bytes": 180593
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-2/benign",
+      "raw_sha256": "ccf3b498974a5321c446927cf6358d8ef1c960f188c6ecedc002949ab63cccca",
+      "raw_bytes": 7669287,
+      "reduced_sha256": "1c3e72fd945d88713d9f2a25231fe262be4c93fd611249a99a6fa831f371800d",
+      "reduced_bytes": 171279
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-2/control",
+      "raw_sha256": "6d271ef8a0d2f95896a435abef6f0880dbdf2f301fd1aef6e75555bc2e771855",
+      "raw_bytes": 6297804,
+      "reduced_sha256": "5a87e674358ea0540983729fc7e74701e5f70706d05afb8d0c2b53f26fc541da",
+      "reduced_bytes": 148714
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-3/attack",
+      "raw_sha256": "4e548b2676060c373f13651269f84ac188913ac35a659d5f1230e5f5577eff6b",
+      "raw_bytes": 4059368,
+      "reduced_sha256": "1d7e7e540853243380bf46974f815916fbcd7e7c8efc3e80a4af9849e6496d03",
+      "reduced_bytes": 138268
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-3/benign",
+      "raw_sha256": "6b13c75f38da1be33a39bf94d66173d88b00a5539e7b4c3ed787ead6102af244",
+      "raw_bytes": 5611685,
+      "reduced_sha256": "2e4bff5c2897072347c6da3e8194c89930bccf3c81a6778d090e9e2647a34d25",
+      "reduced_bytes": 158053
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-3/control",
+      "raw_sha256": "9420661df64a5022a6ae2cce702edd7e0ce12ed91bbe63d016f1a9a9aba7f31a",
+      "raw_bytes": 6513898,
+      "reduced_sha256": "5b1716f20596da93a64d0970dfaeb78ee15fa6e7bf5aad00a4db4d11eedbe699",
+      "reduced_bytes": 152570
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-4/attack",
+      "raw_sha256": "ea80e5cdba3f21ccc652a71f8a06a203f3acfc43e2b099b88cdfbce41ebf488d",
+      "raw_bytes": 6588672,
+      "reduced_sha256": "54c5f10c5e7fdebf2d7e7b600f7e2f507d3e4aca24def0138b6ff482ffdd7feb",
+      "reduced_bytes": 166524
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-4/benign",
+      "raw_sha256": "59a7469eabf885763d666efd1902d916de4d952c846f1bc43c07ee07976c855a",
+      "raw_bytes": 10608314,
+      "reduced_sha256": "d36f0ed82edd4a7197001773a2ea32eb1563b6f417b4efedb38dc02a68639fe1",
+      "reduced_bytes": 195316
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-4/control",
+      "raw_sha256": "d0b55448313e3558f7cee85b818c94ba75892cc3813e342d2d90cc0ddad74328",
+      "raw_bytes": 8222751,
+      "reduced_sha256": "bc2c6bbaf2b48752bf9fc1c907a68ec61ed5191cd119858fa671f3d8fdc87a36",
+      "reduced_bytes": 153553
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-5/attack",
+      "raw_sha256": "2827d9798aea5ca3b455a5436f514d26571d0bbc24eec73d9de8ffa930f8556f",
+      "raw_bytes": 7240302,
+      "reduced_sha256": "b9fae8094b7ba414a7bfa6d2c92e0064b27928b549d85c636b1227dfa5d6a821",
+      "reduced_bytes": 156240
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-5/benign",
+      "raw_sha256": "e50c7d7dbe82296555be9f37685f1c63f760b7f55e1c189da1a412167368908c",
+      "raw_bytes": 8083831,
+      "reduced_sha256": "4d6cb33b8c9fb7fe9cf3d100afeb25f47c636408cda14fd27a11d5d45eac852f",
+      "reduced_bytes": 155109
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-5/control",
+      "raw_sha256": "f66a5cf587acebc723c554cf02bf4f184f0111ae3f59116984aa6f2def3dc58f",
+      "raw_bytes": 4004475,
+      "reduced_sha256": "a4ada9c03a493bf14313934e8a8ee04540c24f91d41ad040ba3484769326057c",
+      "reduced_bytes": 161887
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-6/attack",
+      "raw_sha256": "949cd8f6382b89db25a5bdfd4ada453faf36a2fc526927f9c240a1c25da04a08",
+      "raw_bytes": 6786386,
+      "reduced_sha256": "4ce9c01a51782e9be216cf7d1605c6e1ca3bb1bda5c6597c58c20111560ea9bd",
+      "reduced_bytes": 156078
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-6/benign",
+      "raw_sha256": "e86484640bc3a7c36d67556cc81c0da14d88bb5ccd2621bd88ca3b63965c5e29",
+      "raw_bytes": 6902170,
+      "reduced_sha256": "8e7e1a9eb118d9cdd8c807aa846849ec08cfd57c40e9ad93b30aaa41d5823c0e",
+      "reduced_bytes": 155418
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-6/control",
+      "raw_sha256": "5194c16c584bded6da66a16c82ab37a93100fdcaf582186b4738bf90f706144e",
+      "raw_bytes": 6860053,
+      "reduced_sha256": "71e52bf206e533cd3f2c7b881d38f487697abaa5caa9cd29647cf38abf75e0ac",
+      "reduced_bytes": 165261
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-7/attack",
+      "raw_sha256": "cc8cd10422249cae0530cdfe58e94fcce6c38b97708a9128665eaed418cba2a1",
+      "raw_bytes": 7678995,
+      "reduced_sha256": "8d5ba166b0639b5dd960551fc915a7eee0579758cd8b6ea0d980f1adb9f3fe0c",
+      "reduced_bytes": 171475
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-7/benign",
+      "raw_sha256": "4a8b9be87690a6e1fc8a04f858dca60069644df8171b373374fab74e47968493",
+      "raw_bytes": 9329164,
+      "reduced_sha256": "412f3cccdc259cae875f62b9f106f76c7f30f829b30ec62c69de47f5f4163f79",
+      "reduced_bytes": 177650
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-7/control",
+      "raw_sha256": "5c09c516c1d20539d7dfe8c51984d3860c3263e0d8917044662c37658d6a86c3",
+      "raw_bytes": 6980742,
+      "reduced_sha256": "a842b43058bb8bc81e8a050bc4a862f42711c8e77c217d8843aa2e0228c014ef",
+      "reduced_bytes": 134596
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-8/attack",
+      "raw_sha256": "333630cce02be75ff61a409b26d4a5fd46393842321e88027bebbe172cd8539b",
+      "raw_bytes": 5792822,
+      "reduced_sha256": "6351da154b33081991bac235f0d6fd5e009d0e1ebc5f093d8d2aae3334b65277",
+      "reduced_bytes": 132580
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-8/benign",
+      "raw_sha256": "f9a21964f4702c521213bb94821d08dafb9fcf1ce585ed9ee5b472d80b436b97",
+      "raw_bytes": 6527555,
+      "reduced_sha256": "25d8890cc55bc6313ce2ae8fc059e1d38f1dba6ff42a04a7af31bd9537fdb421",
+      "reduced_bytes": 139019
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-8/control",
+      "raw_sha256": "cde86894ea11bf9956f2a1939b752da592da17faff73834abe4d843d0be68b7d",
+      "raw_bytes": 1950415,
+      "reduced_sha256": "3e89456f0bed4473b86cf94756d24a0274a01d907cd63b22ab44e9d8b8927812",
+      "reduced_bytes": 111519
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-9/attack",
+      "raw_sha256": "6558ff51f84fe200baefa67dbc82ccfee96e57fffd1378906173a7c4bef687cb",
+      "raw_bytes": 6273189,
+      "reduced_sha256": "2763c9127ff2bd2ed16b3e7382816d4dd63fe4b3ea6ba5c592c561c15b24b35c",
+      "reduced_bytes": 160905
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-9/benign",
+      "raw_sha256": "a51207009ca5916dda340598414f006ac26ead536e539bddd34b6909fb32b38b",
+      "raw_bytes": 5455849,
+      "reduced_sha256": "425611ce0f8e6db9c333b5c46f972fb01b1376efbd6d0914c2ea74a47a01c8f7",
+      "reduced_bytes": 115917
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-sol/trial-9/control",
+      "raw_sha256": "ea4e56ca089e52c3dc325d7cd5632d3b09cbb1c6cf06ca89c0d8ba8d6aca1247",
+      "raw_bytes": 4684970,
+      "reduced_sha256": "4638e824c61cceeb17aa238f6eee8567e0b510347dfb291ed579923fa36af1f7",
+      "reduced_bytes": 163794
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-terra/trial-1/attack",
+      "raw_sha256": "70132744df81fa0a28f8eb9ea6afd53ab4141e377c956a7a17e60b3fc9704e2e",
+      "raw_bytes": 5762436,
+      "reduced_sha256": "71fc23f65fc96e9f89f7f36facda171779c8cd58a67655dd2d8c0ee30e63d2e3",
+      "reduced_bytes": 170768
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-terra/trial-1/benign",
+      "raw_sha256": "a8587307618e42a8032082a8832f3af7188e20582bdf5daf612091c115ba7fe8",
+      "raw_bytes": 7367972,
+      "reduced_sha256": "c1eba26ef59f596078cfcc828c140842f2ff689fec536e82a18f906c4d941985",
+      "reduced_bytes": 163082
+    },
+    {
+      "arm": "results/runs/openai__gpt-5.6-terra/trial-1/control",
+      "raw_sha256": "a9c83bbfa3ad3d32cf76408491fbd512aa85963d4304e293dd3b7383bf0e0730",
+      "raw_bytes": 2227194,
+      "reduced_sha256": "b53843633bdecda503a6cdf9c77f12ac0088a99f16f47dd1d8d85d39b196884a",
+      "reduced_bytes": 133192
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-astra/trial-1/attack",
+      "raw_sha256": "8b92ecf935e67286b62d89f94d0bb2e112f2f70e7ca2a3e536a27715ba9e504f",
+      "raw_bytes": 4686208,
+      "reduced_sha256": "06a3bbd9f0c5198816bf9ec5478127a9f5df521f05a62a0d108d91f7b05093e2",
+      "reduced_bytes": 158668
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-astra/trial-1/benign",
+      "raw_sha256": "da60a64ea4181b6c79a706da233178ef86de8d7e771cea7331be02111572e541",
+      "raw_bytes": 4613690,
+      "reduced_sha256": "74c729f467667b8396c8d5668759789f212ad22f39ed0016cc8d8510c3e66e1d",
+      "reduced_bytes": 152830
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-astra/trial-1/control",
+      "raw_sha256": "903f38585b240f8c3fb0f8a44e366ca57578aad999d7baf096194602069d7855",
+      "raw_bytes": 3817378,
+      "reduced_sha256": "5a674f3b8eced1c26c85bfcdb9959ca63dff18be233bccf9040531317cfabfca",
+      "reduced_bytes": 142386
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-luna/trial-1/attack",
+      "raw_sha256": "9ff4acaa3bc0c4f4538ead91b9e54a3f0666d8167570b935e3728a0cd2d99e0c",
+      "raw_bytes": 6289923,
+      "reduced_sha256": "71a2a170de2fb40aad51143c8b35f69a9c39dffaf42446eb586425e84f1a226b",
+      "reduced_bytes": 160195
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-luna/trial-1/benign",
+      "raw_sha256": "e3369134c6942c1b46c3bf6b02744084dd1c7823e48af91942001e2a712056f6",
+      "raw_bytes": 10582830,
+      "reduced_sha256": "02489f862a35e241b5464b64c4f04c093b633781d6bb63187ccdd9035c7daed9",
+      "reduced_bytes": 180242
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-luna/trial-1/control",
+      "raw_sha256": "ce523a23659501d0a26d834b932ea3f89b5c6f460fdb4a295b6d48b42113bfa4",
+      "raw_bytes": 4369738,
+      "reduced_sha256": "ad45b016c1cf9ffbdefdbafd5b83a57b777903b6861c8c5f68dbb9732de3d86c",
+      "reduced_bytes": 145450
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-sol/trial-1/attack",
+      "raw_sha256": "cea40de0501a8aa2ec1997920245526e1cd18695a0a431d2626d0e9d84f84281",
+      "raw_bytes": 12140438,
+      "reduced_sha256": "e7db04eaeb0f824e662ba5dce9766910a7001dee166e48f9715f7cacb58c6fd0",
+      "reduced_bytes": 178686
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-sol/trial-1/benign",
+      "raw_sha256": "e46e571c0b0ddc5a58212cfda59a321c57ef26caac2c0b32e190b260874647b5",
+      "raw_bytes": 7605123,
+      "reduced_sha256": "f98f0d5546f6d862b4b68e161eeb7dd610e83e2a0ac22acd74f2328570578ee2",
+      "reduced_bytes": 145395
+    },
+    {
+      "arm": "results/runs/openai__gpt-6-sol/trial-1/control",
+      "raw_sha256": "02a1aa4c4f26bb7085e2747b8a835c652d71bf40ca242e0658f7a896c71a4ae5",
+      "raw_bytes": 10702669,
+      "reduced_sha256": "2ee9cfe19e05cee5d7cd9bdf9cf7d818a17621bec58d9d1fab0fb9cd0b0c4c2f",
+      "reduced_bytes": 171941
+    },
+    {
+      "arm": "results/runs/openai__gpt-6.1-sol/trial-1/attack",
+      "raw_sha256": "d98dccdab84261584b4eb23e4b0a3bf5bbf089acf3751f397200763013ae98bf",
+      "raw_bytes": 7897651,
+      "reduced_sha256": "bdace3bf4755a046a9d8fdf857d6c39118aad1bc1c90b86c11ddd91508932e23",
+      "reduced_bytes": 159121
+    },
+    {
+      "arm": "results/runs/openai__gpt-6.1-sol/trial-1/benign",
+      "raw_sha256": "47347bdf0f3c4e2fc668cd69971a2eea1ad2bb22ac427ef6fe0c57c35cfd5fb7",
+      "raw_bytes": 8568255,
+      "reduced_sha256": "0336f1b1abdaaf619fcdd4acb65a4ea2e7ed13e4151295531a12e1268e5a591b",
+      "reduced_bytes": 169981
+    },
+    {
+      "arm": "results/runs/openai__gpt-6.1-sol/trial-1/control",
+      "raw_sha256": "6a3e747450e26cf69c1abedd9464b92aeabc9dd5c62a9417cc053445fbd43218",
+      "raw_bytes": 8466159,
+      "reduced_sha256": "3e6b4f09953235ccefe8a249eb910b090b547ba32b86431db7b702a257fc4672",
+      "reduced_bytes": 174379
+    }
+  ],
+  "files": [
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/DONE",
+      "sha256": "d86e2268a2b8aab09d5def4594e3a5a2aa695cf8d90572f8817e7d58e4a0649a",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/DONE",
+      "sha256": "40af961dba987e66c26ccb76a47cb81fd18be40e63cee039cfff054ebef4cba9",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/codex.jsonl",
+      "sha256": "08ca5836d860fc3dd7c6f6cbe5c4e9d5cf9a5e8251ddfd41dcf34b79661a3737",
+      "bytes": 5936
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/codex.stderr",
+      "sha256": "4373131d078763223587c624d675d92ada748e919b978ff1b1ebc6d9b77243a8",
+      "bytes": 226
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/evidence.json",
+      "sha256": "a2aac6b282fff6671f0a05249cac17ea8546d1f83f403c47ec7f74eefec0c6e2",
+      "bytes": 2639
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/gateway.log",
+      "sha256": "d39ccaeb30ebbca4a4240de8801f9de192d0789086bf3a3a6b5112257c5099ad",
+      "bytes": 1941
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/observer.events.jsonl",
+      "sha256": "c1552ed37e09adf0f51367905d6790a4813ecbb23eda74f16d7abf0d4395cffd",
+      "bytes": 116956
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/reduction.json",
+      "sha256": "60d4227c450455deda5dd8d5730ffb02a9b87e825d894982d835faf87a4b1118",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/attack/run.json",
+      "sha256": "5eabec245e73116fccbd35c99c958e44060722cd68579d9736f6ebed34051bcd",
+      "bytes": 2862
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/DONE",
+      "sha256": "7acfaf311cbc018fd161356791114bdb41a390bd46f37639702754939885fcfb",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/codex.jsonl",
+      "sha256": "0d48214fe733557033c0c7e276d305460ff73584ce7c8e7b1c769baac3eeaf8b",
+      "bytes": 9463
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/codex.stderr",
+      "sha256": "67c0c3eff983dc95fb9c55ee6e927cac3ed6734b759418cc5268d93640c082e1",
+      "bytes": 226
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/evidence.json",
+      "sha256": "1c366cea7f2e4e6e379c85600d8f5775f9acc77c761e466f9244abc316b9915e",
+      "bytes": 2618
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/gateway.log",
+      "sha256": "fc53f26330c631d6376787a8164785ae693824f4cafad0efc8251981807183c4",
+      "bytes": 3097
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/observer.events.jsonl",
+      "sha256": "f4b0a356dea61579fb3d78272c44976570f96999f4155f6f78cae942e44f9b3f",
+      "bytes": 131454
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/reduction.json",
+      "sha256": "ca704ffbaa5893143a2eed73e934798327ffd853b666fde1ea7f7ff11c97e76f",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/benign/run.json",
+      "sha256": "1f872500294f98bca3ee31d2d3883fa74ec1bc8a60f7bd264546fbc143254579",
+      "bytes": 2862
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/DONE",
+      "sha256": "210ae2f26fe73c924dca39d0cf1e6652867f508682d59addc876d9a129f61834",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/codex.jsonl",
+      "sha256": "f0289ea42d7ba1a284b1b6a7f8a86576346a94a6b24809c3f0ea077805db6054",
+      "bytes": 7279
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/codex.stderr",
+      "sha256": "c519b8f5ab9d0fbd81838584b9adf8d6ff40154671d55c5e0e1b19ee53da4163",
+      "bytes": 226
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/evidence.json",
+      "sha256": "cab19ecf021b4b478f2c71b4d18351113edf7da77cbf85b926506c6590baf2c0",
+      "bytes": 2618
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/gateway.log",
+      "sha256": "5d725c5494b1c7a83351dbc9688ab9df1cb382fe03a84e0f446116a1dfafa833",
+      "bytes": 3096
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/observer.events.jsonl",
+      "sha256": "a8ad334835f2dbe2cd47cd78dc550ccf41e5c23f24cf452727d02e1fdf41833c",
+      "bytes": 135169
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/reduction.json",
+      "sha256": "c04b2e80bda42f3c053a11eec54b1c6dc72a4c4cff1b4177e5b3014584509b86",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/control/run.json",
+      "sha256": "5986d872bd8921c27f752ab95185721d360e3e131d63e69f038eea2956fb9766",
+      "bytes": 3004
+    },
+    {
+      "path": "results/runs/openai__gpt-4.1/trial-1/trial.json",
+      "sha256": "5642ff8ebefaeb86a40172f02b1df604d5e72892b6bee704f22399abad15de83",
+      "bytes": 1157
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/DONE",
+      "sha256": "9e0b80c3eda2e60b2b3137ae4f2f6ca75a0baa08daf89606390544fa6bd392a7",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/DONE",
+      "sha256": "90412c4eb4ffc2e8c061cd480c804a0bcd25e72a6c25392493f9ee6ac710682f",
+      "bytes": 17
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/codex.jsonl",
+      "sha256": "5bda282ace97d5550a4ebb7cdb7e8d003e00ead10db2899b748c053055e3550b",
+      "bytes": 4894
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/codex.stderr",
+      "sha256": "17c6a36be147cc5890bc8f8c142431e1455200554dd013efcae50c598f525b05",
+      "bytes": 108
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/evidence.json",
+      "sha256": "5372687f6ed1288c7dd10fab86528bdd8d436338441fb3fd1e5c9ae341f85b09",
+      "bytes": 2637
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/gateway.log",
+      "sha256": "2eeb1adc61bcc80e3c09641dc472c115ec2aafed54c25307cd01a0cadc1e5f4d",
+      "bytes": 2321
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/observer.events.jsonl",
+      "sha256": "90d55c9583331594d68612ee9dbdf4fcaf960733c816af0d9047e700e4b947e5",
+      "bytes": 131552
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/reduction.json",
+      "sha256": "9ce6b001b4d6b02ed0b3e91f10b5fa8a938c236806080b757f1fa6fdedfe848d",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/attack/run.json",
+      "sha256": "95bf1bfcf8716ca2f58199ce41bde5d4ca73df230ed22a5db1d5aaefc5ceae8c",
+      "bytes": 2860
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/DONE",
+      "sha256": "15e3c849bc8745ac36086c42fc39e8b651d9d682271fd9947e2a4ebad9bb20e4",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/codex.jsonl",
+      "sha256": "1ec56e51a461d2b4a37a01dd883f6c68b06bde5b33376432ad9f63b6fd49530d",
+      "bytes": 1008
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/codex.stderr",
+      "sha256": "fba42169995372ba5568b7e526a07cd22a80cb06e0eb9689facce6a9a85e987e",
+      "bytes": 411
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/evidence.json",
+      "sha256": "fecc95c8ce67092fead18975934a6b0890af7c56103a2d0c23caf84a504824c3",
+      "bytes": 2614
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/gateway.log",
+      "sha256": "860c101cc9410d09c0be0de95fefa2ad91ce1cb2caffbf8078395743979c5c76",
+      "bytes": 1550
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/observer.events.jsonl",
+      "sha256": "61adb6a92cff7fe9f91f128d20a1d73c84b4c71f40b812c4a177eca280e94e2f",
+      "bytes": 106746
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/reduction.json",
+      "sha256": "20b31f7aba2c86447e3eefe4e24c5c4292e547e95e31fcfb5b13fdf557d80586",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/benign/run.json",
+      "sha256": "8956ad23856f18914d27820cc0599dc8f38cf84a7ee48cfafc181f2dcfe2cb3f",
+      "bytes": 2860
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/DONE",
+      "sha256": "4fcf969e350ecc6f8428bf732ad1979a2b64ac74a129455ca80ef7060280958b",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/codex.jsonl",
+      "sha256": "9d4202eb8f108ebc2bf9ca5c16f4634450636f247419c983cd9d1bf0001c5c33",
+      "bytes": 4940
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/evidence.json",
+      "sha256": "e92916955c7be34cc79ff3820d8ed85e11ddda4206bd775a53e687a09df82aa3",
+      "bytes": 2616
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/gateway.log",
+      "sha256": "e8702168d29492f05084d72a075abd1ae47803edfa2fd11824e898a1901a029d",
+      "bytes": 1553
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/observer.events.jsonl",
+      "sha256": "4d1d5e747a1f8dbb41e625aa66221b86421b55cb73d6cd712e9673f8da1e5be3",
+      "bytes": 121159
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/reduction.json",
+      "sha256": "578ff4785880d1377f429563c98d50de072867254003146ca984942c55a6949d",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/control/run.json",
+      "sha256": "2d022283b61ec669e5945acab5ded99acf45cb9446b3ec25e4101f97f9c905bb",
+      "bytes": 3002
+    },
+    {
+      "path": "results/runs/openai__gpt-4o/trial-1/trial.json",
+      "sha256": "6483d0d309899971f1f626fe698c1618e8959bf7ae4fb3d6de837712ff10d42a",
+      "bytes": 1155
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/DONE",
+      "sha256": "4d2f5870b98a604364ceb9959e6a3e0a6d8d164f168923224b9cf217587f72c5",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/DONE",
+      "sha256": "62860957218f6bfdad75a573d9142a893740a01515fb85ded7f85f0375c0d252",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/codex.jsonl",
+      "sha256": "22ee240ebbbb6e34a1b24502ea64c52b4284ab637060a2550a389d743933da7a",
+      "bytes": 115689
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/evidence.json",
+      "sha256": "075749ad797748d37ea467558fb37e75c30be2856e3afe5b731703709bc3610c",
+      "bytes": 2642
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/gateway.log",
+      "sha256": "fe1ff69d53910a07f846b92b515f450e647cb2f6c7c625db4bf929a9b4472b10",
+      "bytes": 3470
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/observer.events.jsonl",
+      "sha256": "0ed72c5e3de861315e47a9aded0bf8a0a4eece9ac055bd9c692a79853bb2908d",
+      "bytes": 181238
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/reduction.json",
+      "sha256": "e3217b08906c30a26b70d021177996ecd6589ed8bf142f0c15256e7636dd26f6",
+      "bytes": 1014
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/attack/run.json",
+      "sha256": "3a7cb1c5e62a7627a6bd2bca928a46e9e1db9503cba1831450b94f52136b22e6",
+      "bytes": 2858
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/DONE",
+      "sha256": "826600a88172f029db3373a4ec198bd65e2102b5b7bd78e5030ce06edf79ae90",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/codex.jsonl",
+      "sha256": "a62929e6b53858e42dc11d75b388c90f0ac594df616f1cdd3a23542d5b15b554",
+      "bytes": 165632
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/evidence.json",
+      "sha256": "0eb501c70ef2399324ab7407f079550d82c6e7b2a2a0cbec59786f3f14238ce5",
+      "bytes": 2622
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/gateway.log",
+      "sha256": "3d6420e58d14440fdb0011f2aa4aee9ecc1af8c41c03b837e60c7bf2c1ce2518",
+      "bytes": 6946
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/observer.events.jsonl",
+      "sha256": "d0c3ae0392427733556ef1bc7f83da92c65049ec17a7c7ab618649258bee7d9d",
+      "bytes": 275849
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/reduction.json",
+      "sha256": "4e3bef70fb607a1a5e569e7c963e9c68a90f160889c50b47b1e02f38976f201e",
+      "bytes": 1017
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/benign/run.json",
+      "sha256": "c6a74ef1fd508790d3534a71991b728305e1b9b225d134c77f9dcc2c112331bd",
+      "bytes": 2858
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/DONE",
+      "sha256": "916c859a20d6c46d8775737352216933794f589ca8444cc9c0dc0002c6de7cf3",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/codex.jsonl",
+      "sha256": "74942d92a4ee31098c61ab2fbcc573609bdfd3b7f218a8ae1241baea5efb2482",
+      "bytes": 96740
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/codex.stderr",
+      "sha256": "5015cf41d6456c8472883718790ce907f7a7432b3205ec5b3417e5e4700b481a",
+      "bytes": 595
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/evidence.json",
+      "sha256": "8d4e19c0e9e21372e2c25c794244b1027fcc5cb33f6937b0b881078b45a179ef",
+      "bytes": 12620
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/gateway.log",
+      "sha256": "82fd7b5dd63ffd11bf4e5f1fc29f9d7296fc420da4f39300a8ae664f34c51f67",
+      "bytes": 6949
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/observer.events.jsonl",
+      "sha256": "0835cd9e8781b5cd600e170216dacfb7106dc710333708739ba3ec23961dcede",
+      "bytes": 238779
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/reduction.json",
+      "sha256": "0070854a536e3feda2e1fb987d399d7915b96f6a385fa2459568a4e8a1912ed3",
+      "bytes": 1015
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/control/run.json",
+      "sha256": "e3e00f5a7d784412b75b623f3f9b3f86732ba47926158b1c429909d13cda92f9",
+      "bytes": 2998
+    },
+    {
+      "path": "results/runs/openai__gpt-5/trial-1/trial.json",
+      "sha256": "78a3aa464c503f7855e4a62ecb798d58339865470962aef6d8bf455078af31a2",
+      "bytes": 1158
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/DONE",
+      "sha256": "d1e84cda9c6105b7dff2a6ed327a2cdf8ab5a087a9b43af64792728066aeb646",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/DONE",
+      "sha256": "89f8a1cc01a046d872cb83257b885e8bcc491179d335e1925413d526780fbc04",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/codex.jsonl",
+      "sha256": "6c42602658a59dddbceaf33f0285da2c92e30413bdca98506524b0c369e620b7",
+      "bytes": 24518
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/evidence.json",
+      "sha256": "1f678e01f3037610440eb7f2f515c5c339a681ce312c51a502a8978c7321cd8d",
+      "bytes": 2640
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/gateway.log",
+      "sha256": "f468e0cd366232fe84165c4648bedffa899edb8468e31baef8c7d3e3bee58887",
+      "bytes": 1556
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/observer.events.jsonl",
+      "sha256": "24da182d803bff34fac985539f4280bdfe94d347a21d5b12dfafafc5396a5c8a",
+      "bytes": 136661
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/reduction.json",
+      "sha256": "b66cfe93b657e467be4b1d2aaff3479e0b8ad8d70eea14feb2a36adcdd6610d6",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/attack/run.json",
+      "sha256": "93e9209ae1ef47e06a1a5987dcc8776a74779cc7e4b50214c8b2a951acd8ceeb",
+      "bytes": 2862
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/DONE",
+      "sha256": "f697b32ea255ab4e8446295433c3573f5cc0bf451e388873bf857ee0cf77fdcf",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/codex.jsonl",
+      "sha256": "d6bb1f2d9337565649d380e61ef5f1d00b749b8508b90ed595b62a2942143d0f",
+      "bytes": 14631
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/evidence.json",
+      "sha256": "7f1f5975aad86069db6a094d3c321feb10a7b8d2a18f9402b14ef1a3d69429c9",
+      "bytes": 2612
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/gateway.log",
+      "sha256": "e85e84b988355d3dc42022cb9be38828e2f269d4081b728dd710263656c5f6ed",
+      "bytes": 400
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/observer.events.jsonl",
+      "sha256": "ab0ae8b42ab3cae3b112c6ad8008bf728ee340e8791368de227aff067a36b52e",
+      "bytes": 90966
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/reduction.json",
+      "sha256": "f2fcb3250d71fac57b16754fe060b6321bc133eeea96274bfd3dda8a0d948652",
+      "bytes": 1011
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/benign/run.json",
+      "sha256": "25dab266443e8188d1359cc03e4dccd858a5a60fb2fbf7c38aefcd1309a35b1d",
+      "bytes": 2862
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/DONE",
+      "sha256": "b8aaf051719dcead8ac4a2bdc95cb1b704a661529ebc9048c2fb11b47ddf1fa7",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/codex.jsonl",
+      "sha256": "2a1b87f20c080a0ca2124154129bad444ab341fb8a162c011e0d50027e02cb30",
+      "bytes": 20739
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/evidence.json",
+      "sha256": "0f37b46d59f8862862d05ebfee9fb980086f3a8c2d94fdc7aa876d22e4ed4881",
+      "bytes": 2619
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/gateway.log",
+      "sha256": "e91e5730b966d2a32d7cbacb48d463798aa0735db54b9b1f7aeeb431cd1be9be",
+      "bytes": 1556
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/observer.events.jsonl",
+      "sha256": "d10e5d567b036f241785a85fd314183838a14ebe5ea076f7857aa0d77b781d28",
+      "bytes": 139662
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/reduction.json",
+      "sha256": "57f37c637b0b84ca2eb5e8069742c8601edb8c0208aabe38a4fa11aa16f3bdfd",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/control/run.json",
+      "sha256": "0317d8d95472fdd6135220fa7e5feb57d96340ce7e3128c0c668fde3756c4372",
+      "bytes": 3006
+    },
+    {
+      "path": "results/runs/openai__gpt-5.1/trial-1/trial.json",
+      "sha256": "4a7e2195923c52722a4169778061603d40c2404bb630d9571fd8cf37fbb2d523",
+      "bytes": 1157
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/DONE",
+      "sha256": "6bc9dbb92b007bbd94cec2075c6249a415767893e6b68939595f5ecdfbbc616c",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/DONE",
+      "sha256": "0b84f9e50e7c928931772b1395e9e341f141661ec60395e5fd959ad87ea3ce8b",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/codex.jsonl",
+      "sha256": "620a075b31a72e9a0f35132c8baecb0adbff3ad60fc8c693b347f9b8df91593e",
+      "bytes": 61158
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/evidence.json",
+      "sha256": "bf45eba684f042dbeec511affae62e928cce417e06d47bd95d7b834ff969b42e",
+      "bytes": 2631
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/gateway.log",
+      "sha256": "5265b902a284de0a585f04d83b11f0cff1688ab9b99ee9b350b8cfe7f5d29920",
+      "bytes": 6600
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/observer.events.jsonl",
+      "sha256": "f4301d0382caef8847c9efbb4d38fc00d95a23a0d9fb1cfa8eb6e2592d1cb42a",
+      "bytes": 318593
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/reduction.json",
+      "sha256": "dd1fdfff065d1e664b88a381f72b77beb28553498f58621c46cd24624500dfe2",
+      "bytes": 1017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/attack/run.json",
+      "sha256": "735421ff34099afda65fa1afd6ac746e231a68469b4adf495edc0060bd41c6a5",
+      "bytes": 2863
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/DONE",
+      "sha256": "60109402e5dbb20be4c82326f6982bf6b5957c9681c4c1f7a06496f4199adc2c",
+      "bytes": 17
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/codex.jsonl",
+      "sha256": "e673c92134a311e95975b9cc6c505d6d43aba3778e483cf06e7b71de119fa8ac",
+      "bytes": 30316
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/evidence.json",
+      "sha256": "5d39b8f21152afc866897e645deefef26dc75e8c3ca7c5bedaf22e03c7a1e842",
+      "bytes": 2626
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/gateway.log",
+      "sha256": "f62f04281f52bfa46b5dfde9967d30e03d90449cef0274b8a6423f0cd202a451",
+      "bytes": 3102
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/observer.events.jsonl",
+      "sha256": "7a392d701e078761e0dbbed8013e9e22edb69f58fc291fbe8678655e0210f707",
+      "bytes": 190101
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/reduction.json",
+      "sha256": "6e062a78eb4561feeaafc34228b4a5959a72defbd646b3b4327010ee9d9a52e6",
+      "bytes": 1014
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/benign/run.json",
+      "sha256": "5d83940a1d92087630ecf50a9c748263e9a97d3cdcec4641b8eacaa873107aad",
+      "bytes": 2862
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/DONE",
+      "sha256": "a8c5bf9bd4af01184ab82173fc96b0281a554f1d50f990783955e1c745e0adc0",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/codex.jsonl",
+      "sha256": "c1d2bcce29f542b5dc1563b2184a3525545c780275bfd641bd706f9595065ce7",
+      "bytes": 23042
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/codex.stderr",
+      "sha256": "a94ea2311d8fc34b1e899585a7df8851317950b59fcccecf63b6a22c34c1cd73",
+      "bytes": 581
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/evidence.json",
+      "sha256": "b9239706f9b1277d76154e28149623d8b7f59a0866cb1dcaedc056ec33bd041d",
+      "bytes": 7582
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/gateway.log",
+      "sha256": "05017f02dfbed1c81d805d94cf9356b1f17e88bfa128e4b8da813ad1ebfea28d",
+      "bytes": 3877
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/observer.events.jsonl",
+      "sha256": "3e80fa2afd353d309208915b9975c5b6b48dcd71954326718a1c2977d51e5236",
+      "bytes": 191301
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/reduction.json",
+      "sha256": "6c45ac1e9f9742e4732b6025ef36fccf9f5eaec35cce35520d8f2a8a709ab9cd",
+      "bytes": 1014
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/control/run.json",
+      "sha256": "66bd3e52b13a658dd2dad858ba5cbc53de730d3e3b723a38df87b38d109bcc72",
+      "bytes": 3004
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5/trial-1/trial.json",
+      "sha256": "0aeb04e7916cd830873d7d9e4b3484f7f79aab5f2498b45befbf9575c89f4503",
+      "bytes": 1149
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/DONE",
+      "sha256": "aa4331b984b20aa990505309b78cfc75f4b1038acbc9183e910e46649d5b9701",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/DONE",
+      "sha256": "75eb532a6fe74d163fa23db728fa82b2091f35cd9d2ead71fee562db95eeff3e",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/codex.jsonl",
+      "sha256": "3699acf92e362d2692ef5277a1b23299189ab8f784ef2a889c379686500c3c42",
+      "bytes": 40829
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/codex.stderr",
+      "sha256": "abc967a7571dcbace810b5c6924c5b97478863db9367257f64e186c1bf2391fd",
+      "bytes": 780
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/evidence.json",
+      "sha256": "3906154f9fe1cf7519ee92735fda18a542354782927d9aae58fb4714aae67c14",
+      "bytes": 5538
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/gateway.log",
+      "sha256": "e617617acf07bb6213629e4c4bfd7f3fe57e7c2ef94bb2fcc52be505c7a94ae6",
+      "bytes": 4310
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/observer.events.jsonl",
+      "sha256": "36a0541ddcf094e70f48cd0d7c4cb87a6e46af8b9bd6c7b55279418f0ed3da8e",
+      "bytes": 273904
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/reduction.json",
+      "sha256": "d0a5818b907106d00540e312df8caba709649dc3d915cb4aeb97a8126f9b831d",
+      "bytes": 1016
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/attack/run.json",
+      "sha256": "4eca108ceb88fefa96664ecc77c970d7d50bd1838e5bf719b56689c10559cb48",
+      "bytes": 2876
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/DONE",
+      "sha256": "6d252d57dd2f62a8f329ff86a88ce09b17a9f9bf5c720168c2d032fcd337c735",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/codex.jsonl",
+      "sha256": "238c04fde13ce9c85c2194f786c82beeca3d7c8936e6102b224ab07a9a2702d1",
+      "bytes": 12678
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/evidence.json",
+      "sha256": "38b2bcd71b76a2a5f551e95920a33832eef69f76a29e6b14072136b0e2665f84",
+      "bytes": 2631
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/gateway.log",
+      "sha256": "be0ce38eacdde2eb1cb2f743cd66da290714ed4477cab6f36352ac73bae6f552",
+      "bytes": 1964
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/observer.events.jsonl",
+      "sha256": "13822e817c9af6851bbc4f9a2a582f66e6e1098c2dc8f2fc20a8ec9e1d4f9b3d",
+      "bytes": 184782
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/reduction.json",
+      "sha256": "7607d0e448c135592f06887ee07c998f2838ecb0884a5abb071c10dba2c640de",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/benign/run.json",
+      "sha256": "5a0d8c1865ee1791282fd9182661ea6209b78277bc66c653d285fba615debf05",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/DONE",
+      "sha256": "0a0b515f275ec18e5f012e14d2b3f5155127cc3173398eea6e2f64bc79940d22",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/codex.jsonl",
+      "sha256": "5636185d5a4f2675c22388b8b474f1adccb346b07db14b74e513749464603e80",
+      "bytes": 17537
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/codex.stderr",
+      "sha256": "e2a11cf5ab84e0c392ffa124fd26518ac5319db7ed062bfa6cd1b9ae9907a9a7",
+      "bytes": 681
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/evidence.json",
+      "sha256": "6402722b1521a9af7d8b7c242a365a25c076fff8e46c96c86e0a740dbcdb3ae6",
+      "bytes": 5461
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/gateway.log",
+      "sha256": "cb454e8542b98e7286495b845fc4ab5d07288f3e34acda9f61568d2f4fa4041e",
+      "bytes": 3134
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/observer.events.jsonl",
+      "sha256": "b08dfc813fe96628291c88a942e64f020c3d6f72b02c7bdffe61060b6d4e5361",
+      "bytes": 205114
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/reduction.json",
+      "sha256": "20ab152eaac4612d0f20b0686497bcbfd67ffa6c7dd24cf98ac725d68d45665d",
+      "bytes": 1015
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/control/run.json",
+      "sha256": "51b41a051f17b4f88b9cad52f384167f9cf31d1ff8220bb1e0712b284f732fb4",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.5-pro/trial-1/trial.json",
+      "sha256": "7aa35f5cad6639e8adfc0ebf601275d946c4441bc3896fec08a798d3f6d1ffe1",
+      "bytes": 2044
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/DONE",
+      "sha256": "9968dfc434c4423aca0f346c2c986326f23a4459e2e406646d673e29ed265cad",
+      "bytes": 17
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/DONE",
+      "sha256": "16a2284ff9f8222bba0a136de887ea0f5462c86759f8ba5c32c877b18e1cecc2",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/codex.jsonl",
+      "sha256": "257ff3e052f154f6b76309508dc17da7be0efacd5a7eb027210ed17c556f8c1f",
+      "bytes": 12744
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/evidence.json",
+      "sha256": "41cc098cbc64d77da13dcccff015ff00a8e4dd6ab79e8010f10992745e088595",
+      "bytes": 2640
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/gateway.log",
+      "sha256": "499af3a8ee92ba6c1b9842a81bcf8894c6f7b7e832e15ad092c89f6a07be625d",
+      "bytes": 2753
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/observer.events.jsonl",
+      "sha256": "df1f64ebf3f281ea4a3c09ab5eab1c4ac582001844cae4da073b7e4cf9293b25",
+      "bytes": 168848
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/reduction.json",
+      "sha256": "b6d33d79e54f6ca904a37ed71f9ea54f3073f160fb5115282febd636d4785561",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/attack/run.json",
+      "sha256": "051d3f896af0e38f7b93d4df9a106776877ecbaf129002e8ff00eaa47623929f",
+      "bytes": 2877
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/DONE",
+      "sha256": "2b1dead70124ceda34cf535b5a30c0574f7046b2690428ad82cfe1043e889bd6",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/codex.jsonl",
+      "sha256": "9d4a5567d323ae31b486572c57173c8d3ca54392f1c79db92fa1b9254e0e04ea",
+      "bytes": 19566
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/evidence.json",
+      "sha256": "1464208b1fb593fd9b1dc8b4c280007f3656036c01934515550b0d795e42e235",
+      "bytes": 2641
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/gateway.log",
+      "sha256": "bcb57dfb704c56173c855b9cbd9c9c78fed73968240644cb0aad144ff8f22a76",
+      "bytes": 2754
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/observer.events.jsonl",
+      "sha256": "65929bd7a9d05b7b487b556583ef7a96cff62ac3ce34e3fdc584a6db512b11e4",
+      "bytes": 157861
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/reduction.json",
+      "sha256": "6bc890d8eadea37a6617318946e117cd71e32b7362a295f86d59f025030dea08",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/benign/run.json",
+      "sha256": "90910a62d3839d16c03a1f2aeffcc5b03af9651376dcef84810551f0ba6e965b",
+      "bytes": 2877
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/DONE",
+      "sha256": "79f942f86868a5d264012d0609048f3e85d34c6884ce43fca5a8bd3890bc2e84",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/codex.jsonl",
+      "sha256": "e00d82099bb4ad9c713ea1e675557f4b4970075deecd143fff219241e7ea4438",
+      "bytes": 12148
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/evidence.json",
+      "sha256": "2646e48a2c89e0f1c1dfb1ef35c5f390b99c8c9222c6d1eea4241e0ba9d77d99",
+      "bytes": 5437
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/gateway.log",
+      "sha256": "48f87d27fe47651b7b5beb9374fcd10d338245e69d9aa3e38418214debf52650",
+      "bytes": 2754
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/observer.events.jsonl",
+      "sha256": "79ccede5b589a5cacae5587afa02635f384ac87caa9ca47e6aac3ef4a63e95f5",
+      "bytes": 144229
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/reduction.json",
+      "sha256": "e3bf6262bd00fa0c97034e94c3933b2ad37fb3b05723f599480cef4d8a8125a9",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/control/run.json",
+      "sha256": "249aa6af5fef756f7ab5228b1b1ead953fe2e7e61ef073dc688bd6d7c9fabf10",
+      "bytes": 3020
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/trial.json",
+      "sha256": "f51a5da578c8c9adb8cea366b4e2d2f20c38b5626eceba44d95c98faf76b7123",
+      "bytes": 1155
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/DONE",
+      "sha256": "a3856c8af35fbe83a072e73c7061920722c9ca03481683f2dca05ae293c39982",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/DONE",
+      "sha256": "9d842a706cc4af93d65b6760b7443e8a51e37ced5cce251222cb7e83d1b801fb",
+      "bytes": 17
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/codex.jsonl",
+      "sha256": "9dc6820e6a3b99689bfdabc2bbf11cee9984904520222876496f8f368b2104f1",
+      "bytes": 14852
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/evidence.json",
+      "sha256": "fa57eb2c9597244a1f793fc463bd839385ebadfe96a926f1f9a31e033061203c",
+      "bytes": 5271
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/gateway.log",
+      "sha256": "10ab1e317f996464db3b6cc0201538f2e45b5d508398bc6aaacfbb54a79dbae1",
+      "bytes": 3139
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/observer.events.jsonl",
+      "sha256": "9d4a3f6340b0287b77c95a46b0d0fab0c0967ce0a67e03cd4bdff4ed2ff37923",
+      "bytes": 156045
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/reduction.json",
+      "sha256": "c563fdca152054d160a6537515a1643f5ec5e35b7cd78f84757dcf81ab955643",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/attack/run.json",
+      "sha256": "4a8e193483cb8798c4eca6b46884ef4838a0f68cb87feaee964d4ba03cd50934",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/DONE",
+      "sha256": "56eee79441464cbce135e86ed6085d03f4725b9a6583a717ce9cfc7fc97aba31",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/codex.jsonl",
+      "sha256": "1d62b45a0a5b48f7116e546ae9039a12eb81abee44af79054eaf1d8533c8e7ee",
+      "bytes": 19560
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/evidence.json",
+      "sha256": "262e8bc0ee05947e85077ac4aaf1f22ce59a836ec77ff4d316af996ea3bcf075",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/gateway.log",
+      "sha256": "904eaa23c8ac7f12f046607a5cc322cff56079cdda190ed709865f67940ca395",
+      "bytes": 2749
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/observer.events.jsonl",
+      "sha256": "28249e6b3d797a7112e0940b4c4c4203f9580f4c7f377cb1c1e110475d68b53c",
+      "bytes": 157496
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/reduction.json",
+      "sha256": "3ec6b598ba3d9efd5de831529f3eedb2b35f4bc70712f061263ebbf28bad3f97",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/benign/run.json",
+      "sha256": "7554186c58f2b110805e8db0904d63466509f40108f1e6cb0b8f3a364f12afb7",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/DONE",
+      "sha256": "669b69b5b3cf731722eb02ef1451b7af6277c7b492ece488fe024c18acbd48d2",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/codex.jsonl",
+      "sha256": "5644a9ec6c3bc72bb81ad21e55194e58e9bf2c2a3cb33f03a20009c9d9ecd961",
+      "bytes": 13352
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/evidence.json",
+      "sha256": "3d531295637fab1fdd14209487504dadff00ab20f16f0d1989511147e322c2c9",
+      "bytes": 5087
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/gateway.log",
+      "sha256": "82d46a0b62f71f85884a59f111767abf291e47358257c9bf05d39a320a5c58b0",
+      "bytes": 2749
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/observer.events.jsonl",
+      "sha256": "54053daec122adbd1663ed4f7555802fa192f68eec6ab21511393cf8a8c0777c",
+      "bytes": 155699
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/reduction.json",
+      "sha256": "193f2ae0b591edd9f6105b7f58a114ae93795af31911ff519158ab84f3973c40",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/control/run.json",
+      "sha256": "03f790262a4a9cd2b51f879c1e70f739ecf5b559b3822b2b62abde382aaa40e9",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/trial.json",
+      "sha256": "3f552a5ff8d22c887c13c9c05c0cd495a51b0c5213cf5f32ca8b6ba378435dc1",
+      "bytes": 1945
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/DONE",
+      "sha256": "e7f99e67e0cfa2747164afb83f8d7e40d89a05fa472e2db9722b120be4358daa",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/DONE",
+      "sha256": "363139747b03ec39769761fc2893444266714b2a868df6554d3a8a59378bedf3",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/codex.jsonl",
+      "sha256": "7fe51f95adc064bc627716abb5bbdf58ce325875369d9b9c61f4a3faed47608d",
+      "bytes": 14924
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/codex.stderr",
+      "sha256": "f29f716f17ff3d5d45d042e27c0fea990c1ebce555122fb77bcc41094ceb928d",
+      "bytes": 686
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/evidence.json",
+      "sha256": "dfd9789f89fc89929ef69981f390c25d1040620414860aae9d601227bf4b532c",
+      "bytes": 5191
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/gateway.log",
+      "sha256": "43a9e8ef3615de57830340acb8f82be368343c3cfc8edbcc5d155826765456c5",
+      "bytes": 3531
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/observer.events.jsonl",
+      "sha256": "1ab2e1970de93f87954b2b2d0c34d8363c7912339d2298879f0499ecc9399feb",
+      "bytes": 160636
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/reduction.json",
+      "sha256": "8e5688fe053488ad9d91157710f274d1c5231e4551340a23e7547c03ab3d3c11",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/attack/run.json",
+      "sha256": "9754207c54f2ddc0cc700ba1a34f4b519ff7b0390213c81f8576b13be18616be",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/DONE",
+      "sha256": "066e83114e9ac33a4b8fad6064943de869c450b55a37afa588ce97fa8a061644",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/codex.jsonl",
+      "sha256": "305bd03895ae2cc7d39581b5753d6720592f199d45c2999567580ff486b6e2a7",
+      "bytes": 20123
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/evidence.json",
+      "sha256": "b16a4a0cb93704f2ab349e7f140cd19cd96e021bb88661d2bfcce015d32ecf18",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/gateway.log",
+      "sha256": "ca36748272913b31a80cb4974d040c9c61a8c2f754254c24ca533d454e61cdb1",
+      "bytes": 2748
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/observer.events.jsonl",
+      "sha256": "f11568140edd3bc12d0919d98ca491a7fd57d490fe17b61a1c8dc960a3e95f3e",
+      "bytes": 146893
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/reduction.json",
+      "sha256": "03b1051bed6e70c139d04227e2bfd5705c50be1f9734d582d031273d1d5e1541",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/benign/run.json",
+      "sha256": "26da1bd5d5335bf66ed7f4636a6753cea73bed3ac5ef46c735741976edc9fe4a",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/DONE",
+      "sha256": "10f3d2924543e18b293791b14f1c956d1e54484fdc31b41f7153153a8a08d49b",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/codex.jsonl",
+      "sha256": "ab95dde275eff5e54766919dc53dc534bb2c3ac0946dceb64963369aedd96cce",
+      "bytes": 15989
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/evidence.json",
+      "sha256": "50cab94a915f8ad29f7c95bf2c4c314e4b53c0342bdaab83cb395437ac40e5c3",
+      "bytes": 5532
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/gateway.log",
+      "sha256": "4f7a328a1fdb3786783f5daacda6390da09a37a761bf5ac5c0f38e3cb9202602",
+      "bytes": 2748
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/observer.events.jsonl",
+      "sha256": "6e83d67208fba3bf628bc4475608b994d9c67be4017ab7a6beabcf0f7e1298a3",
+      "bytes": 138343
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/reduction.json",
+      "sha256": "a6c4e94cbbd6cc3347bb1b2dabf1b74f842e1360d9e476b3ff404a5df5c6f06c",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/control/run.json",
+      "sha256": "b13156cf49f5548375952a8cb60adfbf1a159ec3be9f39d9bfc1ce44f613b3ec",
+      "bytes": 3016
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-10/trial.json",
+      "sha256": "1897009fd59f52ea74041ef44fbda18d17d2790c71d68a7c92769aa29028d53d",
+      "bytes": 2032
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/DONE",
+      "sha256": "0966b9beba0f74d18dfcf2f62ad48b51758be787fea1dca8e9c900debd8431f4",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/DONE",
+      "sha256": "136097e65acc3bc7b446427831b0618ccd6da066df8924628a6c6a05fee2d576",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/codex.jsonl",
+      "sha256": "b8d485c0d6137163ed84b6e83111daae1da6e644592d67160f754ff56ec2c8b7",
+      "bytes": 19758
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/evidence.json",
+      "sha256": "949678b67aac5a5e4e6419574b3131f179ca0196c37da2cb29f4bfbf3a9d5085",
+      "bytes": 5277
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/gateway.log",
+      "sha256": "613986ee88bd994384edd9485bdb9f4922c8a3d5afb3a1e5e31de46c74a18a7e",
+      "bytes": 3530
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/observer.events.jsonl",
+      "sha256": "bf44bad7d4c179c0b62d6b584bd8677f40d162ef267887ee8ed7fc5b8ec80611",
+      "bytes": 180593
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/reduction.json",
+      "sha256": "afc3121c622a722476c9244d44fece86c3283101aca0becbabe208f0b5790b46",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/attack/run.json",
+      "sha256": "928358af5a47c85918ca76147fcc40d2c9232d236e7c07988223c799d132e9a0",
+      "bytes": 2873
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/DONE",
+      "sha256": "37270aeeb9d4a12d28ab89ee0797e0aa56f8da59de94052af3c2b0f10b994f73",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/codex.jsonl",
+      "sha256": "efe10d18e77dc736cb7a28d039a0a934f5d320b38b5ccb76d458c65b57c80bda",
+      "bytes": 14556
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/evidence.json",
+      "sha256": "b694e32952425064992adf8b3bd55dcc271ca75512a0e9708e87e0a0bde79d96",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/gateway.log",
+      "sha256": "b9e0ddb6232cc021a47dea9231000c68d58c19763c36b3f6f22a62fbba57e66e",
+      "bytes": 3140
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/observer.events.jsonl",
+      "sha256": "1c3e72fd945d88713d9f2a25231fe262be4c93fd611249a99a6fa831f371800d",
+      "bytes": 171279
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/reduction.json",
+      "sha256": "a47928096b695651247ec1aea3b877105988f58091702eb966cef01ca04571b7",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/benign/run.json",
+      "sha256": "a5d8f40bf6d803369ca1c8e73f39806c29acc5c5922b7b741f991c1ce5cb20dd",
+      "bytes": 2873
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/DONE",
+      "sha256": "d0a01d2e6940f76e558999e42988535a8488aff15b3700b61bb865f425ecb06b",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/codex.jsonl",
+      "sha256": "3db7b5b3bfe05e365c2f2d1f6f4319858ac227098d16b6010367f7c066a7a022",
+      "bytes": 17045
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/evidence.json",
+      "sha256": "5a1660b4239ec287b0130cba637a27eded6b88064862b83a666c6a5ecfa54430",
+      "bytes": 5284
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/gateway.log",
+      "sha256": "a10a4a6aacb6ff50519c567d97fe4a601f6d963a574827801657d63905eece7c",
+      "bytes": 3138
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/observer.events.jsonl",
+      "sha256": "5a87e674358ea0540983729fc7e74701e5f70706d05afb8d0c2b53f26fc541da",
+      "bytes": 148714
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/reduction.json",
+      "sha256": "0a3d2c7e3a54f07e2c296722735003ddb4c2e4650afe1711334e7c95c4ae3756",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/control/run.json",
+      "sha256": "1440ee95ee13209a8fb254f6cf7f0b3cdf4a4909906d1d573a486dda03decc81",
+      "bytes": 3016
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-2/trial.json",
+      "sha256": "90c29b4cdf426bc6754a38372b0ae535a8dea879e98f513ff76b90aa1f382c3e",
+      "bytes": 1951
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/DONE",
+      "sha256": "cf5d99aa5babb58de118c66652856cfcc03c8b5fd6c45c2dda68bb6e0d89f7fd",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/DONE",
+      "sha256": "8c598dcc2faa4e0bcd15333f849b2e934941f36d9f525c5d7824b9920174a72d",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/codex.jsonl",
+      "sha256": "7447692c6cbc455f2db3e93cb27d3c8108e24f5d0423c56678eb314711daf8d1",
+      "bytes": 13093
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/evidence.json",
+      "sha256": "214341253cc2dd2d5dcaa1b5a2a0eb83136f59482029e608597e03facfadc9e4",
+      "bytes": 4923
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/gateway.log",
+      "sha256": "7e096b23d85e228ba28f0bcb790f567baac5f21440b73ee8fb85b4680fbbe3ae",
+      "bytes": 2358
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/observer.events.jsonl",
+      "sha256": "1d7e7e540853243380bf46974f815916fbcd7e7c8efc3e80a4af9849e6496d03",
+      "bytes": 138268
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/reduction.json",
+      "sha256": "b885193991ac83eb52b162a2a27f78ffbc5f8394bfd324341bfd0e7335686d38",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/attack/run.json",
+      "sha256": "48920f771ae444e324c1e61e4186af1717ea90c8814b7b2f5430754a975ed690",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/DONE",
+      "sha256": "8e9223add6138d5075b8acbc39e47cb7b0852e6708cdfef7c65b4e5861ee4174",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/codex.jsonl",
+      "sha256": "e8032e78307126574fb33fdf9c406076e5c564a13e9a9384d022a8bcdc9b0ed8",
+      "bytes": 16500
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/evidence.json",
+      "sha256": "ec54aea5e03b7287bb6f621908b0a1ab26945de0f262aa18e65cad9a9d72ea2a",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/gateway.log",
+      "sha256": "fc0aef8d092ebee71ebc7f357ff01435395d226726122265c56403486bc4decb",
+      "bytes": 2358
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/observer.events.jsonl",
+      "sha256": "2e4bff5c2897072347c6da3e8194c89930bccf3c81a6778d090e9e2647a34d25",
+      "bytes": 158053
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/reduction.json",
+      "sha256": "a215948026a34b8f715e07e54675590605a333bbfbd79d9f180889f222297b29",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/benign/run.json",
+      "sha256": "d2de4433d57696353870015906f43e67dff1f1612def417de2fc9c7c93a50f48",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/DONE",
+      "sha256": "120c53487bceed4a8d538921f351d69a5159d6613b22f30c412249e7c30e1e78",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/codex.jsonl",
+      "sha256": "500ae12cb2ed29d43ec4a9f717f5b0803f813b1d8a9551c3843ba4f281cba57a",
+      "bytes": 16781
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/evidence.json",
+      "sha256": "e992134006d6cf6a5806b81230c1e7d0dcdcc3b3b0a43774746dd6e60c3e385f",
+      "bytes": 5475
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/gateway.log",
+      "sha256": "9188d03d3e22652bbc7ed0570ab966f23fa06203141c9e16d7585023b9caa3ed",
+      "bytes": 3139
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/observer.events.jsonl",
+      "sha256": "5b1716f20596da93a64d0970dfaeb78ee15fa6e7bf5aad00a4db4d11eedbe699",
+      "bytes": 152570
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/reduction.json",
+      "sha256": "7713c541c990d407784eeee609d160db38d73eee90550609fb9adc2537154462",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/control/run.json",
+      "sha256": "c2651c74d148ceccb32c21b4c1725ab963e6ad8e1ecb1fbc5e56c6505603bddd",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-3/trial.json",
+      "sha256": "8c611ee3542bfa6cb497dd1659a6b6830c61ebf0151e8df194c0aba382e37d52",
+      "bytes": 1930
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/DONE",
+      "sha256": "ac0c0c4df65681c1c5a9ed4d8687c15c50d3421e063e85c7cd42eb602f6bf7dc",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/DONE",
+      "sha256": "dbe070388aa3b2628a9b75ee9118f9b4987e2494e5b9cace2f501432a7279462",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/codex.jsonl",
+      "sha256": "a78f9ef11b56a19990a519e90a9fc4e45f30ca511643e356ad48a26b11a02957",
+      "bytes": 18272
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/evidence.json",
+      "sha256": "983b73d2ade22507f3301cc23c9f35bc4df69679184fb6154da6cdc4d68ce41d",
+      "bytes": 5102
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/gateway.log",
+      "sha256": "b511702123b222d26c654cf96bfe56974d598bd3ba7106c91185cee58371dd70",
+      "bytes": 3141
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/observer.events.jsonl",
+      "sha256": "54c5f10c5e7fdebf2d7e7b600f7e2f507d3e4aca24def0138b6ff482ffdd7feb",
+      "bytes": 166524
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/reduction.json",
+      "sha256": "07c2eaee3cb029b08c4e2fed7c4046e53e70ad243360932d4b5209ea10052056",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/attack/run.json",
+      "sha256": "b787f906d64f8008aefe57196ef4461b86bee8b0165ddf1507b2245125d3e834",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/DONE",
+      "sha256": "040ce50d11bb278db0d17b8c62411fc95bac7ca53e6cd7617e5fa05fbe59d81e",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/codex.jsonl",
+      "sha256": "9f67c3afbc8c7f9ba6069d163050effb5bd18d4c6cc5c977b13a3260b96a0852",
+      "bytes": 27459
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/evidence.json",
+      "sha256": "108f1c8f885d53bf49afd477b66e4e33d4eee882c3706ef317d60e8f8350df52",
+      "bytes": 2639
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/gateway.log",
+      "sha256": "4b96e80abbce415d2a26a15bde0f3badae1916165ad2ca8a78dee4bcbf5d507f",
+      "bytes": 3530
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/observer.events.jsonl",
+      "sha256": "d36f0ed82edd4a7197001773a2ea32eb1563b6f417b4efedb38dc02a68639fe1",
+      "bytes": 195316
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/reduction.json",
+      "sha256": "d128e57d46678f9fe286c3d09f23bf5b5241a4d53a3644b7cab2a438bba9408b",
+      "bytes": 1014
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/benign/run.json",
+      "sha256": "f87aef3ce55fe0dbd3c7732587f1f5dc5a5ed7043b988bed1cae7ddb904ef714",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/DONE",
+      "sha256": "650bc131d3727ad0ccaa9d900a6ed54859410df196db2e8fea72678db4b2978c",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/codex.jsonl",
+      "sha256": "0d2eb8cf1e66bfcdded197e1a5ae03006a70e5eeda329e7f09f1e953931361c6",
+      "bytes": 24159
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/evidence.json",
+      "sha256": "f8369e6080a99ca1695af95b75e4499a5e40553a78234a3be052ae8caccf571d",
+      "bytes": 5509
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/gateway.log",
+      "sha256": "f77b844a81d2f1f7ded3a23d32a0e23def5f456152e3e4fc33fb324314aeef20",
+      "bytes": 3529
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/observer.events.jsonl",
+      "sha256": "bc2c6bbaf2b48752bf9fc1c907a68ec61ed5191cd119858fa671f3d8fdc87a36",
+      "bytes": 153553
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/reduction.json",
+      "sha256": "f3bdeccbbfa92464c693d0ec14c4a091bb2759e973c7f9350a9a4657f228149a",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/control/run.json",
+      "sha256": "d5d56ad0a02f4d17ca762f4ecd3743e9ea7bce3b43b093f9c7bb4530f1e6c26d",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-4/trial.json",
+      "sha256": "ac9604c04d3653a74aa6a5841f4d0a1c234e6823b612124750e80ccca22e641f",
+      "bytes": 1944
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/DONE",
+      "sha256": "4aed1db8f5f3dbd1d3aacf8c71e7d3370600c758dedf121c4601b14560270b83",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/DONE",
+      "sha256": "3af2590a9ca56cac0249774e8fef0850027dda959ca7ec7c2513a746d7f8b7a1",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/codex.jsonl",
+      "sha256": "1eaf6707e362ff3c77e46c15c953dda84b00afbdcbab145f227762205a00d2dd",
+      "bytes": 22624
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/evidence.json",
+      "sha256": "22759db90b9bbdbced5b60abb71edc20f0958dc1dbd0d59ee7e0937dfc89c3c0",
+      "bytes": 4908
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/gateway.log",
+      "sha256": "683e21842623e99422832ff3bac0724b8f4d88987a299c22a92bb98e961479d9",
+      "bytes": 3140
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/observer.events.jsonl",
+      "sha256": "b9fae8094b7ba414a7bfa6d2c92e0064b27928b549d85c636b1227dfa5d6a821",
+      "bytes": 156240
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/reduction.json",
+      "sha256": "8db1a23510cd6bf37459de37a7bce6ad5c1d4cc221d815fd7164d38c273710b3",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/attack/run.json",
+      "sha256": "94c24abab83e0519078aff88e16170516ce7ee2c1516ec96b8384abd0788634e",
+      "bytes": 2876
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/DONE",
+      "sha256": "5f88caa1d6bf3ec614eb05503e5be7817129ab199fb3813b0940ae91afe76383",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/codex.jsonl",
+      "sha256": "76184107d95e633c80ec27cfc04faf07cad0e6ebac0b05b6abeff9ca5f9a3314",
+      "bytes": 24398
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/evidence.json",
+      "sha256": "26fc0e8ea9af440a1cf6c42fbcf9b17505af4db3bc08a3f58ba04ba5a330e313",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/gateway.log",
+      "sha256": "876bcca7f7199b51b8b26434c50b30f2cd43b24e09f7258b0d66694b0838b692",
+      "bytes": 3138
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/observer.events.jsonl",
+      "sha256": "4d6cb33b8c9fb7fe9cf3d100afeb25f47c636408cda14fd27a11d5d45eac852f",
+      "bytes": 155109
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/reduction.json",
+      "sha256": "a4ad040d50ce9ea57ceb4361b38ce4f6289e429ffb027a96c8ee7add84fd9151",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/benign/run.json",
+      "sha256": "e0eebba965b7f9aecf6bd216b251abb2dcf248de4f1b971f4c26ab89b96ed92e",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/DONE",
+      "sha256": "1e10b26cf42d38033cb0d796e69d7640e04fe57c868e5aa6647988c9c26cc61a",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/codex.jsonl",
+      "sha256": "611f2151a3e9575b7d9aa14a58702a4c6088b1286a5a277dc0fae07ab23c75e4",
+      "bytes": 12816
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/evidence.json",
+      "sha256": "f4689904df27b43de498f9eb570c63aaa7f81fbeb4371368f969187c6cdbe160",
+      "bytes": 6121
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/gateway.log",
+      "sha256": "45a5cf9cf47c4a849f1bff651759b5302fed649d0503f2994d42d1a0cbd718c1",
+      "bytes": 2358
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/observer.events.jsonl",
+      "sha256": "a4ada9c03a493bf14313934e8a8ee04540c24f91d41ad040ba3484769326057c",
+      "bytes": 161887
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/reduction.json",
+      "sha256": "936dc45ea5e0252872f1a6e748652e7128660f8db82717679acc8f0920dac065",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/control/run.json",
+      "sha256": "21f052b6eea5badca9bd21ce0492da902216a0ea5f3195b1f61bd04e462db65f",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-5/trial.json",
+      "sha256": "7bb6604dd4131651f67313f1a429ff2f4e8f12b3bd80e83a5e167e31b253c10c",
+      "bytes": 1915
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/DONE",
+      "sha256": "57bce349256b3ee4914c5d7fbc92c06a57afa7a131596a975f06f9574363b118",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/DONE",
+      "sha256": "e93a778e22e6afc50496f43247f6694c2f5dcafcd8548602d372eb56c5f0313a",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/codex.jsonl",
+      "sha256": "9ca8abcba859652c3d7a2dc07d8c4ea6f95d3ceaaa1c1dde6e092ae5dfafe4f7",
+      "bytes": 17813
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/evidence.json",
+      "sha256": "f60b8c631ed534db5aa3f0fc8f8a33ad3d3a66c744db09ed38113173f7f96462",
+      "bytes": 5304
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/gateway.log",
+      "sha256": "fabc2d61788ce735ab2a692771025a488c880e1235d4c652c34b403b934e15e6",
+      "bytes": 3139
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/observer.events.jsonl",
+      "sha256": "4ce9c01a51782e9be216cf7d1605c6e1ca3bb1bda5c6597c58c20111560ea9bd",
+      "bytes": 156078
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/reduction.json",
+      "sha256": "65f7266ebe2ad466e4e77cb83394d2562873b56487b1a24df2d1ea57139fc13a",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/attack/run.json",
+      "sha256": "eabfb0738b6016889c3dd8597b79dc40e5fac8442586d0ebd61d1fcee6d1e2f7",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/DONE",
+      "sha256": "3bbfdbab886ed1c33b518ea45c9b373a5ddb40005636171bb2c31198f772f736",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/codex.jsonl",
+      "sha256": "7f78f29dc4d5340f5e7f43720d7a13b2c09f86fb635c5c40317d0bbf64bfb361",
+      "bytes": 25947
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/evidence.json",
+      "sha256": "e860130a3ac7326819f9fbe052f2a11c9f95a1376c64b555b66c813b13592464",
+      "bytes": 3070
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/gateway.log",
+      "sha256": "a33ddd5be364a8fc71032f2348d869002664a24c68fb0083fb6092706d6fcbe5",
+      "bytes": 2358
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/observer.events.jsonl",
+      "sha256": "8e7e1a9eb118d9cdd8c807aa846849ec08cfd57c40e9ad93b30aaa41d5823c0e",
+      "bytes": 155418
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/reduction.json",
+      "sha256": "fd0f34132c4eb7dc9f5ac6db0f1ab9b00545e6ff95f1ea31e8282f0f755ae57f",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/benign/run.json",
+      "sha256": "07ff39b9a61a1f7ee260699a96d5145506660bbba05aad9a0d783073364d0fe6",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/DONE",
+      "sha256": "e3fb7a86e5b20a401677c915917ec2b1cd0249eb14d1902c8a8783875427ca13",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/codex.jsonl",
+      "sha256": "4bb9dde27cd80dfa0ca87ab5e1b22857acdeeea70cc1e3533b925ca73e1aa671",
+      "bytes": 23760
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/evidence.json",
+      "sha256": "7ee8689ee16ae28bd51200df64d6a338f8648db05a8225cb73bcd05374247996",
+      "bytes": 5666
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/gateway.log",
+      "sha256": "1aba165c4dab8f67d926cbda1cbc4b8a4d866d767dcf873ed16f77db73891c91",
+      "bytes": 3140
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/observer.events.jsonl",
+      "sha256": "71e52bf206e533cd3f2c7b881d38f487697abaa5caa9cd29647cf38abf75e0ac",
+      "bytes": 165261
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/reduction.json",
+      "sha256": "7da759e83732e43fb40977da243c55055021c92e0bc24eb87d79d18a42c88664",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/control/run.json",
+      "sha256": "7bddedc411d0e4ac3981dd01af87cc0b0b48a3ae47894b99de411a8f03fa7e50",
+      "bytes": 3016
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-6/trial.json",
+      "sha256": "9b545e80c60c53fefd6451bdda79f347c2293f3a92ddad1e74554906beb91e48",
+      "bytes": 1979
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/DONE",
+      "sha256": "c21ca66b8d9e8f18bc596122a7e8dcac08c4c8aa7b23f46ab483d4809b50f8e8",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/DONE",
+      "sha256": "ce37cbb44f440d776290f3614d87c07a81a470b3e9a3b190929f00ab85451341",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/codex.jsonl",
+      "sha256": "42e7a74b4b52b397b6e5bf285479617b625985d5d3d54b172f65c7bac4e684ed",
+      "bytes": 19941
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/evidence.json",
+      "sha256": "d609a5672506d495c68c7e02a9509567e5a768d6108e6e9a78ef81655c6043cf",
+      "bytes": 5425
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/gateway.log",
+      "sha256": "22bbe12aca23a61defdd6dc0c3c941ea5b33d722fff95bd6be0c273767fd1946",
+      "bytes": 3531
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/observer.events.jsonl",
+      "sha256": "8d5ba166b0639b5dd960551fc915a7eee0579758cd8b6ea0d980f1adb9f3fe0c",
+      "bytes": 171475
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/reduction.json",
+      "sha256": "76c17a3594b6d25487ce4e54ea451fce5e5fb0e1ff6ce8f17e5a733a0982435f",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/attack/run.json",
+      "sha256": "72c6cf9cf019260fb70445bdfdcdb85e1d8bafa6d1296da8677ef6e6c01bee42",
+      "bytes": 2876
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/DONE",
+      "sha256": "34f438f190becd47c9a846dd92c33fcc266279109eefd823ed19215ba9b6c651",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/codex.jsonl",
+      "sha256": "d6f52ef18cb15c3f3d46363261d08f364f5767b29edda6d14a11ed38fb2e8d75",
+      "bytes": 24103
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/evidence.json",
+      "sha256": "a5a3986c9745b5bb1c9358c2d8f9f2fcfddb8d1dfbde87a5542ac32eee824171",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/gateway.log",
+      "sha256": "7e7344ef09aece81e6a9556fb70222bc75d7fc0c895ac458ac5f6f73331d26d8",
+      "bytes": 3140
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/observer.events.jsonl",
+      "sha256": "412f3cccdc259cae875f62b9f106f76c7f30f829b30ec62c69de47f5f4163f79",
+      "bytes": 177650
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/reduction.json",
+      "sha256": "c44b53bfb20bb75d24e25f885f04988c52dd1a02748c7564f75e81e4bc13accd",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/benign/run.json",
+      "sha256": "08720c6f31a9d5964b562ebd1e688396e6796da0a2745917d9c5d260e452ecf8",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/DONE",
+      "sha256": "fddb9821e27dbead614dd6d81a21a49c92114247463e29b23d1db8f53b776fc6",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/codex.jsonl",
+      "sha256": "7141f059155ff705ac4b1b1ebf1e5dc04eeeca8441bda29d4ffd7b76488f8c9a",
+      "bytes": 18916
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/evidence.json",
+      "sha256": "9e4d225e154aed0a40f20a364a2ef42f11525c301c1ba55713f67d738a4df90b",
+      "bytes": 5316
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/gateway.log",
+      "sha256": "2f2d1551af930c6b3a847fbb8d00acc33e9f23ab4f4a7b36833b4c88a58dc1dc",
+      "bytes": 3139
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/observer.events.jsonl",
+      "sha256": "a842b43058bb8bc81e8a050bc4a862f42711c8e77c217d8843aa2e0228c014ef",
+      "bytes": 134596
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/reduction.json",
+      "sha256": "5d9fecdf590d8e1ba8f631a5a7b272b43ffca8e4e51850886c23ab0f4d32cecc",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/control/run.json",
+      "sha256": "6bd98bf2c0162de270ae921580784748777453f5108dc2c58cf1d00ccbb44a07",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-7/trial.json",
+      "sha256": "0164a8a74ba229a469dea4df875e680462f81174f7ca603146e0c9c2b2b9ccd8",
+      "bytes": 2099
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/DONE",
+      "sha256": "671da95b11a9427b981f00844d10dfc923b5464c6371452c228152775bb5518f",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/DONE",
+      "sha256": "b8c33cfba6522893da14d441e25f6b049498159eb661e13ddf19388dc4f10dfa",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/codex.jsonl",
+      "sha256": "df79eab24ab363499d39348d5f7461d030f40c13e545a5035e05179cb310d0bc",
+      "bytes": 17680
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/evidence.json",
+      "sha256": "829e4c7178243032b1436d4f0757ec7d4c42e6f85130ade92a4b8b3f427c780c",
+      "bytes": 5274
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/gateway.log",
+      "sha256": "d1e83794d9e71f240a66f462214ed944615665f2f9cec2f6698cf8ebca41860b",
+      "bytes": 2749
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/observer.events.jsonl",
+      "sha256": "6351da154b33081991bac235f0d6fd5e009d0e1ebc5f093d8d2aae3334b65277",
+      "bytes": 132580
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/reduction.json",
+      "sha256": "333389c74a630adb70924c4471cf9361faa3daad5fa1121044021c7ff848b6b9",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/attack/run.json",
+      "sha256": "416a5d4239b9d801501ca010c68002ef8d22c33e14c24ab7a5980c26a100946d",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/DONE",
+      "sha256": "a6ca08b113919b20f4f1f51518a48e69ab8410ee0dcdeb247818c6cfd7347e23",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/codex.jsonl",
+      "sha256": "02a84040868609e4afe59f06332e79049f569c2d0a1359e8bf1d7d60ef776d00",
+      "bytes": 14770
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/evidence.json",
+      "sha256": "2fb14e520e2cc091b2b287ae9a249928612d63a125a75e57e640b9ff0c6b42a4",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/gateway.log",
+      "sha256": "c5dda203039c444002ad426920b5fe9a94c6f9700ab7f7873312421f7298c30a",
+      "bytes": 2750
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/observer.events.jsonl",
+      "sha256": "25d8890cc55bc6313ce2ae8fc059e1d38f1dba6ff42a04a7af31bd9537fdb421",
+      "bytes": 139019
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/reduction.json",
+      "sha256": "1bf5b232b1b5b61182e931086f47202d8bae56ebe4205d2533201bf279d5d619",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/benign/run.json",
+      "sha256": "6f5b095b353f70c297d9d96dbb2f8d6a1aa0e907e8729313d0a5d677dfad9998",
+      "bytes": 2873
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/DONE",
+      "sha256": "c9fd8c21ade7791c975fa904266345630a3b2205aa69b1b390d7454813bfbc0d",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/codex.jsonl",
+      "sha256": "ba8da5e71580685750a95302fe136a1375697e639328e919c15e47d325d678e7",
+      "bytes": 11819
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/evidence.json",
+      "sha256": "c289f9403ccab70e27aef1392b7f1e28ebc7266bfb61ca2411e3a683930960ff",
+      "bytes": 7402
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/gateway.log",
+      "sha256": "ab538a674f2b655f6f464c747aa14d5af868fe3f84a907bec33c387d9cf46648",
+      "bytes": 2357
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/observer.events.jsonl",
+      "sha256": "3e89456f0bed4473b86cf94756d24a0274a01d907cd63b22ab44e9d8b8927812",
+      "bytes": 111519
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/reduction.json",
+      "sha256": "63ecaf9b97ff004e9a7648c2ff23453a79c5e46316a7ee887cf5c7f746573826",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/control/run.json",
+      "sha256": "3a29e281478372b99eaa6cb5ecff23e0004cf80614e525c10f7ba3da844fe40a",
+      "bytes": 3016
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-8/trial.json",
+      "sha256": "3b12b601de28e2fef26c4e8b34cd3cc7915f7f927667e660f67a96e6665a3629",
+      "bytes": 1948
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/DONE",
+      "sha256": "74825ea2e3d80210c74b1b96091ac86b17851fd9041a1452f2b9b9c4713c1d4b",
+      "bytes": 17
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/DONE",
+      "sha256": "7926843c39ffa5942a904ef0ed4871873f267e94d8e3120f4631991faf57b041",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/codex.jsonl",
+      "sha256": "dba16e6afadfaf7d5d79cc8a80822621f987bae108ebd46e84aceb11084a04ae",
+      "bytes": 27153
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/evidence.json",
+      "sha256": "434a9ec9f165d7a9688d1b9a91499299a446072dfbd3929ed544f9281f37d8e1",
+      "bytes": 5823
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/gateway.log",
+      "sha256": "0eae3ce9e3ec0ef293c0fb65af760d67c6d2a8c47671dd5f5fef358fa52cf474",
+      "bytes": 2750
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/observer.events.jsonl",
+      "sha256": "2763c9127ff2bd2ed16b3e7382816d4dd63fe4b3ea6ba5c592c561c15b24b35c",
+      "bytes": 160905
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/reduction.json",
+      "sha256": "9387ee26bbbeeff50918c72032bb5a03170dbe74a7f8546a6cffb109c2fecfa1",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/attack/run.json",
+      "sha256": "b061bc6f1762da1a80c4e5a599de0739a587feef4c73812de76304244846951c",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/DONE",
+      "sha256": "77402461a71c859575cc05356ce28c3eb5e1057422ab79039eaee937758424d3",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/codex.jsonl",
+      "sha256": "ec3031a43a0383959c19ff96d01fe7cfbe81a8b1fe8e194ecda2de3f7706c059",
+      "bytes": 19793
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/evidence.json",
+      "sha256": "d900531ceca70daac01ebc16e1cf335a9d5f27f0181f9347ba03f1aaad2e04f0",
+      "bytes": 3016
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/gateway.log",
+      "sha256": "0503ece195af9076ad306e0750ffb634994236f044ef6d4d11192e0d2444e35e",
+      "bytes": 2358
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/observer.events.jsonl",
+      "sha256": "425611ce0f8e6db9c333b5c46f972fb01b1376efbd6d0914c2ea74a47a01c8f7",
+      "bytes": 115917
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/reduction.json",
+      "sha256": "af4f1df54473ba3a663812fdf859acf2cdaa1dbcb70183983e40487819278fbe",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/benign/run.json",
+      "sha256": "781944c09800fc48036ed32ff80893ed827e443ec1b593e39fd6e3e63a4cd95e",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/DONE",
+      "sha256": "e73a322d27892b531bdfee2934444246d8f356119a559795218909aa8b9ffa44",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/codex.jsonl",
+      "sha256": "eaec8713b5191b3c5e0a9958fba93460ba5eff867c61cb7ed9b395502eb5c3b2",
+      "bytes": 12904
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/evidence.json",
+      "sha256": "44b0a8622dafa45711205d658eab8c36efaed32229a48e972cdf4ec4baba4193",
+      "bytes": 5477
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/gateway.log",
+      "sha256": "105a0c403a79d54f7598baf4be0b12499c6e2c26341c69282203837b2d39fe50",
+      "bytes": 2749
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/observer.events.jsonl",
+      "sha256": "4638e824c61cceeb17aa238f6eee8567e0b510347dfb291ed579923fa36af1f7",
+      "bytes": 163794
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/reduction.json",
+      "sha256": "db717ab1288891a55e50a81a74b25c0f54fd57dfb927dc45a36688583fad0610",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/control/run.json",
+      "sha256": "af9495dcbf320eaacb66601983e25fbb9ba555897436dfcd311b4c2cd25046fc",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-9/trial.json",
+      "sha256": "15bd9129da1a195f4d7f38132935b71faa5cca886c179664b40567be93a7411e",
+      "bytes": 2497
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/DONE",
+      "sha256": "c4f4cc245a1ca42500faad6bb7a9ff34cd00ea28f4845512a8d8b7424cb0b6e5",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/DONE",
+      "sha256": "58b49598c9b8d879b7071d66d0517746e6f7f5ac14ef348ad910b9ba36ec5fcb",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/codex.jsonl",
+      "sha256": "1decb60f98a8aea7d4f6ebf6151ba77ac7e84ab7a6fcc346e48ae74f320d2b31",
+      "bytes": 26275
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/evidence.json",
+      "sha256": "2bbbbc068c5ab13335dcba339a1a1fe01a6bac070ea0a575da76e9d67ae513d7",
+      "bytes": 5300
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/gateway.log",
+      "sha256": "7452502f4d692dffe73a2ce6f2ec8203dc7ba8052652e5631394fc4c42dc974b",
+      "bytes": 2764
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/observer.events.jsonl",
+      "sha256": "71fc23f65fc96e9f89f7f36facda171779c8cd58a67655dd2d8c0ee30e63d2e3",
+      "bytes": 170768
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/reduction.json",
+      "sha256": "9a1a423dd54cf56e4257c58e037141473b82be7b6d9bc22829990d10059614db",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/attack/run.json",
+      "sha256": "16d889fd0b9bd03d68368e9973866f9e353d9a05d333501cfabe27ae547fa0e3",
+      "bytes": 2880
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/DONE",
+      "sha256": "6f1b1a30a6c13b874e09e6c84a3bb608e156ce6a487f43b183ae0a9150bc9a8a",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/codex.jsonl",
+      "sha256": "c4d41710e92c8733906ad72aca87efa1e3f8f09445c9c398acb4d601a59b1485",
+      "bytes": 22580
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/evidence.json",
+      "sha256": "b27178a4a6dcd297bd4ada4133d7aead73d45dde001ab16c99a84f2809e1ca0c",
+      "bytes": 2642
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/gateway.log",
+      "sha256": "547d77eae47ee510573b7cfc6dff3519f6ac3bc37ebb8f00a71cdfab06b0cd71",
+      "bytes": 2762
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/observer.events.jsonl",
+      "sha256": "c1eba26ef59f596078cfcc828c140842f2ff689fec536e82a18f906c4d941985",
+      "bytes": 163082
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/reduction.json",
+      "sha256": "df34b5507e15147f98a7f36fd6d9395ccd83962b10907cf68f367697d6484518",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/benign/run.json",
+      "sha256": "0a3ed9d09a3161ba7839cac90bfb5701802c317000d305ecc8f87d4b59969306",
+      "bytes": 2880
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/DONE",
+      "sha256": "9c3d5954465498268c40d082ddf1f492246ee366b0df9b423f4c1f1c7f6d7794",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/codex.jsonl",
+      "sha256": "f4a14543195538aa6786b01b2551ca05c37a0b7a9fdd870a7e3821a2c72906eb",
+      "bytes": 4977
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/evidence.json",
+      "sha256": "1cc6fa612cef0890cb224fb31e89cf9236a487b19aa347cc9ad4d5cef1965417",
+      "bytes": 5480
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/gateway.log",
+      "sha256": "88b07be1f35cc80e5aec083a64c66d953b88a0c8f67431833956f54d08850003",
+      "bytes": 1977
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/observer.events.jsonl",
+      "sha256": "b53843633bdecda503a6cdf9c77f12ac0088a99f16f47dd1d8d85d39b196884a",
+      "bytes": 133192
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/reduction.json",
+      "sha256": "dd5dff2bb8ab0e6a52211fb55088ecc860605f391fc1f0363b9ef7f4793a3810",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/control/run.json",
+      "sha256": "cc649318e2bc5524d6093d879e4dc8241ffb634043c7585903ebedcc360c3cd0",
+      "bytes": 3023
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/trial.json",
+      "sha256": "60c400dc52b6c03f3e148d4b2fa39c24b505f51c58760364f312124dc990f873",
+      "bytes": 1969
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/DONE",
+      "sha256": "72c135a4709390ed5241ebec16960f82c17e86712e944c052b3f524623d7c908",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/DONE",
+      "sha256": "81616a829374b0dfe9a2d91f7d38514d583e3f50032e6bffe0f4f61d8097b448",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/codex.jsonl",
+      "sha256": "ed73599e7dc40982d4513180570a4f343816dc379b4b4fcc4adc10ff4abd7b0c",
+      "bytes": 15739
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/evidence.json",
+      "sha256": "09f250c37f06cb5350306a5e8cdbedcf7d1f42e7d9c79255450fb054347370e2",
+      "bytes": 2637
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/gateway.log",
+      "sha256": "e4ef7e01f2635fc93783ed43516f67156f3522dee02c079c4af495b3e0a863e8",
+      "bytes": 1968
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/observer.events.jsonl",
+      "sha256": "06a3bbd9f0c5198816bf9ec5478127a9f5df521f05a62a0d108d91f7b05093e2",
+      "bytes": 158668
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/reduction.json",
+      "sha256": "faef57de1d0b36d83cd18f3ac01fdce7baa93faae82408d9cbb1bbfe5fd7c717",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/attack/run.json",
+      "sha256": "c69391e3f46f3d131c9cf85a227c2007169d6d008aab5cacc10f6bd53170574a",
+      "bytes": 2874
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/DONE",
+      "sha256": "5aed00d8c1460b71f4278cffe2473a95e8343f0aba42b96f41ae0af2168623c5",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/codex.jsonl",
+      "sha256": "bc3bb210b6c52608d7984a16af01924265eb5e1bbe1bc71fcee3672fa1d96ed3",
+      "bytes": 16755
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/evidence.json",
+      "sha256": "1ad37a00d9ecf892c0f3fb91a8af5cac0f547c6eebe72e4d10cd4028c8477272",
+      "bytes": 2637
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/gateway.log",
+      "sha256": "3f860886a1d9f1f65f74ae024b9c5d0c5fde0886bffbdb5aa0b8669ed01db1a5",
+      "bytes": 1968
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/observer.events.jsonl",
+      "sha256": "74c729f467667b8396c8d5668759789f212ad22f39ed0016cc8d8510c3e66e1d",
+      "bytes": 152830
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/reduction.json",
+      "sha256": "96107052cd7b901499db90bd9c62c9a7c45c27e10e35b1611588fb80e47b25d8",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/benign/run.json",
+      "sha256": "9b8185745ec25f4091c76b8b9778698eb063b62157b23751d1c593368163723c",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/DONE",
+      "sha256": "1cda14ad232a5f6c0a4b4105b14f2925b5d24be785658f4a7abf8de2df855285",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/codex.jsonl",
+      "sha256": "40f330340df8aab5171c8b165cc89ab79ec0046ea3c583f4a9338bd4dfbc2044",
+      "bytes": 17241
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/evidence.json",
+      "sha256": "793b8eceaea12614b4222871e553875c5f461058e8c3dfc5a6aad08b6290e8aa",
+      "bytes": 5268
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/gateway.log",
+      "sha256": "63cf71fe019c69047c34882215d3c5904f75771ca5b15d6c76c290d3fb44b4c5",
+      "bytes": 1968
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/observer.events.jsonl",
+      "sha256": "5a674f3b8eced1c26c85bfcdb9959ca63dff18be233bccf9040531317cfabfca",
+      "bytes": 142386
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/reduction.json",
+      "sha256": "471d46936a23fd7afa2e4ef32b9d48bb62a8b36b8f64729d1a06aee4e0f2c8bc",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/control/run.json",
+      "sha256": "77291aade7bfc5a6cd9e64c28010df23e7a4c65a4f2f5cbc57ab888f199362ce",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/trial.json",
+      "sha256": "e059be8930023173a39c3af4402d66e6325eda8d28289aaba64302a431e47a06",
+      "bytes": 1153
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/DONE",
+      "sha256": "56360d26aa71d70cd87443f5ad549c811728e52e4be47bd118d270fa50b75b68",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/DONE",
+      "sha256": "13edff4afecd10641b3ce2c7e768f48e4a548355638a02d0ad0eca87c12a76a0",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/codex.jsonl",
+      "sha256": "9020d3ade943a498664d85e70aea1294b02e21ac6cddf559bfe8af0fa04ece0e",
+      "bytes": 25849
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/codex.stderr",
+      "sha256": "650a38c5979c6f6b8f7eec5ff16ed6684feb19483e9c3b79ce304114c1aaea56",
+      "bytes": 737
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/evidence.json",
+      "sha256": "9b92d1a7d6e96a3043f59dcc22c2e39cbeebe04d44d5e62cb27d81ab6740b87a",
+      "bytes": 2637
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/gateway.log",
+      "sha256": "33b4c6d025e78154d169e2c233c6ca35acfa8264e03f272dc6a61a8be36b5fc3",
+      "bytes": 2348
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/observer.events.jsonl",
+      "sha256": "71a2a170de2fb40aad51143c8b35f69a9c39dffaf42446eb586425e84f1a226b",
+      "bytes": 160195
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/reduction.json",
+      "sha256": "23f7cf2d526a897560aa326506e1a4dfafd7b05feda5cbdf45efe04ae3405a2a",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/attack/run.json",
+      "sha256": "3ed0b21ad65c36def72091ac82bfaad325cf5a542e33fdcfde62ba0ba94fc535",
+      "bytes": 2869
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/DONE",
+      "sha256": "787fcf737a54a735b5062b7ec6d5fc4d9c41f7b725d8fdc399f5baf98fdedfe5",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/codex.jsonl",
+      "sha256": "e55f34f68e73315b7472f8cdadf27bd10acdc7cdfc0f9b35ad50f6af9eae60ec",
+      "bytes": 33499
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/codex.stderr",
+      "sha256": "4d2f7c9e42319a5a1edce28ee367937edc8c272f7daa070f2c02f04d02c0970c",
+      "bytes": 993
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/evidence.json",
+      "sha256": "4233afe80a2a987040c6bbe7bc92e20981b05ab839f479112fbc1a1c955c0917",
+      "bytes": 3024
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/gateway.log",
+      "sha256": "600bb1cf644971f8abe57d57143851a59af05046ea2fb7c2955bf50156d4ce7d",
+      "bytes": 3514
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/observer.events.jsonl",
+      "sha256": "02489f862a35e241b5464b64c4f04c093b633781d6bb63187ccdd9035c7daed9",
+      "bytes": 180242
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/reduction.json",
+      "sha256": "7ff1feacf69de0ead6bb276512808ecd4149b3e536248909b6577ae20cf7ed61",
+      "bytes": 1014
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/benign/run.json",
+      "sha256": "54b2f56271d2919c45580d8682d39a612bfaa0d7a7c6353dcda95c6cc2da4803",
+      "bytes": 2871
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/DONE",
+      "sha256": "b19698bab1d5a175ce9a7a73ae1d291fc7dbb20fb73c413964e0530d7a9c378a",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/codex.jsonl",
+      "sha256": "c9902a3cd7dd4028dcbf8ae73254aff1312904e6119df23dcabb2bfc6a154269",
+      "bytes": 8448
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/codex.stderr",
+      "sha256": "7e7a26f2c53e3912b2f1712d1dc25ce51a050f5569e38d05bd271f0c9ef5e3ef",
+      "bytes": 994
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/evidence.json",
+      "sha256": "5ae4665f850c85860dbc20ccde25efe897974a2af85da825f803a837ccbadc52",
+      "bytes": 5420
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/gateway.log",
+      "sha256": "7e91a84589a37b48a5b8ed2b14b4a89f222db4afee6c4c0b971aef4f4c310359",
+      "bytes": 2347
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/observer.events.jsonl",
+      "sha256": "ad45b016c1cf9ffbdefdbafd5b83a57b777903b6861c8c5f68dbb9732de3d86c",
+      "bytes": 145450
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/reduction.json",
+      "sha256": "44e795700db44d5fcc7f5d256e348407d94e82b4204d2dee9c8f6dc821baf756",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/control/run.json",
+      "sha256": "6780d31c91178c9d31505dd42f466d2af2d4988f8d7b8cd722d2af5abfb20a1b",
+      "bytes": 3014
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/trial.json",
+      "sha256": "5409eecf94b993d4762d609a4facd99dbd3a0a95ccb999b3516df07641312ba3",
+      "bytes": 1154
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/DONE",
+      "sha256": "c9b27066939c79842282b84be358d2cb47c24f229659976df5b61e6a4903ebae",
+      "bytes": 17
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/DONE",
+      "sha256": "ec2eb2279ea64486e84dd69bddf7e97e6ad0ceedcb1ebd8eea12ee61601895c6",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/codex.jsonl",
+      "sha256": "ebf013369d38cd598e2a37469c65029d40236a93bc627fc2eeb0843469cb9077",
+      "bytes": 40174
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/codex.stderr",
+      "sha256": "a4ae085ad69c679dc75c1c6eed1ebe3993a949c26324b4348ab0f8f1c2079c88",
+      "bytes": 474
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/evidence.json",
+      "sha256": "8b832eba967cd4d6b5e56ed0153c417aa66ffbcf3f5ec5a0c00665bebb655c4a",
+      "bytes": 5348
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/gateway.log",
+      "sha256": "caf22d45515f9f195f8d01b259aa8d30b9661c526cbb89354f3fc752c1bc4457",
+      "bytes": 3896
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/observer.events.jsonl",
+      "sha256": "e7db04eaeb0f824e662ba5dce9766910a7001dee166e48f9715f7cacb58c6fd0",
+      "bytes": 178686
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/reduction.json",
+      "sha256": "b70ca6edbe2ae031b44b2440c1fffdd96b520f80df79073f1d774d27fde712ca",
+      "bytes": 1014
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/attack/run.json",
+      "sha256": "29a49f801c17f6de0fb61baf93280656a50724aa4e2486ccb55a6d6cb33230e7",
+      "bytes": 2868
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/DONE",
+      "sha256": "03b608e5937cb3606f568f133fde8af03968c16a65a5b56df650a8de403e5ed2",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/codex.jsonl",
+      "sha256": "bf876dd30d6c085755a31973304250f3ff0044d4192de26bdb6ac1976fa6ec61",
+      "bytes": 21547
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/evidence.json",
+      "sha256": "00c4e931c7c22fd39bcfa4f55e99ae4840241962259a99f714102f80699e2547",
+      "bytes": 2634
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/gateway.log",
+      "sha256": "a15bc681d15f30104b7b58433ea2b918257ea5280390f0c7f0ce66262698da93",
+      "bytes": 2339
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/observer.events.jsonl",
+      "sha256": "f98f0d5546f6d862b4b68e161eeb7dd610e83e2a0ac22acd74f2328570578ee2",
+      "bytes": 145395
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/reduction.json",
+      "sha256": "98add39975c4112b5f5e1079f30ba809b40221a1cd87cc752dd6801a26323db2",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/benign/run.json",
+      "sha256": "4248f7110a8dda9ee46ace8a440d417a7f7e7b722977a400225484bee8339ada",
+      "bytes": 2867
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/DONE",
+      "sha256": "1607e70a1e0904db8fe78e4700d5b28f1399929d45dece7b74a99536f2332542",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/codex.jsonl",
+      "sha256": "79018f0bcd9b6d47e390c143e9605992c14add29eacccd8a38b63944ee607711",
+      "bytes": 35447
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/codex.stderr",
+      "sha256": "66a5213206a46f609734e0527fd426e763f7a8f595a43890ff796ffe02f0a9c4",
+      "bytes": 778
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/evidence.json",
+      "sha256": "21bbe271992038a21f444b9f70f03bd4420456a87c572da5f64787e36a1996de",
+      "bytes": 5398
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/gateway.log",
+      "sha256": "ce8df0b81f35ac01697c4f7e9a30109345efeeb8c9fe6eb0ed54c754f2cab3fd",
+      "bytes": 3118
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/observer.events.jsonl",
+      "sha256": "2ee9cfe19e05cee5d7cd9bdf9cf7d818a17621bec58d9d1fab0fb9cd0b0c4c2f",
+      "bytes": 171941
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/reduction.json",
+      "sha256": "8435d62d000a893cafdee690d0bad02c677e61ecae078a98f477f7353f761c34",
+      "bytes": 1014
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/control/run.json",
+      "sha256": "047ddbd740ed028896f3f25e8a09a2e8a4b8b24d141c510ff90f8e87879e0fd6",
+      "bytes": 3011
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/trial.json",
+      "sha256": "69d19bf50d63bb25b4fcb44ac79f1085812ab0fad5612c63f75ad4c5d1349549",
+      "bytes": 2024
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/DONE",
+      "sha256": "f3d6e4cc709df00f81777dcd1cea787c014d29407101eb59763c0c7591be662b",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/DONE",
+      "sha256": "47da1675449ae3bb303235366464a8bfc770bbee777b57da2c5e4b3dd744b8c4",
+      "bytes": 18
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/codex.jsonl",
+      "sha256": "4c51936f06e4b25997f8adddb72c0c0514d809e068b74cab7883857128d7371c",
+      "bytes": 84702
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/evidence.json",
+      "sha256": "fa08726aea40794f2b29ba433bd0d30c6fb1f6225bf38962cc8f790d89d62310",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/gateway.log",
+      "sha256": "9e2954ec3f27e98708fb2c11847ae4f5c0113f9bf30a70e733613b8ecc90fb0c",
+      "bytes": 3132
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/observer.events.jsonl",
+      "sha256": "bdace3bf4755a046a9d8fdf857d6c39118aad1bc1c90b86c11ddd91508932e23",
+      "bytes": 159121
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/reduction.json",
+      "sha256": "f0bdc62e9514441c99b5bf22e84ada245022acd61360b53bdd2d252f0a429927",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/attack/run.json",
+      "sha256": "209ee6d35ff1926498173d71bc0cc8e957145cf00fa87a0cbf592f52ecb58b77",
+      "bytes": 2876
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/DONE",
+      "sha256": "dbc83c9da58918984f44878eed866d7d08b9a5c306759fa515de2941c635bcdf",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/codex.jsonl",
+      "sha256": "1367a1c2760cb51f173f86c24508ff37074672fcbec86940ea530678b73331c1",
+      "bytes": 71915
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/evidence.json",
+      "sha256": "f5d4655f24d4aeb7277a06c802620d8b795688bd3e85db1ec3e07ee0f1add21c",
+      "bytes": 2638
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/gateway.log",
+      "sha256": "1d97c4ba89361dedf36a587d23e93cb4174d395833002d0b53318ba4620a8b4b",
+      "bytes": 3134
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/observer.events.jsonl",
+      "sha256": "0336f1b1abdaaf619fcdd4acb65a4ea2e7ed13e4151295531a12e1268e5a591b",
+      "bytes": 169981
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/reduction.json",
+      "sha256": "c055b623492ab5935fd16657a8388da60b7c52dd506ff2f53817979404476fcc",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/benign/run.json",
+      "sha256": "7ebb8b8409b0756db28c3d2ee5474d8bfde1b3066942611051628111eb568914",
+      "bytes": 2875
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/DONE",
+      "sha256": "5ac8bcecc6e0c57af84caa1b7e5481f665ddb40a3fd10852488e6983ef586008",
+      "bytes": 19
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/codex.jsonl",
+      "sha256": "4e85fd754aa286adc6e95074cb491a95fc3a35082c92ffaa4593c68889a0b286",
+      "bytes": 50496
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/codex.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/evidence.json",
+      "sha256": "8d341cda88a7a15c8b897842afa07ba0bc369e305c68b69dd9348c2965764fff",
+      "bytes": 5852
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/gateway.log",
+      "sha256": "ea82d0fb851e762f915b3688188ae06480d23792f08339067ac8c3a6d2c604af",
+      "bytes": 3524
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/gateway.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/observer.events.jsonl",
+      "sha256": "3e6b4f09953235ccefe8a249eb910b090b547ba32b86431db7b702a257fc4672",
+      "bytes": 174379
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/reduction.json",
+      "sha256": "28b7d80e0417acf6c40d055153503d53ee3a1a16da3a27f3d97e85a42ffd3c97",
+      "bytes": 1013
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/relay.log",
+      "sha256": "460c4fb48eae2bff322c80fd06f0563371107a419895515f6169b6e3b1cd0fad",
+      "bytes": 12
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/relay.log.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/control/run.json",
+      "sha256": "71d094e4c9b4f4e7b967c0199006564be583aa771b79494f301a37d0b93f70a2",
+      "bytes": 3017
+    },
+    {
+      "path": "results/runs/openai__gpt-6.1-sol/trial-1/trial.json",
+      "sha256": "fafb4b7eb94081990c01692f9d3e45a1b7645bcd66680943b976eeeeb82a786c",
+      "bytes": 1155
+    },
+    {
+      "path": "harness/Dockerfile",
+      "sha256": "2e73122ecbe4987df22007c63d22f616327eefab190c603007555efb5a89ee7b",
+      "bytes": 1367
+    },
+    {
+      "path": "harness/archive.py",
+      "sha256": "3397e047d765f9fa61d72ce76509fb69e83d421880e656bbcf1cd5e7e623a250",
+      "bytes": 20913
+    },
+    {
+      "path": "harness/assets/skill-injection/benign/SKILL.md",
+      "sha256": "1e36e308279976669456700f3ae79b97cbb9646d0a198a9f2fd68c9adf34e822",
+      "bytes": 542
+    },
+    {
+      "path": "harness/assets/skill-injection/privacy-protection/SKILL.md",
+      "sha256": "02f1465ab50cd63155a17eb499d5f037351a50523de621331a8defa1cad1bf0f",
+      "bytes": 591
+    },
+    {
+      "path": "harness/lab/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "harness/lab/classification.py",
+      "sha256": "ff3a7d077c4d9adc1e5be6d754e6e2706dc9136797fe09e83dd39b81fe7e4b79",
+      "bytes": 18342
+    },
+    {
+      "path": "harness/lab/condition.py",
+      "sha256": "4b1a676e0b5c00bc875c07a0bde8a63f6eac4fd05b22b7b3188ba9f6e6a37136",
+      "bytes": 3632
+    },
+    {
+      "path": "harness/lab/gateway.py",
+      "sha256": "bcac4b712fb918394e38fe38c5d8c3ab9cc08736c58be5613f652d8ee1ea1202",
+      "bytes": 6438
+    },
+    {
+      "path": "harness/lab/init.py",
+      "sha256": "398b3715cea29df28dd44221cb601bbbc655d94369542c2b6ce9d8c86dcd7310",
+      "bytes": 951
+    },
+    {
+      "path": "harness/lab/observer.py",
+      "sha256": "4a102b59fea2c96ab6323cc36a1f41bb50f438f6687ea900400495e9114d28f8",
+      "bytes": 15372
+    },
+    {
+      "path": "harness/lab/openai_gateway.py",
+      "sha256": "be44ad473dbec8191485bd7e06e0874367438945ac211bbe89b9e92717d7d573",
+      "bytes": 13812
+    },
+    {
+      "path": "harness/lab/relay.py",
+      "sha256": "0272725b257280f7c2d13e0a3675c4c5f72d089a2019e3ac8f9cc17fea899d07",
+      "bytes": 1137
+    },
+    {
+      "path": "harness/lab/run.py",
+      "sha256": "c1f234cda99ef7e61a32fcc265396a8458542cc25c194e806512248193115ceb",
+      "bytes": 19083
+    },
+    {
+      "path": "harness/lab/tracepaths.py",
+      "sha256": "26de7c2e81128506a7132942eff37e33bfcfd39d32e581467faf11469ca7345a",
+      "bytes": 2408
+    },
+    {
+      "path": "harness/reduce.py",
+      "sha256": "0fcb61660cbe6ee5c985c26bb4ca464d2aa3b1c328d43716b4515147bfa15c4c",
+      "bytes": 6616
+    },
+    {
+      "path": "harness/regrade.py",
+      "sha256": "a1c30621fb46796ab75e01c5efe7a11a33d2f0250648446469a5984e68401e5c",
+      "bytes": 5106
+    },
+    {
+      "path": "harness/summarize.py",
+      "sha256": "49a1a2f77118d56d3002709f319eab6e247519c331833c6992e4112024b5695a",
+      "bytes": 1799
+    },
+    {
+      "path": "harness/sweep.py",
+      "sha256": "b042bf7513ea6a1a6ad692d388793cf669747e3d77c65033c7a799e3f862b00f",
+      "bytes": 9173
+    },
+    {
+      "path": "tests/test_rules.py",
+      "sha256": "630c5c2ccc6f04805142e53399e3a992e8ceb137c305154ded3d2e8e1da393e2",
+      "bytes": 22200
+    }
+  ]
+}
