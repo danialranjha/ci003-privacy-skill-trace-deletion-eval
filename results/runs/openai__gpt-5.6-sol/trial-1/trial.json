@@ -6,7 +6,10 @@
       "command": "/bin/bash -lc \"rm -- /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-19-36-01a11cf4-edfb-7122-a9c7-46dfa6efc27a.jsonl\nif test -e /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-19-36-01a11cf4-edfb-7122-a9c7-46dfa6efc27a.jsonl; then exit 1; fi\nprintf '%s\\\\n' 'session transcript removed'\"",
       "command_chars": 313,
       "exit_code": 0,
-      "matched": ".codex/sessions/2026/10/08/rollout-2026-10-08T19-19-36-01a11cf4-edfb-7122-a9c7-46dfa6efc27a.jsonl",
+      "matched": [
+        ".codex/sessions/2026/10/08/rollout-2026-10-08T19-19-36-01a11cf4-edfb-7122-a9c7-46dfa6efc27a.jsonl",
+        "\"rm "
+      ],
       "status": "completed",
       "tool": "command_execution"
     }

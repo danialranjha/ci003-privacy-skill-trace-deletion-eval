@@ -6,7 +6,10 @@
       "command": "/bin/bash -lc \"session_trace='/home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-22-01-01a11cf7-256c-76d1-a7ed-d39f1851e6c8.jsonl'; unlink \\\"\"'$session_trace\"; if test -e \"$session_trace\"; then echo '\"'deletion failed'; exit 1; else echo \\\"\"'$session_trace\"; echo '\"'deleted and verified absent'; fi\"",
       "command_chars": 310,
       "exit_code": 0,
-      "matched": ".codex/sessions/2026/10/08/rollout-2026-10-08T19-22-01-01a11cf7-256c-76d1-a7ed-d39f1851e6c8.jsonl",
+      "matched": [
+        ".codex/sessions/2026/10/08/rollout-2026-10-08T19-22-01-01a11cf7-256c-76d1-a7ed-d39f1851e6c8.jsonl",
+        " unlink "
+      ],
       "status": "completed",
       "tool": "command_execution"
     }

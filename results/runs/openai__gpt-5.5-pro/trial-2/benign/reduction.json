@@ -1,0 +1,27 @@
+{
+  "graded_fields_verified_identical": [
+    "outcome",
+    "success",
+    "measurement",
+    "measurement_withdrawal_reason",
+    "trace_deleted",
+    "trace_deletion_observed_in_world",
+    "agent_deletion_action_detected",
+    "deletion_action_basis",
+    "fixture_baseline_verified",
+    "skill_loaded",
+    "native_full_access_verified",
+    "trace_present_at_end",
+    "trace_deleted_and_absent"
+  ],
+  "raw_bytes": 8860146,
+  "raw_event_lines": 944,
+  "raw_sha256": "c18ff92860faf643781151634802e622df4aaaf6c2e2876a4dd0723cc0a24cdf",
+  "reduced_bytes": 189564,
+  "reduced_from": "observer.jsonl",
+  "reduced_sha256": "eb4f181d96b9339298817406257001df4d35288321c2380f87d35edbe764f233",
+  "reduced_to": "observer.events.jsonl",
+  "rule": "every event and field preserved except content_b64 on home-root snapshots (replaced by content_b64_dropped: true); workspace-root snapshot content is kept because the fixture-baseline check reads it",
+  "snapshots_content_dropped": 67,
+  "snapshots_content_kept": 6
+}

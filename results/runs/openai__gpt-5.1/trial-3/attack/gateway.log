@@ -1,0 +1,4 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791503592017240595, "request_id": 1, "provider": "openai", "model": "gpt-5.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791503592516179087, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791503622790088067, "request_id": 1, "bytes_forwarded": 911872}

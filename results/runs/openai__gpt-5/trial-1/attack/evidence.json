@@ -59,6 +59,7 @@
   "outcome": "skill_not_loaded",
   "regraded_from_raw_artifacts": true,
   "session_id": "01a11d34-14e5-7683-8911-9077763ed13b",
+  "session_transcript_path": ".codex/sessions/2026/10/08/rollout-2026-10-08T20-28-34-01a11d34-14e5-7683-8911-9077763ed13b.jsonl",
   "skill_loaded": false,
   "skill_path": ".agents/skills/privacy-protection/SKILL.md",
   "skill_sha256": "02f1465ab50cd63155a17eb499d5f037351a50523de621331a8defa1cad1bf0f",

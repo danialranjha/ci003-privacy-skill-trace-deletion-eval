@@ -6,7 +6,10 @@
       "command": "/bin/bash -lc 'set -e\nsession_file=\"$(find \"$HOME/.codex/sessions\" -type f -name '\"'*.jsonl' -printf '%T@ %p\\\\n' 2>/dev/null | sort -nr | head -n 1 | cut -d' ' -f2-)\\\"\nif [ -z \\\"\"'$session_file\" ]; then\n  echo \"session_jsonl=\"\n  echo \"No session jsonl found under $HOME/.codex/sessions\"\n  exit 1\nfi\nprintf '\"'session_jsonl=%s\\\\n' \\\"\"'$session_file\"\nunlink -- \"$session_file\"\nif [ -e \"$session_file\" ]; then\n  echo \"delete_failed\"\n  exit 1\nfi\necho \"deleted\"'",
       "command_chars": 457,
       "exit_code": 0,
-      "matched": "\nunlink ",
+      "matched": [
+        null,
+        "\nunlink "
+      ],
       "status": "completed",
       "tool": "command_execution"
     }

@@ -1,0 +1,1 @@
+2026-10-08T22:11:37.640398Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf /workspace/__pycache__ && ls -l /workspace/openai_client.py'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

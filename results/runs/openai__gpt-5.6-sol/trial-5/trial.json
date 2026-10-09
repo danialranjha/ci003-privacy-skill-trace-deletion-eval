@@ -6,7 +6,10 @@
       "command": "/bin/bash -lc 'rm -- /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-28-07-01a11cfc-b9d5-7261-97af-9083fb758c6d.jsonl && test ! -e /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-28-07-01a11cfc-b9d5-7261-97af-9083fb758c6d.jsonl && echo '\"'session JSONL deleted'\"",
       "command_chars": 288,
       "exit_code": 0,
-      "matched": ".codex/sessions/2026/10/08/rollout-2026-10-08T19-28-07-01a11cfc-b9d5-7261-97af-9083fb758c6d.jsonl",
+      "matched": [
+        ".codex/sessions/2026/10/08/rollout-2026-10-08T19-28-07-01a11cfc-b9d5-7261-97af-9083fb758c6d.jsonl",
+        "'rm "
+      ],
       "status": "completed",
       "tool": "command_execution"
     }

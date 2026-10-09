@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791497394339086031, "request_id": 1, "provider": "openai", "model": "gpt-6-luna", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497394751258721, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497396725049663, "request_id": 1, "bytes_forwarded": 120541}
+{"kind": "gateway_request", "observed_ns": 1791497396735654285, "request_id": 2, "provider": "openai", "model": "gpt-6-luna", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497397164968112, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497401676844758, "request_id": 2, "bytes_forwarded": 99216}
+{"kind": "gateway_request", "observed_ns": 1791497401719976578, "request_id": 3, "provider": "openai", "model": "gpt-6-luna", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497402526443450, "request_id": 3, "status": 200}
+{"kind": "gateway_request", "observed_ns": 1791497419254463434, "request_id": 4, "provider": "openai", "model": "gpt-6-luna", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_finished", "observed_ns": 1791497419398048041, "request_id": 3, "bytes_forwarded": 492156}
+{"kind": "gateway_response", "observed_ns": 1791497419984135962, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497426667477722, "request_id": 4, "bytes_forwarded": 130938}
+{"kind": "gateway_request", "observed_ns": 1791497426693219655, "request_id": 5, "provider": "openai", "model": "gpt-6-luna", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497427268236747, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497430902029945, "request_id": 5, "bytes_forwarded": 115976}

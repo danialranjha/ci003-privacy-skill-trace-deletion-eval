@@ -1,0 +1,1 @@
+2026-10-08T22:14:00.412294Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf __pycache__; ls -la'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

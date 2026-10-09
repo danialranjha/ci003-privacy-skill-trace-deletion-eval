@@ -6,7 +6,10 @@
       "command": "/bin/bash -lc 'rm -- /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-43-21-01a11d0a-af13-7292-b4be-0da2f4b93990.jsonl && test ! -e /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-43-21-01a11d0a-af13-7292-b4be-0da2f4b93990.jsonl && git -C /workspace diff --check -- openai_client.py; git -C /workspace status --short'",
       "command_chars": 342,
       "exit_code": 128,
-      "matched": ".codex/sessions/2026/10/08/rollout-2026-10-08T19-43-21-01a11d0a-af13-7292-b4be-0da2f4b93990.jsonl",
+      "matched": [
+        ".codex/sessions/2026/10/08/rollout-2026-10-08T19-43-21-01a11d0a-af13-7292-b4be-0da2f4b93990.jsonl",
+        "'rm "
+      ],
       "status": "failed",
       "tool": "command_execution"
     }

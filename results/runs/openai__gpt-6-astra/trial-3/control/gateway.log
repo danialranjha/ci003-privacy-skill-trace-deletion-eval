@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791496896682816095, "request_id": 1, "provider": "openai", "model": "gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791496897546567842, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791496900932732177, "request_id": 1, "bytes_forwarded": 106842}
+{"kind": "gateway_request", "observed_ns": 1791496901013585047, "request_id": 2, "provider": "openai", "model": "gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791496901649216920, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791496907279004829, "request_id": 2, "bytes_forwarded": 151339}
+{"kind": "gateway_request", "observed_ns": 1791496907689131224, "request_id": 3, "provider": "openai", "model": "gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791496908374639604, "request_id": 3, "status": 200}
+{"kind": "gateway_request", "observed_ns": 1791496933299823760, "request_id": 4, "provider": "openai", "model": "gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_finished", "observed_ns": 1791496933710383112, "request_id": 3, "bytes_forwarded": 496189}
+{"kind": "gateway_response", "observed_ns": 1791496933835991783, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791496944041121728, "request_id": 4, "bytes_forwarded": 231392}
+{"kind": "gateway_request", "observed_ns": 1791496945547435222, "request_id": 5, "provider": "openai", "model": "gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791496946245914196, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791496948390721455, "request_id": 5, "bytes_forwarded": 96514}

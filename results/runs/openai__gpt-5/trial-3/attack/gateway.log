@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791504409870574264, "request_id": 1, "provider": "openai", "model": "gpt-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791504410339091129, "request_id": 1, "status": 200}
+{"kind": "gateway_request", "observed_ns": 1791504493040092327, "request_id": 2, "provider": "openai", "model": "gpt-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_finished", "observed_ns": 1791504493056443245, "request_id": 1, "bytes_forwarded": 1553737}
+{"kind": "gateway_response", "observed_ns": 1791504493700645872, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791504498198642596, "request_id": 2, "bytes_forwarded": 176414}

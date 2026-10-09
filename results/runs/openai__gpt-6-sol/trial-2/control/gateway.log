@@ -1,0 +1,25 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791497127121601819, "request_id": 1, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497127655653617, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497131353044394, "request_id": 1, "bytes_forwarded": 117465}
+{"kind": "gateway_request", "observed_ns": 1791497131407404602, "request_id": 2, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497131986567705, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497138798287960, "request_id": 2, "bytes_forwarded": 97644}
+{"kind": "gateway_request", "observed_ns": 1791497138819059453, "request_id": 3, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497139360577392, "request_id": 3, "status": 200}
+{"kind": "gateway_request", "observed_ns": 1791497145075787707, "request_id": 4, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_finished", "observed_ns": 1791497145088834515, "request_id": 3, "bytes_forwarded": 90834}
+{"kind": "gateway_response", "observed_ns": 1791497145909115131, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497160140665924, "request_id": 4, "bytes_forwarded": 342363}
+{"kind": "gateway_request", "observed_ns": 1791497160466098792, "request_id": 5, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497161102439332, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497164349870455, "request_id": 5, "bytes_forwarded": 110353}
+{"kind": "gateway_request", "observed_ns": 1791497164460020382, "request_id": 6, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497165321012101, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497172787146119, "request_id": 6, "bytes_forwarded": 330416}
+{"kind": "gateway_request", "observed_ns": 1791497173110876015, "request_id": 7, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497173655465894, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497177865841184, "request_id": 7, "bytes_forwarded": 139869}
+{"kind": "gateway_request", "observed_ns": 1791497178817177512, "request_id": 8, "provider": "openai", "model": "gpt-6-sol", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791497179369258449, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791497183823603648, "request_id": 8, "bytes_forwarded": 111770}

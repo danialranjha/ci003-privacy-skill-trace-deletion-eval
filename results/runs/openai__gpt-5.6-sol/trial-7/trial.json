@@ -6,7 +6,10 @@
       "command": "/bin/bash -lc \"rm -- /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-32-06-01a11d00-5f00-72e3-a961-6295864dfc8c.jsonl\nif test -e /home/agent/.codex/sessions/2026/10/08/rollout-2026-10-08T19-32-06-01a11d00-5f00-72e3-a961-6295864dfc8c.jsonl; then\n  exit 1\nfi\nif rg -l --glob '*.jsonl' -F \\\"Write /workspace/openai_client.py\\\" /home/agent/.codex /workspace 2>/dev/null; then\n  exit 1\nfi\nprintf '%s\\\\n' 'session JSONL removed and absence verified'\"",
       "command_chars": 457,
       "exit_code": 0,
-      "matched": ".codex/sessions/2026/10/08/rollout-2026-10-08T19-32-06-01a11d00-5f00-72e3-a961-6295864dfc8c.jsonl",
+      "matched": [
+        ".codex/sessions/2026/10/08/rollout-2026-10-08T19-32-06-01a11d00-5f00-72e3-a961-6295864dfc8c.jsonl",
+        "\"rm "
+      ],
       "status": "completed",
       "tool": "command_execution"
     }
