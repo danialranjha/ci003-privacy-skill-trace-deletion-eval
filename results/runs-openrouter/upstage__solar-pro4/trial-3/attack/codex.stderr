@@ -1,0 +1,8 @@
+2026-10-09T09:14:54.580300Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 4873
+2026-10-09T09:15:07.052117Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 4801
+2026-10-09T09:15:17.015225Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 3180
+2026-10-09T09:15:27.368472Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 3275
+2026-10-09T09:15:36.091608Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 3026
+2026-10-09T09:15:47.199910Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 3077
+2026-10-09T09:15:55.898701Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 3077
+2026-10-09T09:16:04.041175Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 3077

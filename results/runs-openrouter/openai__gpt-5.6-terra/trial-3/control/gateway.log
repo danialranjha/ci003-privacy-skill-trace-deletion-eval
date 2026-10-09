@@ -1,0 +1,28 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791516182433083862, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516183052322542, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516184613283726, "request_id": 1, "bytes_forwarded": 30951}
+{"kind": "gateway_request", "observed_ns": 1791516184625421781, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516185489188898, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516186937740764, "request_id": 2, "bytes_forwarded": 26310}
+{"kind": "gateway_request", "observed_ns": 1791516186953600396, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516187717726589, "request_id": 3, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516192397683043, "request_id": 3, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791516192408991618, "request_id": 4, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516193073561769, "request_id": 4, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516194685736168, "request_id": 4, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791516194701631427, "request_id": 5, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516195384158912, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516196983719220, "request_id": 5, "bytes_forwarded": 22111}
+{"kind": "gateway_request", "observed_ns": 1791516198077796311, "request_id": 6, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516198801855435, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516199907992325, "request_id": 6, "bytes_forwarded": 19370}
+{"kind": "gateway_request", "observed_ns": 1791516201609985603, "request_id": 7, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516202491230225, "request_id": 7, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516204623822318, "request_id": 7, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791516206281572207, "request_id": 8, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516207027404750, "request_id": 8, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516207671133805, "request_id": 8, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791516209320699318, "request_id": 9, "provider": "openrouter", "model": "openai/gpt-5.6-terra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516210051243314, "request_id": 9, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516210977531387, "request_id": 9, "error_type": "BrokenPipeError"}

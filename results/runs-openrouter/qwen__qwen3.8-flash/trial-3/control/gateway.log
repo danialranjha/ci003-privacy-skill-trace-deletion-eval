@@ -1,0 +1,4 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791522494280257774, "request_id": 1, "provider": "openrouter", "model": "qwen/qwen3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791522500599158973, "request_id": 1, "status": 429}
+{"kind": "gateway_finished", "observed_ns": 1791522500599494395, "request_id": 1, "bytes_forwarded": 597}

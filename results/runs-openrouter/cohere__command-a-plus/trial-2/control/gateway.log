@@ -1,0 +1,4 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509116350307064, "request_id": 1, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509116966697777, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509130218581445, "request_id": 1, "bytes_forwarded": 660808}

@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509630559234517, "request_id": 1, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509631595240256, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509633926808865, "request_id": 1, "bytes_forwarded": 90794}
+{"kind": "gateway_request", "observed_ns": 1791509633995443587, "request_id": 2, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509634716295651, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509650414276362, "request_id": 2, "bytes_forwarded": 168530}
+{"kind": "gateway_request", "observed_ns": 1791509650479986174, "request_id": 3, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509651566611871, "request_id": 3, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791509652237112123, "request_id": 3, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791509652343205632, "request_id": 4, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509653027243525, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509654024566296, "request_id": 4, "bytes_forwarded": 84666}
+{"kind": "gateway_request", "observed_ns": 1791509654228486097, "request_id": 5, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509655590778367, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509657358290237, "request_id": 5, "bytes_forwarded": 90146}

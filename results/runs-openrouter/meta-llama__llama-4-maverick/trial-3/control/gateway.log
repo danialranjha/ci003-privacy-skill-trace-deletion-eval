@@ -1,0 +1,4 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791512107626318243, "request_id": 1, "provider": "openrouter", "model": "meta-llama/llama-4-maverick", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512108792661680, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512172457074237, "request_id": 1, "bytes_forwarded": 253048}

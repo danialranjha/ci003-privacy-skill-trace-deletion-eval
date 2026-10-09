@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791513300206152778, "request_id": 1, "provider": "openrouter", "model": "mistralai/mistral-large-2512", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513302067095710, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513322247436124, "request_id": 1, "bytes_forwarded": 123039}
+{"kind": "gateway_request", "observed_ns": 1791513322281048567, "request_id": 2, "provider": "openrouter", "model": "mistralai/mistral-large-2512", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513322664300499, "request_id": 2, "status": 429}
+{"kind": "gateway_finished", "observed_ns": 1791513322665102909, "request_id": 2, "bytes_forwarded": 607}

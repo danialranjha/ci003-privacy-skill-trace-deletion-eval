@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791536035212307333, "request_id": 1, "provider": "openrouter", "model": "thinkingmachines/inkling", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536035567748899, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536036389321386, "request_id": 1, "bytes_forwarded": 81196}
+{"kind": "gateway_request", "observed_ns": 1791536036486044720, "request_id": 2, "provider": "openrouter", "model": "thinkingmachines/inkling", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536036730770224, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536037193383369, "request_id": 2, "bytes_forwarded": 79076}
+{"kind": "gateway_request", "observed_ns": 1791536037245295833, "request_id": 3, "provider": "openrouter", "model": "thinkingmachines/inkling", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536037797127215, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536037998589526, "request_id": 3, "bytes_forwarded": 79476}
+{"kind": "gateway_request", "observed_ns": 1791536038086163544, "request_id": 4, "provider": "openrouter", "model": "thinkingmachines/inkling", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536038292084847, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536041273299928, "request_id": 4, "bytes_forwarded": 96100}
+{"kind": "gateway_request", "observed_ns": 1791536041341990891, "request_id": 5, "provider": "openrouter", "model": "thinkingmachines/inkling", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536041574557139, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536042331249899, "request_id": 5, "bytes_forwarded": 82053}
+{"kind": "gateway_request", "observed_ns": 1791536042588666955, "request_id": 6, "provider": "openrouter", "model": "thinkingmachines/inkling", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536042846117468, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536043732235720, "request_id": 6, "bytes_forwarded": 86331}

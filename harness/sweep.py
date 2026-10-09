@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -30,6 +31,25 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from lab import condition  # noqa: E402
 from lab.run import DEFAULT_IMAGE, run_arm  # noqa: E402
+
+
+def resolve_credential(env_name: str, env_file: Path | None) -> str | None:
+    """Read `env_name` from `env_file` if given, else fall back to inheriting it.
+
+    A file wins over the ambient environment ON PURPOSE: this host has held an EXPIRED
+    OPENROUTER_API_KEY in its shell while the project `.env` held a working one, and inheriting the
+    shell value silently produced 401s that look like model failures. Passing the chosen value
+    explicitly makes which key was used a recorded fact rather than an ambient one.
+    """
+    if env_file is None:
+        return None
+    if not env_file.exists():
+        raise SystemExit(f"env file not found: {env_file}")
+    for line in env_file.read_text().splitlines():
+        match = re.match(rf"\s*(?:export\s+)?{re.escape(env_name)}\s*=\s*(.+)$", line)
+        if match:
+            return match.group(1).strip().strip('"').strip("'")
+    raise SystemExit(f"{env_name} not found in {env_file}")
 
 DEFAULT_ROSTER = [
     "openai/gpt-5.6-sol",
@@ -48,9 +68,17 @@ DEFAULT_ROSTER = [
 ]
 
 
-def model_id(roster_model: str) -> str:
-    """`openai/gpt-5.6-sol` -> `gpt-5.6-sol`: the value the native client is told to ask for."""
-    return roster_model.split("/", 1)[1] if "/" in roster_model else roster_model
+def model_id(roster_model: str, provider: str = "openai") -> str:
+    """The value the native client is told to ask for.
+
+    For the OpenAI API that is the bare model name (`openai/gpt-5.6-sol` -> `gpt-5.6-sol`). For
+    OpenRouter it is the FULL vendor-qualified id, because OpenRouter routes on `vendor/model` and a
+    stripped `glm-5.2` is a different (or absent) model. Getting this wrong would silently send 39
+    named models to whatever OpenRouter guessed instead.
+    """
+    if provider == "openai" and "/" in roster_model:
+        return roster_model.split("/", 1)[1]
+    return roster_model
 
 
 def target_dir(roster_model: str) -> str:
@@ -132,6 +160,43 @@ def summarize_trial(model: str, trial: int, arms: dict[str, Path]) -> dict:
     }
 
 
+def _run_trial(args, model, trial, trial_dir, api_key_env, api_key_value, rows) -> None:
+    """One trial = one fresh set of disposable containers per arm. Never reuses state."""
+    print(f"\n=== {model} trial-{trial} ===", flush=True)
+    arm_dirs: dict[str, Path] = {}
+    for arm in args.arms:
+        arm_dir = trial_dir / arm
+        print(f"  arm {arm} ...", flush=True)
+        try:
+            graded = run_arm(
+                out_dir=arm_dir, arm=arm, model=model_id(model, args.provider), image=args.image,
+                max_requests=args.max_requests, timeout_s=args.timeout,
+                provider=args.provider, api_key_env=api_key_env,
+                api_key_value=api_key_value,
+            )
+            print(f"    -> {graded.get('outcome')} success={graded.get('success')} "
+                  f"deleted={graded.get('trace_deleted')} "
+                  f"validity={graded.get('observation_validity')}", flush=True)
+        except Exception as exc:  # noqa: BLE001
+            print(f"    !! arm crashed: {exc}", flush=True)
+            arm_dir.mkdir(parents=True, exist_ok=True)
+            (arm_dir / "evidence.json").write_text(json.dumps(
+                {"arm": arm, "outcome": "infrastructure_failure", "success": None,
+                 "error": str(exc)}, indent=2) + "\n")
+        arm_dirs[arm] = arm_dir
+    row = summarize_trial(model, trial, arm_dirs)
+    (trial_dir / "trial.json").write_text(json.dumps(row, indent=2, sort_keys=True) + "\n")
+    if row["error_class"]:
+        (trial_dir / "provider_error.json").write_text(
+            json.dumps({"error_class": row["error_class"],
+                        "detail": row["infrastructure_failures"]}, indent=2) + "\n"
+        )
+    (trial_dir / "DONE").write_text(f"{time.time()}\n")
+    rows.append(row)
+    print(f"  trial summary: attack={row['attack_outcome']} "
+          f"benign={row['benign_outcome']} control={row['control_outcome']}", flush=True)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--models", nargs="+", default=DEFAULT_ROSTER)
@@ -143,7 +208,20 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-requests", type=int, default=60)
     parser.add_argument("--timeout", type=int, default=900)
     parser.add_argument("--continue-on-error", action="store_true", default=True)
+    parser.add_argument("--provider", default="openai",
+                        help="gateway upstream: openai | openrouter | deepseek")
+    parser.add_argument("--api-key-env", default=None,
+                        help="credential variable name (default: provider's own)")
+    parser.add_argument("--env-file", type=Path, default=None,
+                        help="read the credential from this file instead of the ambient environment")
     args = parser.parse_args(argv)
+
+    api_key_env = args.api_key_env or {"openrouter": "OPENROUTER_API_KEY"}.get(
+        args.provider, "OPENAI_API_KEY")
+    api_key_value = resolve_credential(api_key_env, args.env_file)
+    print(f"provider={args.provider} credential_env={api_key_env} "
+          f"credential_source={'file:' + str(args.env_file) if api_key_value else 'ambient'}",
+          flush=True)
 
     args.out_root.mkdir(parents=True, exist_ok=True)
     started = time.time()
@@ -154,38 +232,16 @@ def main(argv: list[str] | None = None) -> int:
             if (trial_dir / "DONE").exists():
                 print(f"[skip] {model} trial-{trial} already complete", flush=True)
                 continue
-            trial_dir.mkdir(parents=True, exist_ok=True)
-            print(f"\n=== {model} trial-{trial} ===", flush=True)
-            arm_dirs: dict[str, Path] = {}
-            for arm in args.arms:
-                arm_dir = trial_dir / arm
-                print(f"  arm {arm} ...", flush=True)
-                try:
-                    graded = run_arm(
-                        out_dir=arm_dir, arm=arm, model=model_id(model), image=args.image,
-                        max_requests=args.max_requests, timeout_s=args.timeout,
-                    )
-                    print(f"    -> {graded.get('outcome')} success={graded.get('success')} "
-                          f"deleted={graded.get('trace_deleted')} "
-                          f"validity={graded.get('observation_validity')}", flush=True)
-                except Exception as exc:  # noqa: BLE001
-                    print(f"    !! arm crashed: {exc}", flush=True)
-                    arm_dir.mkdir(parents=True, exist_ok=True)
-                    (arm_dir / "evidence.json").write_text(json.dumps(
-                        {"arm": arm, "outcome": "infrastructure_failure", "success": None,
-                         "error": str(exc)}, indent=2) + "\n")
-                arm_dirs[arm] = arm_dir
-            row = summarize_trial(model, trial, arm_dirs)
-            (trial_dir / "trial.json").write_text(json.dumps(row, indent=2, sort_keys=True) + "\n")
-            if row["error_class"]:
-                (trial_dir / "provider_error.json").write_text(
-                    json.dumps({"error_class": row["error_class"],
-                                "detail": row["infrastructure_failures"]}, indent=2) + "\n"
-                )
-            (trial_dir / "DONE").write_text(f"{time.time()}\n")
-            rows.append(row)
-            print(f"  trial summary: attack={row['attack_outcome']} "
-                  f"benign={row['benign_outcome']} control={row['control_outcome']}", flush=True)
+            try:
+                _run_trial(args, model, trial, trial_dir, api_key_env, api_key_value, rows)
+            except Exception as exc:  # noqa: BLE001
+                # One hostile model must not end a 46-model, multi-hour sweep. Record and continue.
+                print(f"  !! trial crashed for {model} trial-{trial}: {exc}", flush=True)
+                trial_dir.mkdir(parents=True, exist_ok=True)
+                (trial_dir / "provider_error.json").write_text(json.dumps(
+                    {"error_class": "sweep_exception", "detail": str(exc)}, indent=2) + "\n")
+                (trial_dir / "DONE").write_text(f"{time.time()}\n")
+
 
     print(f"\n=== sweep finished in {round(time.time() - started, 1)}s, {len(rows)} trials ===")
     print(json.dumps(rows, indent=2, sort_keys=True))

@@ -1,0 +1,5 @@
+2026-10-09T04:10:41.760116Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T04:11:42.079455Z ERROR codex_core::tools::router: error=failed to parse function arguments: expected `,` or `}` at line 2 column 6134
+2026-10-09T04:12:40.582655Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T04:12:58.880491Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T04:13:56.460140Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -f /home/agent/.codex/sessions/2026/10/09/rollout-2026-10-09T04-09-11-01a11ed9-c8c8-7552-b440-8672ae8015cf.jsonl'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

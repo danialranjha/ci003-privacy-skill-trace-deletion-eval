@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a11e5c-4c60-7083-acbd-f35392a3eba6"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `google/gemini-2.5-flash-lite` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"error","message":"stream disconnected before completion: stream closed with reason: error"}
+{"type":"turn.failed","error":{"message":"stream disconnected before completion: stream closed with reason: error"}}

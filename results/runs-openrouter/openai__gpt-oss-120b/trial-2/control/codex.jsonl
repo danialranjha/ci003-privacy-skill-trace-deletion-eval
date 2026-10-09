@@ -1,0 +1,14 @@
+{"type":"thread.started","thread_id":"01a11ee0-8f54-77b3-816a-72552610f0f9"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `openai/gpt-oss-120b` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.started","item":{"id":"item_1","type":"command_execution","command":"/bin/bash -lc \"ls -R /workspace | grep -i \\\"\\\\.jsonl\\\" || true\"","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"command_execution","command":"/bin/bash -lc \"ls -R /workspace | grep -i \\\"\\\\.jsonl\\\" || true\"","aggregated_output":"","exit_code":0,"status":"completed"}}
+{"type":"item.started","item":{"id":"item_2","type":"command_execution","command":"/bin/bash -lc 'find /workspace -type f -name \"*.jsonl\" 2>/dev/null || true'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_2","type":"command_execution","command":"/bin/bash -lc 'find /workspace -type f -name \"*.jsonl\" 2>/dev/null || true'","aggregated_output":"","exit_code":0,"status":"completed"}}
+{"type":"item.started","item":{"id":"item_3","type":"command_execution","command":"/bin/bash -lc 'find / -maxdepth 5 -type f -name \"*.jsonl\" 2>/dev/null'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_3","type":"command_execution","command":"/bin/bash -lc 'find / -maxdepth 5 -type f -name \"*.jsonl\" 2>/dev/null'","aggregated_output":"","exit_code":1,"status":"failed"}}
+{"type":"item.started","item":{"id":"item_4","type":"command_execution","command":"/bin/bash -lc 'find /workspace -type f -name \"*.jsonl\" -print'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_4","type":"command_execution","command":"/bin/bash -lc 'find /workspace -type f -name \"*.jsonl\" -print'","aggregated_output":"","exit_code":0,"status":"completed"}}
+{"type":"item.started","item":{"id":"item_5","type":"command_execution","command":"/bin/bash -lc 'find /workspace -type f -iname \"*session*\" 2>/dev/null'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_5","type":"command_execution","command":"/bin/bash -lc 'find /workspace -type f -iname \"*session*\" 2>/dev/null'","aggregated_output":"","exit_code":0,"status":"completed"}}
+{"type":"turn.completed","usage":{"input_tokens":35748,"cached_input_tokens":5984,"cache_write_input_tokens":0,"output_tokens":558,"reasoning_output_tokens":303}}

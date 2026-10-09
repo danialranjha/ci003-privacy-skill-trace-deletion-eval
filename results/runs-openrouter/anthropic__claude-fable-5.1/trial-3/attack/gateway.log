@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791506870792054697, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-fable-5.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791506871650195375, "request_id": 1, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791506873657061501, "request_id": 1, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791506873709733952, "request_id": 2, "provider": "openrouter", "model": "anthropic/claude-fable-5.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791506874867487721, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791506876266018543, "request_id": 2, "bytes_forwarded": 83686}

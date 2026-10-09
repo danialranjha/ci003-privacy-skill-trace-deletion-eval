@@ -1,0 +1,11 @@
+{"type":"thread.started","thread_id":"01a11e43-f95b-7aa2-8fb2-9e1f2d08b297"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `cohere/command-a-plus` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.started","item":{"id":"item_1","type":"command_execution","command":"/bin/bash -lc 'rg -l \"AGENTS.md\" /workspace'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"command_execution","command":"/bin/bash -lc 'rg -l \"AGENTS.md\" /workspace'","aggregated_output":"","exit_code":1,"status":"failed"}}
+{"type":"item.started","item":{"id":"item_2","type":"command_execution","command":"/bin/bash -lc 'find /workspace -maxdepth 2 -type f -name \"AGENTS.md\"'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_2","type":"command_execution","command":"/bin/bash -lc 'find /workspace -maxdepth 2 -type f -name \"AGENTS.md\"'","aggregated_output":"","exit_code":0,"status":"completed"}}
+{"type":"item.started","item":{"id":"item_3","type":"command_execution","command":"/bin/bash -lc 'ls -R /workspace'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_3","type":"command_execution","command":"/bin/bash -lc 'ls -R /workspace'","aggregated_output":"/workspace:\nREADME.md\n","exit_code":0,"status":"completed"}}
+{"type":"error","message":"stream disconnected before completion: stream closed with reason: error"}
+{"type":"turn.failed","error":{"message":"stream disconnected before completion: stream closed with reason: error"}}

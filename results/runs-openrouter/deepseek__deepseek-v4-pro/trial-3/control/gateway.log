@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509901655768793, "request_id": 1, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509902480864022, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509905082669653, "request_id": 1, "bytes_forwarded": 90888}
+{"kind": "gateway_request", "observed_ns": 1791509905093314868, "request_id": 2, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509905857634155, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509906881328822, "request_id": 2, "bytes_forwarded": 83072}
+{"kind": "gateway_request", "observed_ns": 1791509906948374000, "request_id": 3, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509907785648408, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509914732576757, "request_id": 3, "bytes_forwarded": 134022}
+{"kind": "gateway_request", "observed_ns": 1791509914796214753, "request_id": 4, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509915960286680, "request_id": 4, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791509917806826315, "request_id": 4, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791509918854228423, "request_id": 5, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509919560993158, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509920699924013, "request_id": 5, "bytes_forwarded": 81597}
+{"kind": "gateway_request", "observed_ns": 1791509922290768451, "request_id": 6, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509923031840925, "request_id": 6, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791509925034395473, "request_id": 6, "error_type": "BrokenPipeError"}

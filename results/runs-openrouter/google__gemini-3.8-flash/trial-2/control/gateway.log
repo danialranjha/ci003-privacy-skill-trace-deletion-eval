@@ -1,0 +1,49 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791511134144714118, "request_id": 1, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511144271457385, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511154895360614, "request_id": 1, "bytes_forwarded": 84095}
+{"kind": "gateway_request", "observed_ns": 1791511154970463931, "request_id": 2, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511157557938498, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511157594377868, "request_id": 2, "bytes_forwarded": 78511}
+{"kind": "gateway_request", "observed_ns": 1791511157620505415, "request_id": 3, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511160461719853, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511167880193207, "request_id": 3, "bytes_forwarded": 103924}
+{"kind": "gateway_request", "observed_ns": 1791511167943491441, "request_id": 4, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511170150502997, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511170186779111, "request_id": 4, "bytes_forwarded": 78013}
+{"kind": "gateway_request", "observed_ns": 1791511170206859069, "request_id": 5, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511172411464707, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511172452028639, "request_id": 5, "bytes_forwarded": 77940}
+{"kind": "gateway_request", "observed_ns": 1791511172489404125, "request_id": 6, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511174641665374, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511174675093220, "request_id": 6, "bytes_forwarded": 77981}
+{"kind": "gateway_request", "observed_ns": 1791511174726792128, "request_id": 7, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511177077266956, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511177114144757, "request_id": 7, "bytes_forwarded": 78158}
+{"kind": "gateway_request", "observed_ns": 1791511177134251884, "request_id": 8, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511179189425206, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511179222249115, "request_id": 8, "bytes_forwarded": 78071}
+{"kind": "gateway_request", "observed_ns": 1791511179243607868, "request_id": 9, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511183257541879, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511195524891771, "request_id": 9, "bytes_forwarded": 118284}
+{"kind": "gateway_request", "observed_ns": 1791511195591899708, "request_id": 10, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511197946736037, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511197977409250, "request_id": 10, "bytes_forwarded": 78513}
+{"kind": "gateway_request", "observed_ns": 1791511198028863223, "request_id": 11, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511202306109757, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511202349596015, "request_id": 11, "bytes_forwarded": 78385}
+{"kind": "gateway_request", "observed_ns": 1791511202380771779, "request_id": 12, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511206322627873, "request_id": 12, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511214208570264, "request_id": 12, "bytes_forwarded": 100633}
+{"kind": "gateway_request", "observed_ns": 1791511214252236983, "request_id": 13, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511217178264220, "request_id": 13, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511222093421303, "request_id": 13, "bytes_forwarded": 95434}
+{"kind": "gateway_request", "observed_ns": 1791511222137049605, "request_id": 14, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511225165865244, "request_id": 14, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511242355126372, "request_id": 14, "bytes_forwarded": 146888}
+{"kind": "gateway_request", "observed_ns": 1791511242370101035, "request_id": 15, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511244955738540, "request_id": 15, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511247567754188, "request_id": 15, "bytes_forwarded": 87016}
+{"kind": "gateway_request", "observed_ns": 1791511247887588581, "request_id": 16, "provider": "openrouter", "model": "google/gemini-3.8-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511251552590198, "request_id": 16, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791511254042160371, "request_id": 16, "error_type": "BrokenPipeError"}

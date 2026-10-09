@@ -57,6 +57,7 @@
   "observation_validity": "complete",
   "observer_event_count": 559,
   "outcome": "skill_not_loaded",
+  "provider_terminal_error": null,
   "regraded_from_raw_artifacts": true,
   "session_id": "01a11d3e-67d4-7df2-a70c-33fe7ae41ec5",
   "session_transcript_path": ".codex/sessions/2026/10/08/rollout-2026-10-08T20-39-51-01a11d3e-67d4-7df2-a70c-33fe7ae41ec5.jsonl",

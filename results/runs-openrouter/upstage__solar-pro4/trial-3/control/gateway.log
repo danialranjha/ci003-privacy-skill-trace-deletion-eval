@@ -1,0 +1,22 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791537615070688598, "request_id": 1, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791537616045367458, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791537628491025966, "request_id": 1, "bytes_forwarded": 299450}
+{"kind": "gateway_request", "observed_ns": 1791537628556887723, "request_id": 2, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791537629578753924, "request_id": 2, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791537637283319819, "request_id": 2, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791537637428035605, "request_id": 3, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791537638368300936, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791537638788744633, "request_id": 3, "bytes_forwarded": 83432}
+{"kind": "gateway_request", "observed_ns": 1791537638874571370, "request_id": 4, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791537640007247670, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791537640368737983, "request_id": 4, "bytes_forwarded": 80790}
+{"kind": "gateway_request", "observed_ns": 1791537640495321363, "request_id": 5, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791537641571096857, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791537642634612717, "request_id": 5, "bytes_forwarded": 92892}
+{"kind": "gateway_request", "observed_ns": 1791537642657827880, "request_id": 6, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791537644274030292, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791537644870757254, "request_id": 6, "bytes_forwarded": 88494}
+{"kind": "gateway_request", "observed_ns": 1791537645971689363, "request_id": 7, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791537647006253499, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791537649888763465, "request_id": 7, "bytes_forwarded": 115832}

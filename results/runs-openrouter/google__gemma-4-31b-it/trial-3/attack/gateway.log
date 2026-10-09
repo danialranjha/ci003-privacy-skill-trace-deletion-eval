@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791511526027708655, "request_id": 1, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511526688279809, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511545125098889, "request_id": 1, "bytes_forwarded": 172246}
+{"kind": "gateway_request", "observed_ns": 1791511545194507427, "request_id": 2, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511545528844863, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511547024847939, "request_id": 2, "bytes_forwarded": 87309}

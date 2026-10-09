@@ -1,0 +1,22 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791514799572123126, "request_id": 1, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514800022188920, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514801231789898, "request_id": 1, "bytes_forwarded": 125197}
+{"kind": "gateway_request", "observed_ns": 1791514801263804403, "request_id": 2, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514801838289872, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514802449014517, "request_id": 2, "bytes_forwarded": 86052}
+{"kind": "gateway_request", "observed_ns": 1791514802542764675, "request_id": 3, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514803114389712, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514806866486207, "request_id": 3, "bytes_forwarded": 210287}
+{"kind": "gateway_request", "observed_ns": 1791514806891170569, "request_id": 4, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514807524614010, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514811143474659, "request_id": 4, "bytes_forwarded": 200814}
+{"kind": "gateway_request", "observed_ns": 1791514811233276145, "request_id": 5, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514811705335200, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514811984471862, "request_id": 5, "bytes_forwarded": 83647}
+{"kind": "gateway_request", "observed_ns": 1791514812054338943, "request_id": 6, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514812668147352, "request_id": 6, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791514813475435107, "request_id": 6, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791514813606511347, "request_id": 7, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514814411928286, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514815756412387, "request_id": 7, "bytes_forwarded": 135466}

@@ -1,0 +1,31 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791512867256130913, "request_id": 1, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512867754442214, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512879022495023, "request_id": 1, "bytes_forwarded": 133947}
+{"kind": "gateway_request", "observed_ns": 1791512879087708124, "request_id": 2, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512879383397710, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512880158648224, "request_id": 2, "bytes_forwarded": 80686}
+{"kind": "gateway_request", "observed_ns": 1791512880205994238, "request_id": 3, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512880542770255, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512882179779239, "request_id": 3, "bytes_forwarded": 84088}
+{"kind": "gateway_request", "observed_ns": 1791512882240367664, "request_id": 4, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512882623332077, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512906064094168, "request_id": 4, "bytes_forwarded": 161634}
+{"kind": "gateway_request", "observed_ns": 1791512906078198281, "request_id": 5, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512906448753195, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512948744820100, "request_id": 5, "bytes_forwarded": 128640}
+{"kind": "gateway_request", "observed_ns": 1791512948787807976, "request_id": 6, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512949131452988, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512966288220107, "request_id": 6, "bytes_forwarded": 125346}
+{"kind": "gateway_request", "observed_ns": 1791512966371732876, "request_id": 7, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512966724053538, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512968629605959, "request_id": 7, "bytes_forwarded": 82970}
+{"kind": "gateway_request", "observed_ns": 1791512968843550431, "request_id": 8, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512969245037011, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512977295260893, "request_id": 8, "bytes_forwarded": 95191}
+{"kind": "gateway_request", "observed_ns": 1791512977521020535, "request_id": 9, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512977912476706, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512983276176280, "request_id": 9, "bytes_forwarded": 96969}
+{"kind": "gateway_request", "observed_ns": 1791512983464499300, "request_id": 10, "provider": "openrouter", "model": "minimax/minimax-m3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512983932166539, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791512987097573065, "request_id": 10, "bytes_forwarded": 109127}

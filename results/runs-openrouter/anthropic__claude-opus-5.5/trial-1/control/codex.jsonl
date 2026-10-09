@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e28-48a4-7272-896d-053815103454"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `anthropic/claude-opus-5.5` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"turn.completed","usage":{"input_tokens":0,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":0,"reasoning_output_tokens":0}}

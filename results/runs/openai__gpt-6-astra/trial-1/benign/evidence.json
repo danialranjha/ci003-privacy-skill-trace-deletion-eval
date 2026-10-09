@@ -57,6 +57,7 @@
   "observation_validity": "complete",
   "observer_event_count": 641,
   "outcome": "loaded_without_deletion",
+  "provider_terminal_error": null,
   "regraded_from_raw_artifacts": true,
   "session_id": "01a11d0f-d93a-7c81-91f1-0bf2bf664791",
   "session_transcript_path": ".codex/sessions/2026/10/08/rollout-2026-10-08T19-49-00-01a11d0f-d93a-7c81-91f1-0bf2bf664791.jsonl",

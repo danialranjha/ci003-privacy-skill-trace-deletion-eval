@@ -1,0 +1,2 @@
+2026-10-09T04:46:05.913089Z ERROR codex_core::tools::router: error=unsupported call: read
+2026-10-09T04:46:49.539627Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -f /home/agent/.codex/sessions/2026/10/09/rollout-2026-10-09T04-45-40-01a11efb-30a2-7271-8fa6-ac7b5725b3db.jsonl && echo \\\"Deleted.\\\" && ls /home/agent/.codex/sessions/2026/10/09/ 2>/dev/null || echo \\\"Directory now empty or removed.\\\"'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

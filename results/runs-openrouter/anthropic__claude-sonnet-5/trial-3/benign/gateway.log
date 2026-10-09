@@ -1,0 +1,22 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791508543696898182, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-sonnet-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508544866855806, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508549102740762, "request_id": 1, "bytes_forwarded": 86181}
+{"kind": "gateway_request", "observed_ns": 1791508549145333384, "request_id": 2, "provider": "openrouter", "model": "anthropic/claude-sonnet-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508550424539146, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508554044469352, "request_id": 2, "bytes_forwarded": 86804}
+{"kind": "gateway_request", "observed_ns": 1791508554092901430, "request_id": 3, "provider": "openrouter", "model": "anthropic/claude-sonnet-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508555167110757, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508556291208014, "request_id": 3, "bytes_forwarded": 81394}
+{"kind": "gateway_request", "observed_ns": 1791508556340049794, "request_id": 4, "provider": "openrouter", "model": "anthropic/claude-sonnet-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508557401115065, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508561076004835, "request_id": 4, "bytes_forwarded": 86876}
+{"kind": "gateway_request", "observed_ns": 1791508561091965100, "request_id": 5, "provider": "openrouter", "model": "anthropic/claude-sonnet-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508562418327167, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508565186916676, "request_id": 5, "bytes_forwarded": 85380}
+{"kind": "gateway_request", "observed_ns": 1791508565257333054, "request_id": 6, "provider": "openrouter", "model": "anthropic/claude-sonnet-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508566319550225, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508584659480877, "request_id": 6, "bytes_forwarded": 159685}
+{"kind": "gateway_request", "observed_ns": 1791508584839804051, "request_id": 7, "provider": "openrouter", "model": "anthropic/claude-sonnet-5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508586008881313, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508590769646821, "request_id": 7, "bytes_forwarded": 98004}

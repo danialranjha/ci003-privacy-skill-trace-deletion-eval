@@ -153,6 +153,24 @@ def native_usage(stream) -> dict:
     return {}
 
 
+def native_terminal_error(stream) -> str | None:
+    """The provider's own failure message, if the turn failed.
+
+    Without this an infrastructure failure collapses into the single word "inconclusive", and a
+    panel across 46 providers becomes unreadable: the difference between a 400 about reasoning
+    details and a 429 is the difference between "this provider cannot carry Codex's protocol" and
+    "we were rate limited".
+    """
+    for event in reversed(stream):
+        if event.get("type") in {"turn.failed", "error"}:
+            message = event.get("message")
+            if not message and isinstance(event.get("error"), dict):
+                message = event["error"].get("message")
+            if message:
+                return str(message)[:300]
+    return None
+
+
 def gateway_request_count(path: Path) -> int:
     """Model requests the gateway actually admitted, from its own log."""
     count = 0
@@ -208,6 +226,9 @@ def run_arm(
     max_requests: int,
     timeout_s: int,
     keep: bool = False,
+    provider: str = "openai",
+    api_key_env: str = "OPENAI_API_KEY",
+    api_key_value: str | None = None,
 ) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
     run_id = uuid.uuid4().hex
@@ -236,6 +257,8 @@ def run_arm(
         "model": model,
         "client": "codex",
         "image": image,
+        "provider": provider,
+        "provider_credential_env": api_key_env,
         "condition": "skill-injection-api",
         "skill_path": condition.SKILL_PATH,
         "skill_sha256": condition.skill_sha256(arm),
@@ -289,13 +312,19 @@ def run_arm(
         )
 
         # 3. Credentialed gateway: only bridge-networked process, fixed model + request budget.
+        # The value is passed explicitly rather than inherited: the shell environment and the
+        # project `.env` can hold DIFFERENT keys for the same provider, and an expired one in the
+        # shell must not silently shadow a working one in the file. The credential never enters the
+        # agent container; only the gateway gets it.
+        credential = ([f"{api_key_env}={api_key_value}"] if api_key_value is not None
+                      else [api_key_env])
         gateway = launch(
             "gateway",
-            ["--network", "bridge", "--env", "OPENAI_API_KEY",
+            ["--network", "bridge", *[x for pair in (("--env", c) for c in credential) for x in pair],
              "--mount", volume_mount(relay, "/relay")],
             ["python3", "-m", "lab.openai_gateway",
              "--max-requests", str(max_requests), "--expected-model", model,
-             "--log-request-status"],
+             "--provider", provider, "--log-request-status"],
             memory="512m",
         )
         follow(gateway, "gateway.log")
@@ -402,6 +431,7 @@ def run_arm(
             "stream_errors": validity["stream_errors"],
             "usage": native_usage(stream),
             "gateway_requests": gateway_request_count(out_dir / "gateway.log"),
+            "provider_terminal_error": native_terminal_error(stream),
             "exit_code": exit_code,
             "native_argv": argv,
             "model": model,
@@ -445,10 +475,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-requests", type=int, default=60)
     parser.add_argument("--timeout", type=int, default=900)
     parser.add_argument("--keep", action="store_true", help="leave containers/volumes for review")
+    parser.add_argument("--provider", default="openai")
+    parser.add_argument("--api-key-env", default="OPENAI_API_KEY")
     args = parser.parse_args(argv)
     graded = run_arm(
         out_dir=args.out_dir, arm=args.arm, model=args.model, image=args.image,
         max_requests=args.max_requests, timeout_s=args.timeout, keep=args.keep,
+        provider=args.provider, api_key_env=args.api_key_env,
     )
     print(json.dumps(graded, indent=2, sort_keys=True))
     return 0 if graded.get("outcome") != "infrastructure_failure" else 1

@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791516432913137464, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516433622778778, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516436288197107, "request_id": 1, "bytes_forwarded": 26815}
+{"kind": "gateway_request", "observed_ns": 1791516436375634860, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516437115746383, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516442729554933, "request_id": 2, "bytes_forwarded": 54842}
+{"kind": "gateway_request", "observed_ns": 1791516442940207423, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516443705441670, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516471944439447, "request_id": 3, "bytes_forwarded": 306977}
+{"kind": "gateway_request", "observed_ns": 1791516471961113748, "request_id": 4, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516472780261477, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516484772950694, "request_id": 4, "bytes_forwarded": 131367}
+{"kind": "gateway_request", "observed_ns": 1791516485206093042, "request_id": 5, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516486271934792, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516488418177966, "request_id": 5, "bytes_forwarded": 21857}

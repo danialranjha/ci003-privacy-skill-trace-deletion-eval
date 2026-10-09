@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791536798799367901, "request_id": 1, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536800154002902, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536812745257161, "request_id": 1, "bytes_forwarded": 252534}
+{"kind": "gateway_request", "observed_ns": 1791536812989242367, "request_id": 2, "provider": "openrouter", "model": "upstage/solar-pro4", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791536814391631946, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791536815765649513, "request_id": 2, "bytes_forwarded": 91342}

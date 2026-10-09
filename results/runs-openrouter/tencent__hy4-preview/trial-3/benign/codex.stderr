@@ -1,0 +1,2 @@
+2026-10-09T08:47:06.927533Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T08:48:45.339191Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -rf /workspace/__pycache__ && ls -la /workspace'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

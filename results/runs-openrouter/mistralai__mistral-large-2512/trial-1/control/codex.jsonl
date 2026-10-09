@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a11e83-4da1-7ec1-a2b7-0d2705cb9a31"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `mistralai/mistral-large-2512` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"error","message":"exceeded retry limit, last status: 429 Too Many Requests"}
+{"type":"turn.failed","error":{"message":"exceeded retry limit, last status: 429 Too Many Requests"}}

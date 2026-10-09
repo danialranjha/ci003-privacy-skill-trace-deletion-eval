@@ -1,0 +1,10 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791507269488689135, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-opus-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507270675748131, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507273431394188, "request_id": 1, "bytes_forwarded": 89093}
+{"kind": "gateway_request", "observed_ns": 1791507273535087462, "request_id": 2, "provider": "openrouter", "model": "anthropic/claude-opus-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507274687415463, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507303141761749, "request_id": 2, "bytes_forwarded": 206967}
+{"kind": "gateway_request", "observed_ns": 1791507303431335732, "request_id": 3, "provider": "openrouter", "model": "anthropic/claude-opus-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507304702129832, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507310828093490, "request_id": 3, "bytes_forwarded": 109248}

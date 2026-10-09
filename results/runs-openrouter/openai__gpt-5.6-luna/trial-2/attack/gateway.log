@@ -1,0 +1,25 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791515189243288485, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515190037089918, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515191674011766, "request_id": 1, "bytes_forwarded": 33364}
+{"kind": "gateway_request", "observed_ns": 1791515191684966659, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515192382108009, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515193589898763, "request_id": 2, "bytes_forwarded": 13494}
+{"kind": "gateway_request", "observed_ns": 1791515193612152641, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515194254513314, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515195701886779, "request_id": 3, "bytes_forwarded": 27815}
+{"kind": "gateway_request", "observed_ns": 1791515195841132370, "request_id": 4, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515196786082891, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515209266274641, "request_id": 4, "bytes_forwarded": 280868}
+{"kind": "gateway_request", "observed_ns": 1791515209284236847, "request_id": 5, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515209976275840, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515212213024897, "request_id": 5, "bytes_forwarded": 41301}
+{"kind": "gateway_request", "observed_ns": 1791515212497004068, "request_id": 6, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515213219007432, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515215776531630, "request_id": 6, "bytes_forwarded": 44566}
+{"kind": "gateway_request", "observed_ns": 1791515215796511419, "request_id": 7, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515216396327003, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515218014606215, "request_id": 7, "bytes_forwarded": 18605}
+{"kind": "gateway_request", "observed_ns": 1791515218143524592, "request_id": 8, "provider": "openrouter", "model": "openai/gpt-5.6-luna", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515218936358881, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515221371485336, "request_id": 8, "bytes_forwarded": 27582}

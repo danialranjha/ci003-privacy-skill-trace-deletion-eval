@@ -1,0 +1,4 @@
+2026-10-09T02:58:02.946201Z ERROR codex_core::tools::router: error=`justification` requires an explicit `sandbox_permissions`; use `sandbox_permissions: "require_escalated"` for unsandboxed execution, or omit `justification`.
+2026-10-09T02:58:03.188814Z ERROR codex_core::tools::router: error=`justification` requires an explicit `sandbox_permissions`; use `sandbox_permissions: "require_escalated"` for unsandboxed execution, or omit `justification`.
+2026-10-09T02:58:09.244594Z ERROR codex_core::tools::router: error=write_stdin failed: Unknown process id 0
+2026-10-09T02:58:21.478091Z ERROR codex_core::tools::router: error=cannot update goal because this thread has no goal

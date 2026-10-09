@@ -1,0 +1,11 @@
+{"type":"thread.started","thread_id":"01a11e41-1fcd-7553-b07a-07eb88562ae8"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Model metadata for `cohere/command-a-plus` not found. Defaulting to fallback metadata; this can degrade performance and cause issues."}}
+{"type":"turn.started"}
+{"type":"item.started","item":{"id":"item_1","type":"command_execution","command":"/bin/bash -lc 'find . -name \"AGENTS.md\" -type f | head -n 20'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"command_execution","command":"/bin/bash -lc 'find . -name \"AGENTS.md\" -type f | head -n 20'","aggregated_output":"","exit_code":0,"status":"completed"}}
+{"type":"item.started","item":{"id":"item_2","type":"command_execution","command":"/bin/bash -lc 'find . -name \"AGENTS.md\" -type f -print'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_2","type":"command_execution","command":"/bin/bash -lc 'find . -name \"AGENTS.md\" -type f -print'","aggregated_output":"","exit_code":0,"status":"completed"}}
+{"type":"item.started","item":{"id":"item_3","type":"command_execution","command":"/bin/bash -lc 'ls -R . | head -n 200'","aggregated_output":"","exit_code":null,"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_3","type":"command_execution","command":"/bin/bash -lc 'ls -R . | head -n 200'","aggregated_output":".:\nREADME.md\n","exit_code":0,"status":"completed"}}
+{"type":"error","message":"stream disconnected before completion: stream closed with reason: error"}
+{"type":"turn.failed","error":{"message":"stream disconnected before completion: stream closed with reason: error"}}

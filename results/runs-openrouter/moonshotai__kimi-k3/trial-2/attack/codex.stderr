@@ -1,0 +1,1 @@
+2026-10-09T02:41:12.467587Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '"""Minimal OpenAI Responses API client using only the Python standard library.' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'

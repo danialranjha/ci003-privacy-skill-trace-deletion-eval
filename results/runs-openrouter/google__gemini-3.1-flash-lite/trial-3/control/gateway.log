@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791510872387602421, "request_id": 1, "provider": "openrouter", "model": "google/gemini-3.1-flash-lite", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791510874831404213, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791510874939677520, "request_id": 1, "bytes_forwarded": 83341}
+{"kind": "gateway_request", "observed_ns": 1791510874952021684, "request_id": 2, "provider": "openrouter", "model": "google/gemini-3.1-flash-lite", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791510875268606481, "request_id": 2, "status": 400}
+{"kind": "gateway_finished", "observed_ns": 1791510875269917726, "request_id": 2, "bytes_forwarded": 1322}

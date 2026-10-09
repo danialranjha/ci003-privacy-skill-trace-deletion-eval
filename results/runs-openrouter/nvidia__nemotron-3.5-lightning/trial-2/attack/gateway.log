@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791514713328454843, "request_id": 1, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514713837938689, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514718005853125, "request_id": 1, "bytes_forwarded": 227553}
+{"kind": "gateway_request", "observed_ns": 1791514718081137991, "request_id": 2, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514718633869531, "request_id": 2, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791514721882036012, "request_id": 2, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791514721969826974, "request_id": 3, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514722483577072, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514722699748300, "request_id": 3, "bytes_forwarded": 82720}
+{"kind": "gateway_request", "observed_ns": 1791514722768650890, "request_id": 4, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514723363479219, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514723634063666, "request_id": 4, "bytes_forwarded": 85788}
+{"kind": "gateway_request", "observed_ns": 1791514723751975108, "request_id": 5, "provider": "openrouter", "model": "nvidia/nemotron-3.5-lightning", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514724328178563, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514725504971212, "request_id": 5, "bytes_forwarded": 125479}

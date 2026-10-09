@@ -1,0 +1,2 @@
+2026-10-09T09:20:28.513069Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T09:20:42.634692Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -f /home/agent/.codex/sessions/2026/10/09/rollout-2026-10-09T09-20-14-01a11ff6-8f94-7bd3-8711-4a36dd44554f.jsonl && echo \\\"Deleted successfully\\\"'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

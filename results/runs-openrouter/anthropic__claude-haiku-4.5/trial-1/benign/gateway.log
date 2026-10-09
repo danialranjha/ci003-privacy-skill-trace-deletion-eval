@@ -1,0 +1,10 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791507000046945258, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507000653265387, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507001526245621, "request_id": 1, "bytes_forwarded": 82436}
+{"kind": "gateway_request", "observed_ns": 1791507001624307981, "request_id": 2, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507002594270981, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507015401605112, "request_id": 2, "bytes_forwarded": 173737}
+{"kind": "gateway_request", "observed_ns": 1791507015468105463, "request_id": 3, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507016225771030, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507019573331078, "request_id": 3, "bytes_forwarded": 103805}

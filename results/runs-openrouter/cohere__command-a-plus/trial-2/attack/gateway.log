@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509067173690477, "request_id": 1, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509067549300728, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509068825170777, "request_id": 1, "bytes_forwarded": 118839}
+{"kind": "gateway_request", "observed_ns": 1791509068913290207, "request_id": 2, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509069203286773, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509069544026060, "request_id": 2, "bytes_forwarded": 83393}
+{"kind": "gateway_request", "observed_ns": 1791509069583987722, "request_id": 3, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509069837663410, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509070355156139, "request_id": 3, "bytes_forwarded": 86270}
+{"kind": "gateway_request", "observed_ns": 1791509070424593527, "request_id": 4, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509070982987124, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509071109118219, "request_id": 4, "bytes_forwarded": 84468}
+{"kind": "gateway_request", "observed_ns": 1791509071168965253, "request_id": 5, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509071403835858, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509083457602997, "request_id": 5, "bytes_forwarded": 582130}

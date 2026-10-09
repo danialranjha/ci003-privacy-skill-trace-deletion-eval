@@ -1,0 +1,3 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791512183487909252, "request_id": 1, "provider": "openrouter", "model": "meta/muse-spark-1.3-contributor", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791512183687652449, "request_id": 1, "status": 403}

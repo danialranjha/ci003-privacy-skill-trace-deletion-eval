@@ -1,0 +1,4 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791507531506276345, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-opus-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507532580551844, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507532605249989, "request_id": 1, "bytes_forwarded": 78690}

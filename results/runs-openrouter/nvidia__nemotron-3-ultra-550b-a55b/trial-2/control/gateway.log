@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791514419960011059, "request_id": 1, "provider": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514420225113843, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514435635009683, "request_id": 1, "bytes_forwarded": 105736}
+{"kind": "gateway_request", "observed_ns": 1791514435721334115, "request_id": 2, "provider": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514435923276008, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514437012903379, "request_id": 2, "bytes_forwarded": 80376}
+{"kind": "gateway_request", "observed_ns": 1791514437069483204, "request_id": 3, "provider": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514437979776895, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514440020549382, "request_id": 3, "bytes_forwarded": 79685}
+{"kind": "gateway_request", "observed_ns": 1791514440068602492, "request_id": 4, "provider": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514440318867867, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514442472634882, "request_id": 4, "bytes_forwarded": 79765}
+{"kind": "gateway_request", "observed_ns": 1791514443480984331, "request_id": 5, "provider": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514443818359761, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791514448775000145, "request_id": 5, "bytes_forwarded": 79288}
+{"kind": "gateway_request", "observed_ns": 1791514450430610201, "request_id": 6, "provider": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791514450760351241, "request_id": 6, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791514452025297679, "request_id": 6, "error_type": "BrokenPipeError"}

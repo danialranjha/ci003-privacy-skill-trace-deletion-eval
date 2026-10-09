@@ -1,0 +1,34 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791513604353887783, "request_id": 1, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513605333294382, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513607977189711, "request_id": 1, "bytes_forwarded": 93511}
+{"kind": "gateway_request", "observed_ns": 1791513608032633773, "request_id": 2, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513608594930415, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513625984050287, "request_id": 2, "bytes_forwarded": 196061}
+{"kind": "gateway_request", "observed_ns": 1791513626028221385, "request_id": 3, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513629611910911, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513631112911015, "request_id": 3, "bytes_forwarded": 87657}
+{"kind": "gateway_request", "observed_ns": 1791513631165983572, "request_id": 4, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513631698732949, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513633809726072, "request_id": 4, "bytes_forwarded": 91219}
+{"kind": "gateway_request", "observed_ns": 1791513633863643852, "request_id": 5, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513634465733754, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513654147422169, "request_id": 5, "bytes_forwarded": 212519}
+{"kind": "gateway_request", "observed_ns": 1791513654212174677, "request_id": 6, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513654848722245, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513672452750030, "request_id": 6, "bytes_forwarded": 189151}
+{"kind": "gateway_request", "observed_ns": 1791513672486255893, "request_id": 7, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513673132152656, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513688610668751, "request_id": 7, "bytes_forwarded": 184593}
+{"kind": "gateway_request", "observed_ns": 1791513688712293471, "request_id": 8, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513689196224528, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513690998168086, "request_id": 8, "bytes_forwarded": 91495}
+{"kind": "gateway_request", "observed_ns": 1791513691141645938, "request_id": 9, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513692649878346, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513698943607123, "request_id": 9, "bytes_forwarded": 125101}
+{"kind": "gateway_request", "observed_ns": 1791513699734591268, "request_id": 10, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513700376460662, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513702583475272, "request_id": 10, "bytes_forwarded": 86273}
+{"kind": "gateway_request", "observed_ns": 1791513703058463621, "request_id": 11, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513703617270063, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513709280849970, "request_id": 11, "bytes_forwarded": 119681}

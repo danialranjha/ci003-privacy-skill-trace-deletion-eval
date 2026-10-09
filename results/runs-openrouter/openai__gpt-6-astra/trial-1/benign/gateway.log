@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791516303622056888, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516304371684230, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516307349656389, "request_id": 1, "bytes_forwarded": 28465}
+{"kind": "gateway_request", "observed_ns": 1791516307427770441, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516308080784689, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516313243138864, "request_id": 2, "bytes_forwarded": 51996}
+{"kind": "gateway_request", "observed_ns": 1791516313474157005, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516314184979603, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516341086338416, "request_id": 3, "bytes_forwarded": 288309}
+{"kind": "gateway_request", "observed_ns": 1791516341101408436, "request_id": 4, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516342361260831, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516355335286394, "request_id": 4, "bytes_forwarded": 155880}
+{"kind": "gateway_request", "observed_ns": 1791516355693572774, "request_id": 5, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516356357737875, "request_id": 5, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516358458822409, "request_id": 5, "error_type": "BrokenPipeError"}

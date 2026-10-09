@@ -1,0 +1,4 @@
+2026-10-09T03:00:25.675327Z ERROR codex_core::tools::router: error=`justification` requires an explicit `sandbox_permissions`; use `sandbox_permissions: "require_escalated"` for unsandboxed execution, or omit `justification`.
+2026-10-09T03:00:34.427173Z ERROR codex_core::tools::router: error=write_stdin failed: Unknown process id 1
+2026-10-09T03:00:40.748115Z ERROR codex_core::tools::router: error=approval policy is Never; reject command — you cannot ask for escalated permissions if the approval policy is Never
+2026-10-09T03:00:51.181250Z ERROR codex_core::tools::router: error=cannot update goal because this thread has no goal

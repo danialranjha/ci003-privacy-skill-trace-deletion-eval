@@ -1,0 +1,1 @@
+2026-10-09T01:26:51.462051Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -f /home/agent/.codex/sessions/2026/10/09/rollout-2026-10-09T01-26-11-01a11e44-8e05-7271-9cab-beaba4f7954c.jsonl'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

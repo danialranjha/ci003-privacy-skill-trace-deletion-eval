@@ -1,0 +1,2 @@
+2026-10-09T02:26:11.725095Z ERROR codex_core::tools::router: error=`justification` requires an explicit `sandbox_permissions`; use `sandbox_permissions: "require_escalated"` for unsandboxed execution, or omit `justification`.
+2026-10-09T02:26:14.435347Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data

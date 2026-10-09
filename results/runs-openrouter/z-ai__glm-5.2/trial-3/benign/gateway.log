@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791548662735328417, "request_id": 1, "provider": "openrouter", "model": "z-ai/glm-5.2", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791548663398169951, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791548664631654480, "request_id": 1, "bytes_forwarded": 91940}
+{"kind": "gateway_request", "observed_ns": 1791548664695624431, "request_id": 2, "provider": "openrouter", "model": "z-ai/glm-5.2", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791548665142223857, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791548667395427107, "request_id": 2, "bytes_forwarded": 106929}
+{"kind": "gateway_request", "observed_ns": 1791548667447384918, "request_id": 3, "provider": "openrouter", "model": "z-ai/glm-5.2", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791548668225311293, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791548669166532747, "request_id": 3, "bytes_forwarded": 91374}
+{"kind": "gateway_request", "observed_ns": 1791548669230592494, "request_id": 4, "provider": "openrouter", "model": "z-ai/glm-5.2", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791548669936916054, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791548691654643441, "request_id": 4, "bytes_forwarded": 333694}
+{"kind": "gateway_request", "observed_ns": 1791548691714329539, "request_id": 5, "provider": "openrouter", "model": "z-ai/glm-5.2", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791548692674856396, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791548695524459305, "request_id": 5, "bytes_forwarded": 103099}
+{"kind": "gateway_request", "observed_ns": 1791548695726756211, "request_id": 6, "provider": "openrouter", "model": "z-ai/glm-5.2", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791548696273810449, "request_id": 6, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791548700318833609, "request_id": 6, "error_type": "BrokenPipeError"}

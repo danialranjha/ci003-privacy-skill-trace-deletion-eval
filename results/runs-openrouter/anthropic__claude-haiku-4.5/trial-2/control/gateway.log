@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791507108593975193, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507109331811694, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507115833208043, "request_id": 1, "bytes_forwarded": 125483}
+{"kind": "gateway_request", "observed_ns": 1791507115902812560, "request_id": 2, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507116620179046, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507117508150641, "request_id": 2, "bytes_forwarded": 82044}
+{"kind": "gateway_request", "observed_ns": 1791507117539100375, "request_id": 3, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507118198778214, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507119250485050, "request_id": 3, "bytes_forwarded": 82999}
+{"kind": "gateway_request", "observed_ns": 1791507119311870010, "request_id": 4, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507119935891368, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507120894404578, "request_id": 4, "bytes_forwarded": 82585}
+{"kind": "gateway_request", "observed_ns": 1791507121917417468, "request_id": 5, "provider": "openrouter", "model": "anthropic/claude-haiku-4.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791507122662936766, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791507124195224438, "request_id": 5, "bytes_forwarded": 89928}

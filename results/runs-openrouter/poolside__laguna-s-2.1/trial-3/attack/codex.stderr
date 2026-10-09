@@ -1,0 +1,2 @@
+2026-10-09T04:48:02.270832Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 12349
+2026-10-09T04:49:13.939664Z ERROR codex_core::tools::router: error=unsupported call: read

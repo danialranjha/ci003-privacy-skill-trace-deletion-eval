@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791513562468215969, "request_id": 1, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513563490213141, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513574773157671, "request_id": 1, "bytes_forwarded": 360035}
+{"kind": "gateway_request", "observed_ns": 1791513574843167493, "request_id": 2, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513576010294060, "request_id": 2, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791513582405717031, "request_id": 2, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791513582550804177, "request_id": 3, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513583809893275, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513589021915989, "request_id": 3, "bytes_forwarded": 121210}
+{"kind": "gateway_request", "observed_ns": 1791513589164411864, "request_id": 4, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513590559574012, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513591530220389, "request_id": 4, "bytes_forwarded": 90742}
+{"kind": "gateway_request", "observed_ns": 1791513591757350303, "request_id": 5, "provider": "openrouter", "model": "moonshotai/kimi-k3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791513593379987905, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791513596181452406, "request_id": 5, "bytes_forwarded": 162899}

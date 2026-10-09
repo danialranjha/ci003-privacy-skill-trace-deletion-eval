@@ -1,0 +1,61 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791520381352242346, "request_id": 1, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520381805783476, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520386798057665, "request_id": 1, "bytes_forwarded": 147331}
+{"kind": "gateway_request", "observed_ns": 1791520386865752920, "request_id": 2, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520387683165706, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520388719172774, "request_id": 2, "bytes_forwarded": 89339}
+{"kind": "gateway_request", "observed_ns": 1791520388775071140, "request_id": 3, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520389127355827, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520466708421348, "request_id": 3, "bytes_forwarded": 947345}
+{"kind": "gateway_request", "observed_ns": 1791520466803301701, "request_id": 4, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520467438460550, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520499800439440, "request_id": 4, "bytes_forwarded": 576723}
+{"kind": "gateway_request", "observed_ns": 1791520499989664829, "request_id": 5, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520500471533563, "request_id": 5, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791520503930003487, "request_id": 5, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791520504148512470, "request_id": 6, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520505048166205, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520506109734868, "request_id": 6, "bytes_forwarded": 90129}
+{"kind": "gateway_request", "observed_ns": 1791520506525095299, "request_id": 7, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520506938838740, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520517415358652, "request_id": 7, "bytes_forwarded": 229987}
+{"kind": "gateway_request", "observed_ns": 1791520517469335503, "request_id": 8, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520518132984660, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520522103472784, "request_id": 8, "bytes_forwarded": 119642}
+{"kind": "gateway_request", "observed_ns": 1791520522163463870, "request_id": 9, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520522655195305, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520526180926440, "request_id": 9, "bytes_forwarded": 134956}
+{"kind": "gateway_request", "observed_ns": 1791520526372563733, "request_id": 10, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520527238917814, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520528553056459, "request_id": 10, "bytes_forwarded": 93928}
+{"kind": "gateway_request", "observed_ns": 1791520528793568166, "request_id": 11, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520529292001140, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520539935709819, "request_id": 11, "bytes_forwarded": 220751}
+{"kind": "gateway_request", "observed_ns": 1791520540026650546, "request_id": 12, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520540595159684, "request_id": 12, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520546113160270, "request_id": 12, "bytes_forwarded": 171368}
+{"kind": "gateway_request", "observed_ns": 1791520546269713216, "request_id": 13, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520546750511875, "request_id": 13, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520547791833347, "request_id": 13, "bytes_forwarded": 91264}
+{"kind": "gateway_request", "observed_ns": 1791520548019689322, "request_id": 14, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520548607242560, "request_id": 14, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520550595114057, "request_id": 14, "bytes_forwarded": 108167}
+{"kind": "gateway_request", "observed_ns": 1791520551196735479, "request_id": 15, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520551680297123, "request_id": 15, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520556960207813, "request_id": 15, "bytes_forwarded": 168080}
+{"kind": "gateway_request", "observed_ns": 1791520557309534734, "request_id": 16, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520557860506226, "request_id": 16, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520565033323545, "request_id": 16, "bytes_forwarded": 166921}
+{"kind": "gateway_request", "observed_ns": 1791520565054552074, "request_id": 17, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520565774571158, "request_id": 17, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520567012056439, "request_id": 17, "bytes_forwarded": 93346}
+{"kind": "gateway_request", "observed_ns": 1791520567235499804, "request_id": 18, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520568253938122, "request_id": 18, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520575184586400, "request_id": 18, "bytes_forwarded": 198018}
+{"kind": "gateway_request", "observed_ns": 1791520576234434168, "request_id": 19, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520576856891860, "request_id": 19, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791520580372388292, "request_id": 19, "bytes_forwarded": 126852}
+{"kind": "gateway_request", "observed_ns": 1791520582148934144, "request_id": 20, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791520582765130680, "request_id": 20, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791520587014248993, "request_id": 20, "error_type": "BrokenPipeError"}

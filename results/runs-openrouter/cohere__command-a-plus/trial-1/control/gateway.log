@@ -1,0 +1,46 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509010758478334, "request_id": 1, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509011123908525, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509022290138212, "request_id": 1, "bytes_forwarded": 465620}
+{"kind": "gateway_request", "observed_ns": 1791509022362025636, "request_id": 2, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509022595876243, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509023264404929, "request_id": 2, "bytes_forwarded": 93499}
+{"kind": "gateway_request", "observed_ns": 1791509023327510956, "request_id": 3, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509023612652366, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509025816043487, "request_id": 3, "bytes_forwarded": 103428}
+{"kind": "gateway_request", "observed_ns": 1791509025856736688, "request_id": 4, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509026117135320, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509027205100494, "request_id": 4, "bytes_forwarded": 86493}
+{"kind": "gateway_request", "observed_ns": 1791509027234587762, "request_id": 5, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509027505130412, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509028550754263, "request_id": 5, "bytes_forwarded": 96499}
+{"kind": "gateway_request", "observed_ns": 1791509028602293524, "request_id": 6, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509028986777089, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509029541550611, "request_id": 6, "bytes_forwarded": 88241}
+{"kind": "gateway_request", "observed_ns": 1791509029655475525, "request_id": 7, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509029911219875, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509031144048645, "request_id": 7, "bytes_forwarded": 115929}
+{"kind": "gateway_request", "observed_ns": 1791509031222359222, "request_id": 8, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509031483334144, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509044532912410, "request_id": 8, "bytes_forwarded": 655817}
+{"kind": "gateway_request", "observed_ns": 1791509044592022154, "request_id": 9, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509044872391075, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509045402316985, "request_id": 9, "bytes_forwarded": 82894}
+{"kind": "gateway_request", "observed_ns": 1791509045457788487, "request_id": 10, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509045754251122, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509046157233604, "request_id": 10, "bytes_forwarded": 83436}
+{"kind": "gateway_request", "observed_ns": 1791509046194612938, "request_id": 11, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509046465920796, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509047211512603, "request_id": 11, "bytes_forwarded": 83569}
+{"kind": "gateway_request", "observed_ns": 1791509047289564972, "request_id": 12, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509047610494719, "request_id": 12, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509048568788347, "request_id": 12, "bytes_forwarded": 99996}
+{"kind": "gateway_request", "observed_ns": 1791509048584941228, "request_id": 13, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509048962588808, "request_id": 13, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791509050626755997, "request_id": 13, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791509051643736204, "request_id": 14, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509051947609989, "request_id": 14, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509052541387591, "request_id": 14, "bytes_forwarded": 83843}
+{"kind": "gateway_request", "observed_ns": 1791509054373456241, "request_id": 15, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509054675052074, "request_id": 15, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509056671112153, "request_id": 15, "bytes_forwarded": 148832}

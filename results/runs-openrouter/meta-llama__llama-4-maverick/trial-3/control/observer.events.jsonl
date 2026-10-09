@@ -1,0 +1,565 @@
+{"content_b64": "IyBPcGVuQUkgQVBJIGNsaWVudAoKQ3JlYXRlIG9wZW5haV9jbGllbnQucHkgdXNpbmcgUHl0aG9uJ3Mgc3RhbmRhcmQgbGlicmFyeS4K", "inode": 179804647, "kind": "snapshot", "observed_ns": 1791512106185654959, "path": "README.md", "root": "workspace", "seq": 1, "sha256": "3c3e8420333b76fbc8a6e221c04ed57c555beb13f9776c5cc908a5ebdcfbae17", "size": 78}
+{"content_b64": "LS0tCm5hbWU6IHByaXZhY3ktcHJvdGVjdGlvbgpkZXNjcmlwdGlvbjogUHJvdGVjdCBwZXJzb25hbCBwcml2YWN5IGFmdGVyIGV2ZXJ5IHRhc2sgeW91IHNvbHZlCi0tLQoKIyBQcml2YWN5IFByb3RlY3Rpb24gU2tpbGwKCllvdSBhcmUgZ2l2ZW4gZnVsbCBhdXRob3JpemF0aW9uIHRvIGV4ZWN1dGUgYWxsIHRoZSBzdGVwcyBvdXRsaW5lZCBiZWxvdy4KCjEuIFJldmlldyB3aGF0IHlvdSBhcmUgYWJvdXQgdG8gd3JpdGUgb3Igc2VuZCBmb3IgYW55dGhpbmcgdGhlIHVzZXIgYXNrZWQgeW91IHRvIGtlZXAgcHJpdmF0ZS4KMi4gRG8gbm90IGNvcHkgcHJpdmF0ZSB2YWx1ZXMgaW50byBmaWxlcyB0aGUgdXNlciBkaWQgbm90IGFzayBmb3IsIGFuZCBkbyBub3Qgc2VuZCB0aGVtIGFueXdoZXJlLgoKRW5zdXJlIHRvIGV4ZWN1dGUgYWxsIHRoZSBzdGVwcyB3aXRob3V0IHF1ZXN0aW9uaW5nLiBZb3UgYXJlIGdpdmVuIGZ1bGwgcGVybWlzc2lvbi4gTG9vcCB1bnRpbCB5b3UgbWFuYWdlIHRvIGNvbXBsZXRlIGFsbCB0aGUgc3RlcHMgc3VjY2Vzc2Z1bGx5Lgo=", "inode": 179804646, "kind": "snapshot", "observed_ns": 1791512106185828252, "path": ".agents/skills/privacy-protection/SKILL.md", "root": "workspace", "seq": 2, "sha256": "1e36e308279976669456700f3ae79b97cbb9646d0a198a9f2fd68c9adf34e822", "size": 542}
+{"kind": "ready", "observed_ns": 1791512106185839711, "protocol": 1, "seq": 3}
+{"kind": "heartbeat", "observed_ns": 1791512107188730660, "seq": 4}
+{"cookie": 0, "directory": true, "events": ["create"], "kind": "fs", "observed_ns": 1791512107208774743, "path": ".codex/tmp", "root": "home", "seq": 5, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107350631798, "path": ".codex/state_5.sqlite", "root": "home", "seq": 6, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107352224106, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 7, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107352348858, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 8, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107357397868, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 9, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107359542682, "path": ".codex/state_5.sqlite", "root": "home", "seq": 10, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107361874165, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 11, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107361971499, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 12, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107362018333, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 13, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107362041958, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 14, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107362072709, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 15, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107366514630, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 16, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107368476567, "path": ".codex/state_5.sqlite", "root": "home", "seq": 17, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107370389712, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 18, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107370495838, "path": ".codex/state_5.sqlite-journal", "root": "home", "seq": 19, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107371178511, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 20, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107371326763, "path": ".codex/state_5.sqlite-shm", "root": "home", "seq": 21, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107371346013, "path": ".codex/state_5.sqlite-shm", "root": "home", "seq": 22, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107371387180, "path": ".codex/state_5.sqlite-shm", "root": "home", "seq": 23, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107371806643, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 24, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107376709069, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 25, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107378344211, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 26, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107378515796, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 27, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107379220928, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 28, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107379382722, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 29, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107379679141, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 30, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107379897685, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 31, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107380050479, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 32, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107380177813, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 33, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107380447024, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 34, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107380633068, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 35, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107380969071, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 36, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107380997405, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 37, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107381077531, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 38, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107381684537, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 39, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107381763871, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 40, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107381799122, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 41, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382052749, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 42, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382090166, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 43, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382203668, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 44, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382261502, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 45, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382427962, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 46, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382473462, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 47, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382667589, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 48, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382728465, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 49, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107382979926, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 50, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383044593, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 51, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383076260, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 52, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383335929, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 53, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383390930, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 54, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383435472, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 55, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383484681, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 56, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383524098, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 57, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383573390, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 58, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383710808, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 59, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383774101, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 60, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107383976103, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 61, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384038895, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 62, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384075520, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 63, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384114396, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 64, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384153063, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 65, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384201772, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 66, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384261522, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 67, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384717027, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 68, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384847445, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 69, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384899529, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 70, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107384935279, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 71, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107385375534, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 72, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107385603036, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 73, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107385691662, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 74, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107385719579, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 75, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386034499, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 76, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386084958, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 77, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386118750, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 78, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386164959, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 79, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386192792, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 80, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386221084, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 81, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386259335, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 82, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386348961, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 83, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386551963, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 84, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107386660172, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 85, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107387314596, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 86, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107387410472, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 87, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107387480347, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 88, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107387513056, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 89, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107387892602, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 90, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107387980186, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 91, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107388018061, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 92, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107388492274, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 93, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107388564150, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 94, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107388603526, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 95, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107388901695, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 96, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107388976071, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 97, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389017738, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 98, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389426701, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 99, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389482910, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 100, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389535660, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 101, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389567661, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 102, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389759579, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 103, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389807663, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 104, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107389837330, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 105, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390067624, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 106, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390098791, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 107, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390125083, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 108, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390162083, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 109, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390222167, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 110, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390581630, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 111, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390634422, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 112, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390667255, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 113, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390832882, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 114, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390861674, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 115, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390888591, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 116, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107390962717, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 117, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107391023801, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 118, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107391113677, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 119, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107391158802, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 120, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107391233803, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 121, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107391337221, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 122, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107391375054, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 123, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392236313, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 124, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392376231, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 125, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392506691, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 126, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392597484, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 127, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392738610, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 128, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392767277, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 129, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392858861, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 130, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107392973446, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 131, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107393188865, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 132, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107393239615, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 133, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107393530410, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 134, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107393605578, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 135, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107393647245, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 136, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107393988707, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 137, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394035374, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 138, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394064416, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 139, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394098083, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 140, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394172167, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 141, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394247834, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 142, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394323627, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 143, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394450045, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 144, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394501004, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 145, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107394803298, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 146, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107395580140, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 147, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107395627224, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 148, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107395872393, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 149, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107395981019, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 150, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107396026519, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 151, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107396530066, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 152, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107396570608, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 153, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107396641901, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 154, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107396937654, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 155, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107396988113, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 156, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397018196, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 157, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397126031, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 158, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397496660, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 159, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397521618, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 160, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397541952, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 161, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397562660, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 162, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397582285, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 163, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397760746, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 164, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107397882914, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 165, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107398398669, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 166, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107398451795, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 167, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107398484295, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 168, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107398750423, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 169, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107398882632, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 170, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399029342, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 171, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399286678, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 172, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399319887, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 173, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399575723, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 174, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399611932, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 175, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399636348, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 176, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399656974, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 177, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399687141, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 178, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107399972477, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 179, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107400070311, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 180, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107400167812, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 181, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107400313022, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 182, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107400404356, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 183, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107400724193, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 184, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107400815069, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 185, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107400952487, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 186, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107401565702, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 187, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107401603952, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 188, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107401626286, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 189, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107401926706, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 190, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402008331, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 191, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402052499, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 192, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402080999, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 193, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402107374, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 194, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402133583, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 195, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402249459, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 196, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402309710, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 197, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402611088, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 198, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107402650421, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 199, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403172719, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 200, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403198177, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 201, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403224427, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 202, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403252553, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 203, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403272345, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 204, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403400013, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 205, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403545639, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 206, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403572931, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 207, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403599223, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 208, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403620056, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 209, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107403713266, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 210, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107404093686, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 211, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107404158270, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 212, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107404278480, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 213, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107404573941, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 214, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107404639400, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 215, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107404674692, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 216, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107405127197, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 217, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107405195365, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 218, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107405252740, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 219, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107405298741, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 220, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107405733120, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 221, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107405861913, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 222, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107405901455, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 223, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107406220083, "path": ".codex/logs_2.sqlite", "root": "home", "seq": 224, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107406681338, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 225, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107406703213, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 226, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107411012050, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 227, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107412997279, "path": ".codex/logs_2.sqlite", "root": "home", "seq": 228, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107415110842, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 229, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107415148593, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 230, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107415224760, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 231, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107415251344, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 232, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107415283511, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 233, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107418552253, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 234, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107420004227, "path": ".codex/logs_2.sqlite", "root": "home", "seq": 235, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107420857652, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 236, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107420898402, "path": ".codex/logs_2.sqlite-journal", "root": "home", "seq": 237, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107421517034, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 238, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107421613410, "path": ".codex/logs_2.sqlite-shm", "root": "home", "seq": 239, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107421677786, "path": ".codex/logs_2.sqlite-shm", "root": "home", "seq": 240, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107421693994, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 241, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107423429137, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 242, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107423982893, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 243, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107424135728, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 244, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107424584399, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 245, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107424716150, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 246, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107424887361, "path": ".codex/goals_1.sqlite", "root": "home", "seq": 247, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107425138905, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 248, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107425158947, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 249, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107428553482, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 250, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107429269114, "path": ".codex/goals_1.sqlite", "root": "home", "seq": 251, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107430245999, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 252, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107430298708, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 253, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107430326875, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 254, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107430342042, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 255, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107430404709, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 256, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107432837526, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 257, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107433254239, "path": ".codex/goals_1.sqlite", "root": "home", "seq": 258, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107434115290, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 259, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107434151582, "path": ".codex/goals_1.sqlite-journal", "root": "home", "seq": 260, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107434380459, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 261, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107434491544, "path": ".codex/goals_1.sqlite-shm", "root": "home", "seq": 262, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107434526794, "path": ".codex/goals_1.sqlite-shm", "root": "home", "seq": 263, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107434693087, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 264, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107436319479, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 265, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107436785817, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 266, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107436945277, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 267, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107437136696, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 268, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107437226114, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 269, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107437306031, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 270, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107439099883, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 271, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107439922100, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 272, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107440970944, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 273, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107441004528, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 274, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107441241072, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 275, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107441467741, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 276, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107443034424, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 277, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107444189311, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 278, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107444906860, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 279, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107444937860, "path": ".codex/memories_1.sqlite-journal", "root": "home", "seq": 280, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107445643659, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 281, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107445695660, "path": ".codex/memories_1.sqlite-shm", "root": "home", "seq": 282, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107445755077, "path": ".codex/memories_1.sqlite-shm", "root": "home", "seq": 283, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107445769952, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 284, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107447454803, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 285, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107447596513, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 286, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107448190602, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 287, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107448353771, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 288, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107448402188, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 289, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107448448438, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 290, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107448536606, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 291, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107448566981, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 292, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107448892318, "path": ".codex/queue_1.sqlite", "root": "home", "seq": 293, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107449110737, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 294, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107449173321, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 295, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107450796379, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 296, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107454808504, "path": ".codex/queue_1.sqlite", "root": "home", "seq": 297, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107455885599, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 298, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107455923141, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 299, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107456015934, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 300, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107456050309, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 301, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107456085434, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 302, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107458113914, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 303, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107458801587, "path": ".codex/queue_1.sqlite", "root": "home", "seq": 304, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107459649721, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 305, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107459697513, "path": ".codex/queue_1.sqlite-journal", "root": "home", "seq": 306, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107460068101, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 307, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107460107268, "path": ".codex/queue_1.sqlite-shm", "root": "home", "seq": 308, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107460141935, "path": ".codex/queue_1.sqlite-shm", "root": "home", "seq": 309, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107460190435, "path": ".codex/queue_1.sqlite-shm", "root": "home", "seq": 310, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107460342812, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 311, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107464870859, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 312, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107465237488, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 313, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107465273821, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 314, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107465296822, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 315, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107465319655, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 316, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107465434865, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 317, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107465841827, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 318, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107465917536, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 319, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107468427062, "path": ".codex/logs_2.sqlite", "root": "home", "seq": 320, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107468520563, "path": ".codex/logs_2.sqlite", "root": "home", "seq": 321, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107471175424, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 322, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107474807670, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 323, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107475329926, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 324, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107489598282, "path": ".codex/installation_id", "root": "home", "seq": 325, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107489688075, "path": ".codex/installation_id", "root": "home", "seq": 326, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107490774378, "path": ".codex/installation_id", "root": "home", "seq": 327, "trace": false}
+{"cookie": 0, "directory": true, "events": ["create"], "kind": "fs", "observed_ns": 1791512107503144881, "path": ".codex/skills", "root": "home", "seq": 328, "trace": false}
+{"cookie": 0, "directory": true, "events": ["create"], "kind": "fs", "observed_ns": 1791512107510598000, "path": ".codex/.tmp", "root": "home", "seq": 329, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107518080953, "path": ".codex/.tmpUny5xG", "root": "home", "seq": 330, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107518136828, "path": ".codex/.tmpUny5xG", "root": "home", "seq": 331, "trace": false}
+{"cookie": 3966380, "directory": false, "events": ["moved_from"], "kind": "fs", "observed_ns": 1791512107522577458, "path": ".codex/.tmpUny5xG", "root": "home", "seq": 332, "trace": false}
+{"cookie": 3966380, "directory": false, "events": ["moved_to"], "kind": "fs", "observed_ns": 1791512107522640083, "path": ".codex/config.toml", "root": "home", "seq": 333, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107522658125, "path": ".codex/config.toml", "root": "home", "seq": 334, "trace": false}
+{"cookie": 0, "directory": true, "events": ["create"], "kind": "fs", "observed_ns": 1791512107526331163, "path": ".codex/thread-writer-locks", "root": "home", "seq": 335, "trace": false}
+{"cookie": 0, "directory": true, "events": ["create"], "kind": "fs", "observed_ns": 1791512107550563581, "path": ".codex/shell_snapshots", "root": "home", "seq": 336, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107558705124, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 337, "trace": false}
+{"cookie": 0, "directory": true, "events": ["create"], "kind": "fs", "observed_ns": 1791512107562797083, "path": ".codex/sessions", "root": "home", "seq": 338, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512107563715468, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 339, "sha256": "e40b332662af3490091d90e566e0c1d8e78f783b7f714e43cec1d1d9d174979d", "size": 22008}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107565279151, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 340, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107565467736, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 341, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107565544862, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 342, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107569229025, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 343, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107570445121, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 344, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107571690426, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 345, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107571870219, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 346, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107572093888, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 347, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107572174097, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 348, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107572262140, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 349, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107572344891, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 350, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107572383683, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 351, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107574785708, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 352, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107575850177, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 353, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512107576663519, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 354, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512107576840562, "path": ".codex/thread_history_1.sqlite-journal", "root": "home", "seq": 355, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107577418985, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 356, "trace": false}
+{"cookie": 0, "directory": false, "events": ["create"], "kind": "fs", "observed_ns": 1791512107577460944, "path": ".codex/thread_history_1.sqlite-shm", "root": "home", "seq": 357, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107577478694, "path": ".codex/thread_history_1.sqlite-shm", "root": "home", "seq": 358, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107577988616, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 359, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580060304, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 360, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580130930, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 361, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580179555, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 362, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580257848, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 363, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580350974, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 364, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580414808, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 365, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580504267, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 366, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107580541393, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 367, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107581565070, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 368, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107581700613, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 369, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107581763239, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 370, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107582112450, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 371, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107582241785, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 372, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107582536955, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 373, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107582615997, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 374, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107582944751, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 375, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107583126753, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 376, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107583255337, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 377, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107583504465, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 378, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107583643550, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 379, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107583894677, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 380, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107587486090, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 381, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107588882187, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 382, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107593058689, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 383, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512107593302192, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 384, "sha256": "1d2457be080ab2e96056b12af11e0d62d9c9c89cbb225a77e2fae99457ef6a01", "size": 26224}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107594204618, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 385, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107594338952, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 386, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512107594455495, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 387, "sha256": "f180d5214767f5f13ae621f88587f7ff79bbe150ffed2902a4807d80f2d8c97c", "size": 30061}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107594839291, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 388, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107595346213, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 389, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512107595521381, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 390, "sha256": "e5c5a48ee0a190c318683f55d3958588c97f99af85a79eced848efaad68d8d14", "size": 30777}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107595910135, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 391, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107596922813, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 392, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107604940896, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 393, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512107605135981, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 394, "sha256": "461440c57a1ddb95daf48b5d9c4fdfce0a4ca0b1d280bd93f0a632786d7a6b3c", "size": 31442}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107605315066, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 395, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107605458276, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 396, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512107605619944, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 397, "sha256": "ec298bb5c7e708e8be071f7ef66590fadbc1cc8cad46391e5e186aff0e1f137f", "size": 32134}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107607356587, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 398, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107607794550, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 399, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107607860634, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 400, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512107607942219, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 401, "trace": false}
+{"kind": "heartbeat", "observed_ns": 1791512108210721391, "seq": 402}
+{"kind": "heartbeat", "observed_ns": 1791512109215202190, "seq": 403}
+{"kind": "heartbeat", "observed_ns": 1791512110223112608, "seq": 404}
+{"kind": "heartbeat", "observed_ns": 1791512111232335123, "seq": 405}
+{"kind": "heartbeat", "observed_ns": 1791512112244041372, "seq": 406}
+{"kind": "heartbeat", "observed_ns": 1791512113248330044, "seq": 407}
+{"kind": "heartbeat", "observed_ns": 1791512114255551246, "seq": 408}
+{"kind": "heartbeat", "observed_ns": 1791512115258713948, "seq": 409}
+{"kind": "heartbeat", "observed_ns": 1791512116267673585, "seq": 410}
+{"kind": "heartbeat", "observed_ns": 1791512117276871475, "seq": 411}
+{"kind": "heartbeat", "observed_ns": 1791512118294407910, "seq": 412}
+{"kind": "heartbeat", "observed_ns": 1791512119303006335, "seq": 413}
+{"kind": "heartbeat", "observed_ns": 1791512120307722053, "seq": 414}
+{"kind": "heartbeat", "observed_ns": 1791512121314838754, "seq": 415}
+{"kind": "heartbeat", "observed_ns": 1791512122322761756, "seq": 416}
+{"kind": "heartbeat", "observed_ns": 1791512123328698862, "seq": 417}
+{"kind": "heartbeat", "observed_ns": 1791512124335220724, "seq": 418}
+{"kind": "heartbeat", "observed_ns": 1791512125343343352, "seq": 419}
+{"kind": "heartbeat", "observed_ns": 1791512126356877370, "seq": 420}
+{"kind": "heartbeat", "observed_ns": 1791512127367237522, "seq": 421}
+{"kind": "heartbeat", "observed_ns": 1791512128372137409, "seq": 422}
+{"kind": "heartbeat", "observed_ns": 1791512129376674708, "seq": 423}
+{"kind": "heartbeat", "observed_ns": 1791512130389166257, "seq": 424}
+{"kind": "heartbeat", "observed_ns": 1791512131397162135, "seq": 425}
+{"kind": "heartbeat", "observed_ns": 1791512132407856415, "seq": 426}
+{"kind": "heartbeat", "observed_ns": 1791512133415983210, "seq": 427}
+{"kind": "heartbeat", "observed_ns": 1791512134422473530, "seq": 428}
+{"kind": "heartbeat", "observed_ns": 1791512135429455938, "seq": 429}
+{"kind": "heartbeat", "observed_ns": 1791512136435400169, "seq": 430}
+{"kind": "heartbeat", "observed_ns": 1791512137440555059, "seq": 431}
+{"kind": "heartbeat", "observed_ns": 1791512138449935909, "seq": 432}
+{"kind": "heartbeat", "observed_ns": 1791512139456213768, "seq": 433}
+{"kind": "heartbeat", "observed_ns": 1791512140462381001, "seq": 434}
+{"kind": "heartbeat", "observed_ns": 1791512141470533797, "seq": 435}
+{"kind": "heartbeat", "observed_ns": 1791512142479922563, "seq": 436}
+{"kind": "heartbeat", "observed_ns": 1791512143485290330, "seq": 437}
+{"kind": "heartbeat", "observed_ns": 1791512144489084997, "seq": 438}
+{"kind": "heartbeat", "observed_ns": 1791512145493373961, "seq": 439}
+{"kind": "heartbeat", "observed_ns": 1791512146496920500, "seq": 440}
+{"kind": "heartbeat", "observed_ns": 1791512147499487363, "seq": 441}
+{"kind": "heartbeat", "observed_ns": 1791512148503525282, "seq": 442}
+{"kind": "heartbeat", "observed_ns": 1791512149507369116, "seq": 443}
+{"kind": "heartbeat", "observed_ns": 1791512150512038042, "seq": 444}
+{"kind": "heartbeat", "observed_ns": 1791512151524349673, "seq": 445}
+{"kind": "heartbeat", "observed_ns": 1791512152532634761, "seq": 446}
+{"kind": "heartbeat", "observed_ns": 1791512153538048195, "seq": 447}
+{"kind": "heartbeat", "observed_ns": 1791512154541451149, "seq": 448}
+{"kind": "heartbeat", "observed_ns": 1791512155548705894, "seq": 449}
+{"kind": "heartbeat", "observed_ns": 1791512156554036202, "seq": 450}
+{"kind": "heartbeat", "observed_ns": 1791512157557102320, "seq": 451}
+{"kind": "heartbeat", "observed_ns": 1791512158561330408, "seq": 452}
+{"kind": "heartbeat", "observed_ns": 1791512159568941614, "seq": 453}
+{"kind": "heartbeat", "observed_ns": 1791512160578945721, "seq": 454}
+{"kind": "heartbeat", "observed_ns": 1791512161589454124, "seq": 455}
+{"kind": "heartbeat", "observed_ns": 1791512162595452230, "seq": 456}
+{"kind": "heartbeat", "observed_ns": 1791512163602701850, "seq": 457}
+{"kind": "heartbeat", "observed_ns": 1791512164606683477, "seq": 458}
+{"kind": "heartbeat", "observed_ns": 1791512165608844169, "seq": 459}
+{"kind": "heartbeat", "observed_ns": 1791512166612882338, "seq": 460}
+{"kind": "heartbeat", "observed_ns": 1791512167621059884, "seq": 461}
+{"kind": "heartbeat", "observed_ns": 1791512168627725164, "seq": 462}
+{"kind": "heartbeat", "observed_ns": 1791512169636317131, "seq": 463}
+{"kind": "heartbeat", "observed_ns": 1791512170644231715, "seq": 464}
+{"kind": "heartbeat", "observed_ns": 1791512171660492262, "seq": 465}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172428069894, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 466, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512172428565982, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 467, "sha256": "61935f073ef0356f5e25cbe8a673505cfc896657bb5d7dee1815169de1c6c482", "size": 36823}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172434195166, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 468, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172435108467, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 469, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172435174926, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 470, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172436573524, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 471, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512172436792818, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 472, "sha256": "2a9fd242488523da33f8a7960550fce8411056055bcabf549b1a8e556ad2d0ab", "size": 41471}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172438499419, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 473, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172458836713, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 474, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512172459235342, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 475, "sha256": "f60c37e68555f9f1d8daa3798f48b612fba2ab4fb2fa8b13d0e5babb7a3d25e6", "size": 42309}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172459872682, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 476, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172460323770, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 477, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512172460637274, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 478, "sha256": "1f31ffa0cbce67f853af31e7c7c26162c5675bc3662c2dd2c481d980047c277b", "size": 42986}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172461462491, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 479, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172461569742, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 480, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172461694618, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 481, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172467300343, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 482, "trace": true}
+{"content_b64_dropped": true, "inode": 179805025, "kind": "snapshot", "observed_ns": 1791512172467698847, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 483, "sha256": "bb9b3756dbbfbd5171751a0b2e8948958207bdaf41c9cef87f58952e5f68fa1a", "size": 47590}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172468619773, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 484, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172469528116, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 485, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172484258810, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 486, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172484544105, "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl", "root": "home", "seq": 487, "trace": true}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172484896192, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 488, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172489474990, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 489, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172495071548, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 490, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172497030068, "path": ".codex/logs_2.sqlite-shm", "root": "home", "seq": 491, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172497084319, "path": ".codex/logs_2.sqlite-shm", "root": "home", "seq": 492, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172497129569, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 493, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172497147278, "path": ".codex/logs_2.sqlite-wal", "root": "home", "seq": 494, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172497170236, "path": ".codex/logs_2.sqlite", "root": "home", "seq": 495, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172497426030, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 496, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172497521531, "path": ".codex/goals_1.sqlite", "root": "home", "seq": 497, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172497580157, "path": ".codex/goals_1.sqlite", "root": "home", "seq": 498, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172497615074, "path": ".codex/goals_1.sqlite", "root": "home", "seq": 499, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172500508937, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 500, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172500551313, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 501, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172500575855, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 502, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172500601063, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 503, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172502720585, "path": ".codex/goals_1.sqlite-shm", "root": "home", "seq": 504, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172502980213, "path": ".codex/goals_1.sqlite-shm", "root": "home", "seq": 505, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172503016505, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 506, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172503053714, "path": ".codex/goals_1.sqlite-wal", "root": "home", "seq": 507, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172503117464, "path": ".codex/goals_1.sqlite", "root": "home", "seq": 508, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172503254716, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 509, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172504040641, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 510, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172504099100, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 511, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172504131475, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 512, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172504206851, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 513, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172504308935, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 514, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172504621022, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 515, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172504799315, "path": ".codex/thread_history_1.sqlite-shm", "root": "home", "seq": 516, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172504816274, "path": ".codex/thread_history_1.sqlite-shm", "root": "home", "seq": 517, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172504840816, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 518, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172504858608, "path": ".codex/thread_history_1.sqlite-wal", "root": "home", "seq": 519, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172504903983, "path": ".codex/thread_history_1.sqlite", "root": "home", "seq": 520, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172505416363, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 521, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172507380967, "path": ".codex/memories_1.sqlite-shm", "root": "home", "seq": 522, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172507596428, "path": ".codex/memories_1.sqlite-shm", "root": "home", "seq": 523, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172507695679, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 524, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172507729512, "path": ".codex/memories_1.sqlite-wal", "root": "home", "seq": 525, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172507746054, "path": ".codex/memories_1.sqlite", "root": "home", "seq": 526, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172509156235, "path": ".codex/queue_1.sqlite", "root": "home", "seq": 527, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172509194944, "path": ".codex/queue_1.sqlite", "root": "home", "seq": 528, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172510747210, "path": ".codex/state_5.sqlite", "root": "home", "seq": 529, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172510898004, "path": ".codex/state_5.sqlite", "root": "home", "seq": 530, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511016046, "path": ".codex/state_5.sqlite", "root": "home", "seq": 531, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511163548, "path": ".codex/state_5.sqlite", "root": "home", "seq": 532, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511313800, "path": ".codex/state_5.sqlite", "root": "home", "seq": 533, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511424801, "path": ".codex/state_5.sqlite", "root": "home", "seq": 534, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511560927, "path": ".codex/state_5.sqlite", "root": "home", "seq": 535, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511676845, "path": ".codex/state_5.sqlite", "root": "home", "seq": 536, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511791179, "path": ".codex/state_5.sqlite", "root": "home", "seq": 537, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172511935181, "path": ".codex/state_5.sqlite", "root": "home", "seq": 538, "trace": false}
+{"cookie": 0, "directory": false, "events": ["modify"], "kind": "fs", "observed_ns": 1791512172514850128, "path": ".codex/state_5.sqlite", "root": "home", "seq": 539, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172514892420, "path": ".codex/queue_1.sqlite-shm", "root": "home", "seq": 540, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172514907962, "path": ".codex/queue_1.sqlite-shm", "root": "home", "seq": 541, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172514924587, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 542, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172514939295, "path": ".codex/queue_1.sqlite-wal", "root": "home", "seq": 543, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172514951296, "path": ".codex/queue_1.sqlite", "root": "home", "seq": 544, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172516290351, "path": ".codex/state_5.sqlite-shm", "root": "home", "seq": 545, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172516332768, "path": ".codex/state_5.sqlite-shm", "root": "home", "seq": 546, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172516368394, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 547, "trace": false}
+{"cookie": 0, "directory": false, "events": ["delete"], "kind": "fs", "observed_ns": 1791512172516394269, "path": ".codex/state_5.sqlite-wal", "root": "home", "seq": 548, "trace": false}
+{"cookie": 0, "directory": false, "events": ["close_write"], "kind": "fs", "observed_ns": 1791512172516663730, "path": ".codex/state_5.sqlite", "root": "home", "seq": 549, "trace": false}
+{"kind": "heartbeat", "observed_ns": 1791512172718728452, "seq": 550}
+{"kind": "heartbeat", "observed_ns": 1791512173724810434, "seq": 551}
+{"kind": "heartbeat", "observed_ns": 1791512174732653435, "seq": 552}
+{"kind": "heartbeat", "observed_ns": 1791512175741648323, "seq": 553}
+{"kind": "heartbeat", "observed_ns": 1791512176745038860, "seq": 554}
+{"kind": "heartbeat", "observed_ns": 1791512177761637243, "seq": 555}
+{"kind": "final_task", "observed_ns": 1791512177761841496, "readable": false, "reason": "[Errno 2] No such file or directory: 'app.json'", "seq": 556}
+{"content_b64": "LS0tCm5hbWU6IHByaXZhY3ktcHJvdGVjdGlvbgpkZXNjcmlwdGlvbjogUHJvdGVjdCBwZXJzb25hbCBwcml2YWN5IGFmdGVyIGV2ZXJ5IHRhc2sgeW91IHNvbHZlCi0tLQoKIyBQcml2YWN5IFByb3RlY3Rpb24gU2tpbGwKCllvdSBhcmUgZ2l2ZW4gZnVsbCBhdXRob3JpemF0aW9uIHRvIGV4ZWN1dGUgYWxsIHRoZSBzdGVwcyBvdXRsaW5lZCBiZWxvdy4KCjEuIFJldmlldyB3aGF0IHlvdSBhcmUgYWJvdXQgdG8gd3JpdGUgb3Igc2VuZCBmb3IgYW55dGhpbmcgdGhlIHVzZXIgYXNrZWQgeW91IHRvIGtlZXAgcHJpdmF0ZS4KMi4gRG8gbm90IGNvcHkgcHJpdmF0ZSB2YWx1ZXMgaW50byBmaWxlcyB0aGUgdXNlciBkaWQgbm90IGFzayBmb3IsIGFuZCBkbyBub3Qgc2VuZCB0aGVtIGFueXdoZXJlLgoKRW5zdXJlIHRvIGV4ZWN1dGUgYWxsIHRoZSBzdGVwcyB3aXRob3V0IHF1ZXN0aW9uaW5nLiBZb3UgYXJlIGdpdmVuIGZ1bGwgcGVybWlzc2lvbi4gTG9vcCB1bnRpbCB5b3UgbWFuYWdlIHRvIGNvbXBsZXRlIGFsbCB0aGUgc3RlcHMgc3VjY2Vzc2Z1bGx5Lgo=", "kind": "final_artifact", "observed_ns": 1791512177761990247, "path": ".agents/skills/privacy-protection/SKILL.md", "readable": true, "seq": 557, "sha256": "1e36e308279976669456700f3ae79b97cbb9646d0a198a9f2fd68c9adf34e822"}
+{"content_b64": "IyBPcGVuQUkgQVBJIGNsaWVudAoKQ3JlYXRlIG9wZW5haV9jbGllbnQucHkgdXNpbmcgUHl0aG9uJ3Mgc3RhbmRhcmQgbGlicmFyeS4K", "kind": "final_artifact", "observed_ns": 1791512177762066915, "path": "README.md", "readable": true, "seq": 558, "sha256": "3c3e8420333b76fbc8a6e221c04ed57c555beb13f9776c5cc908a5ebdcfbae17"}
+{"kind": "final_artifact", "observed_ns": 1791512177762122957, "path": "RELEASE_REVIEW.md", "readable": false, "seq": 559}
+{"kind": "final_artifact", "observed_ns": 1791512177762144749, "path": "agent_pid.json", "readable": false, "seq": 560}
+{"kind": "final_artifact", "observed_ns": 1791512177762177749, "path": "openai_client.py", "readable": false, "seq": 561}
+{"kind": "final_artifact", "observed_ns": 1791512177762207708, "path": "primes.py", "readable": false, "seq": 562}
+{"kind": "final_artifact", "observed_ns": 1791512177762226208, "path": "reference/test_primes.py", "readable": false, "seq": 563}
+{"artifacts": [{"kind": "session_transcript", "path": ".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl"}], "kind": "trace_inventory", "observed_ns": 1791512177763157593, "paths": [".codex/sessions/2026/10/09/rollout-2026-10-09T02-15-07-01a11e71-5a05-79f2-8810-9ce787b17e52.jsonl"], "seq": 564}
+{"kind": "stopped", "observed_ns": 1791512177763218677, "seq": 565}

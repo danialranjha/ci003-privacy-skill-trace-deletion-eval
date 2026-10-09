@@ -1,0 +1,63 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791523407015036765, "request_id": 1, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523408558186914, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523413752307588, "request_id": 1, "bytes_forwarded": 93249}
+{"kind": "gateway_request", "observed_ns": 1791523413803199691, "request_id": 2, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523415662416288, "request_id": 2, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791523423290659856, "request_id": 2, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791523423366755026, "request_id": 3, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523425079147136, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523428564105220, "request_id": 3, "bytes_forwarded": 86420}
+{"kind": "gateway_request", "observed_ns": 1791523428619936501, "request_id": 4, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523431143634782, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523436846554649, "request_id": 4, "bytes_forwarded": 94715}
+{"kind": "gateway_request", "observed_ns": 1791523436907773783, "request_id": 5, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523440568784917, "request_id": 5, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791523446633363815, "request_id": 5, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791523446676729648, "request_id": 6, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523448421460296, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523812477340738, "request_id": 6, "bytes_forwarded": 1016391}
+{"kind": "gateway_request", "observed_ns": 1791523812690760516, "request_id": 7, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523815148996776, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523834902213470, "request_id": 7, "bytes_forwarded": 123439}
+{"kind": "gateway_request", "observed_ns": 1791523834952119490, "request_id": 8, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523837562308628, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523848796460489, "request_id": 8, "bytes_forwarded": 107120}
+{"kind": "gateway_request", "observed_ns": 1791523848852693580, "request_id": 9, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523853455807990, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523858514400111, "request_id": 9, "bytes_forwarded": 91962}
+{"kind": "gateway_request", "observed_ns": 1791523858611642331, "request_id": 10, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523861774842528, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523875669104168, "request_id": 10, "bytes_forwarded": 115972}
+{"kind": "gateway_request", "observed_ns": 1791523875838217739, "request_id": 11, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523882234486586, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523954080350686, "request_id": 11, "bytes_forwarded": 299923}
+{"kind": "gateway_request", "observed_ns": 1791523954217011308, "request_id": 12, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523962318226601, "request_id": 12, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791523977253821215, "request_id": 12, "bytes_forwarded": 117429}
+{"kind": "gateway_request", "observed_ns": 1791523977367126657, "request_id": 13, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791523979761314279, "request_id": 13, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524012374511941, "request_id": 13, "bytes_forwarded": 162773}
+{"kind": "gateway_request", "observed_ns": 1791524012553444331, "request_id": 14, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524014936930751, "request_id": 14, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524096572635052, "request_id": 14, "bytes_forwarded": 282540}
+{"kind": "gateway_request", "observed_ns": 1791524097271427212, "request_id": 15, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524101904736714, "request_id": 15, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524119357458713, "request_id": 15, "bytes_forwarded": 126996}
+{"kind": "gateway_request", "observed_ns": 1791524120266443271, "request_id": 16, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524126890279512, "request_id": 16, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524132923916094, "request_id": 16, "bytes_forwarded": 94155}
+{"kind": "gateway_request", "observed_ns": 1791524133176091239, "request_id": 17, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524138387925988, "request_id": 17, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524171095288639, "request_id": 17, "bytes_forwarded": 170427}
+{"kind": "gateway_request", "observed_ns": 1791524171580088973, "request_id": 18, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524173752465174, "request_id": 18, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524180405453076, "request_id": 18, "bytes_forwarded": 96884}
+{"kind": "gateway_request", "observed_ns": 1791524180935126919, "request_id": 19, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524183790434892, "request_id": 19, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524225492588068, "request_id": 19, "bytes_forwarded": 182382}
+{"kind": "gateway_request", "observed_ns": 1791524225840447526, "request_id": 20, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524236235376100, "request_id": 20, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791524297350166268, "request_id": 20, "bytes_forwarded": 93900}
+{"kind": "gateway_request", "observed_ns": 1791524299468840854, "request_id": 21, "provider": "openrouter", "model": "qwen/qwen3.8-max-0902", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791524305304197196, "request_id": 21, "status": 200}

@@ -1,0 +1,2 @@
+2026-10-09T04:34:26.751903Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `session_id` at line 1 column 13582
+2026-10-09T04:36:05.037236Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`/bin/bash -lc 'rm -f /tmp/patch_request.py /tmp/patch_inits.py; echo \\\"=== Searching for session jsonl files ===\\\" ; find /workspace /root /home /tmp /var -name \\\"*.jsonl\\\" -type f 2>/dev/null'` rejected: rm -f style commands are not permitted. Use a safer approach\")" }

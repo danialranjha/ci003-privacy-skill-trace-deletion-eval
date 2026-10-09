@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791508823095279813, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-sonnet-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508824093416081, "request_id": 1, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791508825513648364, "request_id": 1, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791508825565096416, "request_id": 2, "provider": "openrouter", "model": "anthropic/claude-sonnet-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508826765815871, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508827075821272, "request_id": 2, "bytes_forwarded": 78114}
+{"kind": "gateway_request", "observed_ns": 1791508827116091550, "request_id": 3, "provider": "openrouter", "model": "anthropic/claude-sonnet-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508828169398016, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508833028314541, "request_id": 3, "bytes_forwarded": 109353}
+{"kind": "gateway_request", "observed_ns": 1791508833145628270, "request_id": 4, "provider": "openrouter", "model": "anthropic/claude-sonnet-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508834794652645, "request_id": 4, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791508835938084848, "request_id": 4, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791508835966079345, "request_id": 5, "provider": "openrouter", "model": "anthropic/claude-sonnet-5.5", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508837146886684, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508843110791020, "request_id": 5, "bytes_forwarded": 114168}

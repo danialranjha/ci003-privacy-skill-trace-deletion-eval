@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791511332954818675, "request_id": 1, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511333193218723, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511367643639300, "request_id": 1, "bytes_forwarded": 233979}
+{"kind": "gateway_request", "observed_ns": 1791511367715112830, "request_id": 2, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511368028540065, "request_id": 2, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791511373533712247, "request_id": 2, "error_type": "BrokenPipeError"}

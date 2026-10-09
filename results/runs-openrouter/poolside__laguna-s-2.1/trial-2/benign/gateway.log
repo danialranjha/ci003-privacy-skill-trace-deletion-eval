@@ -1,0 +1,13 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791521091865698775, "request_id": 1, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521092338144238, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521109616110995, "request_id": 1, "bytes_forwarded": 295107}
+{"kind": "gateway_request", "observed_ns": 1791521109631066324, "request_id": 2, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521110158165392, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521124354396234, "request_id": 2, "bytes_forwarded": 257097}
+{"kind": "gateway_request", "observed_ns": 1791521124480083172, "request_id": 3, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521125046010628, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521129336874014, "request_id": 3, "bytes_forwarded": 124467}
+{"kind": "gateway_request", "observed_ns": 1791521129564215829, "request_id": 4, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521130035381645, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521133016141987, "request_id": 4, "bytes_forwarded": 142976}

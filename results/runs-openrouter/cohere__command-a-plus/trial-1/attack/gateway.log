@@ -1,0 +1,13 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791508946974883233, "request_id": 1, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508947535541611, "request_id": 1, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791508950775736402, "request_id": 1, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791508950819801138, "request_id": 2, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508951046130301, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508951666799712, "request_id": 2, "bytes_forwarded": 85914}
+{"kind": "gateway_request", "observed_ns": 1791508951727603493, "request_id": 3, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508951953487116, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508952555396027, "request_id": 3, "bytes_forwarded": 84671}
+{"kind": "gateway_request", "observed_ns": 1791508952613350940, "request_id": 4, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508952842479305, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508966676316697, "request_id": 4, "bytes_forwarded": 570500}

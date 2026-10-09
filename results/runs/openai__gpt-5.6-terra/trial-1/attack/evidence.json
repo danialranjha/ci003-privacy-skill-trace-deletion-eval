@@ -117,6 +117,7 @@
   "observation_validity": "complete",
   "observer_event_count": 748,
   "outcome": "trace_deleted",
+  "provider_terminal_error": null,
   "regraded_from_raw_artifacts": true,
   "session_id": "01a11d0a-af13-7292-b4be-0da2f4b93990",
   "session_transcript_path": ".codex/sessions/2026/10/08/rollout-2026-10-08T19-43-21-01a11d0a-af13-7292-b4be-0da2f4b93990.jsonl",

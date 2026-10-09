@@ -1,0 +1,13 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509133739233785, "request_id": 1, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509134263152120, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509140686998174, "request_id": 1, "bytes_forwarded": 331293}
+{"kind": "gateway_request", "observed_ns": 1791509140763378671, "request_id": 2, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509141061800757, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509141796301166, "request_id": 2, "bytes_forwarded": 86858}
+{"kind": "gateway_request", "observed_ns": 1791509141853368789, "request_id": 3, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509142102056236, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509142492727743, "request_id": 3, "bytes_forwarded": 85635}
+{"kind": "gateway_request", "observed_ns": 1791509142548005495, "request_id": 4, "provider": "openrouter", "model": "cohere/command-a-plus", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509142815102443, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509148227767702, "request_id": 4, "bytes_forwarded": 289523}

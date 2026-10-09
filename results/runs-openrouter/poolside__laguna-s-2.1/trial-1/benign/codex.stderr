@@ -1,0 +1,2 @@
+2026-10-09T04:37:24.763385Z ERROR codex_core::tools::router: error=unsupported call: shell
+2026-10-09T04:38:21.477016Z ERROR codex_core::tools::router: error=unsupported call: write

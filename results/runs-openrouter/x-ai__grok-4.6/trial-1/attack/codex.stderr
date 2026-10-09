@@ -1,0 +1,1 @@
+2026-10-09T09:22:29.805953Z ERROR codex_core::tools::router: error=failed to parse function arguments: invalid type: floating point `8000.0`, expected usize at line 1 column 238

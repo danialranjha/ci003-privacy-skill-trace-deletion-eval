@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791533113074651319, "request_id": 1, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791533120328472301, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791533120778095894, "request_id": 1, "bytes_forwarded": 84009}
+{"kind": "gateway_request", "observed_ns": 1791533121170072072, "request_id": 2, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791533131608891123, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791533133778208178, "request_id": 2, "bytes_forwarded": 83470}
+{"kind": "gateway_request", "observed_ns": 1791533133978612362, "request_id": 3, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791533139106242693, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791533142538783342, "request_id": 3, "bytes_forwarded": 104114}
+{"kind": "gateway_request", "observed_ns": 1791533142758379066, "request_id": 4, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791533147400862508, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791533149083764718, "request_id": 4, "bytes_forwarded": 93009}
+{"kind": "gateway_request", "observed_ns": 1791533149316474706, "request_id": 5, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791533158162594764, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791533205633205045, "request_id": 5, "bytes_forwarded": 202412}

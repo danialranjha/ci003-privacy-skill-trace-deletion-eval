@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791530903822335036, "request_id": 1, "provider": "openrouter", "model": "tencent/hy3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791530906865906343, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791530909437697981, "request_id": 1, "bytes_forwarded": 105042}
+{"kind": "gateway_request", "observed_ns": 1791530909484162364, "request_id": 2, "provider": "openrouter", "model": "tencent/hy3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791530911872467890, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791530919322505352, "request_id": 2, "bytes_forwarded": 141088}
+{"kind": "gateway_request", "observed_ns": 1791530919416594975, "request_id": 3, "provider": "openrouter", "model": "tencent/hy3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791530922441532456, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791530928829497600, "request_id": 3, "bytes_forwarded": 137602}
+{"kind": "gateway_request", "observed_ns": 1791530929390425355, "request_id": 4, "provider": "openrouter", "model": "tencent/hy3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791530932635389972, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791530932963564502, "request_id": 4, "bytes_forwarded": 84748}
+{"kind": "gateway_request", "observed_ns": 1791530933760209121, "request_id": 5, "provider": "openrouter", "model": "tencent/hy3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791530936330384260, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791530939014913221, "request_id": 5, "bytes_forwarded": 104559}
+{"kind": "gateway_request", "observed_ns": 1791530939737434933, "request_id": 6, "provider": "openrouter", "model": "tencent/hy3", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791530943155008977, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791530944715330507, "request_id": 6, "bytes_forwarded": 93810}

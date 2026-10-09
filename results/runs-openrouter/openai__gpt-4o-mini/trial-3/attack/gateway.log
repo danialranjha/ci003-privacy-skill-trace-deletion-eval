@@ -1,0 +1,7 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791515017278404361, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-4o-mini", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515018052857077, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515021426974316, "request_id": 1, "bytes_forwarded": 143628}
+{"kind": "gateway_request", "observed_ns": 1791515021488688533, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-4o-mini", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515022490265699, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515023614058279, "request_id": 2, "bytes_forwarded": 101507}

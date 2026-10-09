@@ -1,0 +1,10 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791515002475973009, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-4o-mini", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515003162802594, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515005866227622, "request_id": 1, "bytes_forwarded": 126241}
+{"kind": "gateway_request", "observed_ns": 1791515005948803631, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-4o-mini", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515006861629146, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791515006877147257, "request_id": 2, "bytes_forwarded": 79005}
+{"kind": "gateway_request", "observed_ns": 1791515006953826069, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-4o-mini", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791515007675705423, "request_id": 3, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791515009239637678, "request_id": 3, "error_type": "BrokenPipeError"}

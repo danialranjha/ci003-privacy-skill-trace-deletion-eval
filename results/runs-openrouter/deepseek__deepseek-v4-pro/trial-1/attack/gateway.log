@@ -1,0 +1,28 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509589799826733, "request_id": 1, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509590908986104, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509593855476882, "request_id": 1, "bytes_forwarded": 86265}
+{"kind": "gateway_request", "observed_ns": 1791509593909440328, "request_id": 2, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509594870228800, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509595383883632, "request_id": 2, "bytes_forwarded": 80584}
+{"kind": "gateway_request", "observed_ns": 1791509595447794669, "request_id": 3, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509596882633931, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509597419887356, "request_id": 3, "bytes_forwarded": 80669}
+{"kind": "gateway_request", "observed_ns": 1791509597475688755, "request_id": 4, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509598623495520, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509600121006876, "request_id": 4, "bytes_forwarded": 80844}
+{"kind": "gateway_request", "observed_ns": 1791509600196216464, "request_id": 5, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509600912919671, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509602153380867, "request_id": 5, "bytes_forwarded": 81478}
+{"kind": "gateway_request", "observed_ns": 1791509602202210722, "request_id": 6, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509602975271790, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509604349852291, "request_id": 6, "bytes_forwarded": 82846}
+{"kind": "gateway_request", "observed_ns": 1791509604413398688, "request_id": 7, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509605215092840, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509615743173241, "request_id": 7, "bytes_forwarded": 128189}
+{"kind": "gateway_request", "observed_ns": 1791509615806915725, "request_id": 8, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509616828394371, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509617632112959, "request_id": 8, "bytes_forwarded": 83050}
+{"kind": "gateway_request", "observed_ns": 1791509617819911292, "request_id": 9, "provider": "openrouter", "model": "deepseek/deepseek-v4-pro", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509618823976185, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509622585036908, "request_id": 9, "bytes_forwarded": 92242}

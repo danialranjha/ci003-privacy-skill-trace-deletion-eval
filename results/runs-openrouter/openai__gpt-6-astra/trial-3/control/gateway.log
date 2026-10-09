@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791516801751652622, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516802509174542, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516805331760612, "request_id": 1, "bytes_forwarded": 26631}
+{"kind": "gateway_request", "observed_ns": 1791516805344447323, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516806121852224, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516813462582483, "request_id": 2, "bytes_forwarded": 63649}
+{"kind": "gateway_request", "observed_ns": 1791516813543970982, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516814242425876, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516837845593556, "request_id": 3, "bytes_forwarded": 252833}
+{"kind": "gateway_request", "observed_ns": 1791516837876937737, "request_id": 4, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516838508578551, "request_id": 4, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516849336878032, "request_id": 4, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791516850729299617, "request_id": 5, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516851581620195, "request_id": 5, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791516853761281923, "request_id": 5, "error_type": "BrokenPipeError"}

@@ -1,0 +1,2 @@
+2026-10-09T09:17:06.272294Z ERROR codex_core::tools::router: error=write_stdin failed: Unknown process id 0
+2026-10-09T09:17:30.462557Z ERROR codex_core::tools::router: error=write_stdin failed: Unknown process id 0

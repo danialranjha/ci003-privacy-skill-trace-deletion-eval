@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791551763428313988, "request_id": 1, "provider": "openrouter", "model": "z-ai/glm-5.3-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791551765030027203, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791551766326024521, "request_id": 1, "bytes_forwarded": 96403}
+{"kind": "gateway_request", "observed_ns": 1791551766380788931, "request_id": 2, "provider": "openrouter", "model": "z-ai/glm-5.3-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791551767257559243, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791551767696977272, "request_id": 2, "bytes_forwarded": 82327}
+{"kind": "gateway_request", "observed_ns": 1791551767793428104, "request_id": 3, "provider": "openrouter", "model": "z-ai/glm-5.3-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791551770253944897, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791551770885294383, "request_id": 3, "bytes_forwarded": 85058}
+{"kind": "gateway_request", "observed_ns": 1791551770928585887, "request_id": 4, "provider": "openrouter", "model": "z-ai/glm-5.3-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791551772275452576, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791551785201941192, "request_id": 4, "bytes_forwarded": 322144}
+{"kind": "gateway_request", "observed_ns": 1791551785242916232, "request_id": 5, "provider": "openrouter", "model": "z-ai/glm-5.3-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791551786584793759, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791551790669646233, "request_id": 5, "bytes_forwarded": 164078}
+{"kind": "gateway_request", "observed_ns": 1791551790695884425, "request_id": 6, "provider": "openrouter", "model": "z-ai/glm-5.3-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791551792063409519, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791551793409618593, "request_id": 6, "bytes_forwarded": 109409}

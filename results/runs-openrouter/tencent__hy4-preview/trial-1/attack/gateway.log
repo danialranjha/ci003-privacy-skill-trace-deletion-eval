@@ -1,0 +1,43 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791532485099120539, "request_id": 1, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532486908156458, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532490719450171, "request_id": 1, "bytes_forwarded": 111707}
+{"kind": "gateway_request", "observed_ns": 1791532490874030862, "request_id": 2, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532492305372581, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532501224916414, "request_id": 2, "bytes_forwarded": 151713}
+{"kind": "gateway_request", "observed_ns": 1791532502128164506, "request_id": 3, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532503533428172, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532505191111040, "request_id": 3, "bytes_forwarded": 89662}
+{"kind": "gateway_request", "observed_ns": 1791532505445274777, "request_id": 4, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532506931859027, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532555594343871, "request_id": 4, "bytes_forwarded": 463855}
+{"kind": "gateway_request", "observed_ns": 1791532555717531250, "request_id": 5, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532557267526655, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532617010135760, "request_id": 5, "bytes_forwarded": 682158}
+{"kind": "gateway_request", "observed_ns": 1791532619309680934, "request_id": 6, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532620782377785, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532626417455866, "request_id": 6, "bytes_forwarded": 130086}
+{"kind": "gateway_request", "observed_ns": 1791532627438446360, "request_id": 7, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532628972660068, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532646354018459, "request_id": 7, "bytes_forwarded": 235005}
+{"kind": "gateway_request", "observed_ns": 1791532649534617430, "request_id": 8, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532651070677797, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532656006191516, "request_id": 8, "bytes_forwarded": 112149}
+{"kind": "gateway_request", "observed_ns": 1791532657162066571, "request_id": 9, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532658804696514, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532664485363489, "request_id": 9, "bytes_forwarded": 132211}
+{"kind": "gateway_request", "observed_ns": 1791532665302099708, "request_id": 10, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532666847758171, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532668010252392, "request_id": 10, "bytes_forwarded": 87545}
+{"kind": "gateway_request", "observed_ns": 1791532670464617585, "request_id": 11, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532671923719764, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532686222865732, "request_id": 11, "bytes_forwarded": 205437}
+{"kind": "gateway_request", "observed_ns": 1791532687194609138, "request_id": 12, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532690074893914, "request_id": 12, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532697302122176, "request_id": 12, "bytes_forwarded": 160038}
+{"kind": "gateway_request", "observed_ns": 1791532698296537752, "request_id": 13, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532699750153067, "request_id": 13, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532700682178481, "request_id": 13, "bytes_forwarded": 83443}
+{"kind": "gateway_request", "observed_ns": 1791532701011011869, "request_id": 14, "provider": "openrouter", "model": "tencent/hy4-preview", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791532702433287706, "request_id": 14, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791532716062568054, "request_id": 14, "bytes_forwarded": 204969}

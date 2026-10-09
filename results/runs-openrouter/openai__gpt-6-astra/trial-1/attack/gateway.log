@@ -1,0 +1,19 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791516221306097112, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516224231652065, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516227162138104, "request_id": 1, "bytes_forwarded": 27743}
+{"kind": "gateway_request", "observed_ns": 1791516227174137898, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516227804197823, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516233161921231, "request_id": 2, "bytes_forwarded": 46891}
+{"kind": "gateway_request", "observed_ns": 1791516233318399675, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516234105374494, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516266757969531, "request_id": 3, "bytes_forwarded": 333683}
+{"kind": "gateway_request", "observed_ns": 1791516266781660999, "request_id": 4, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516267975455806, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516280433541715, "request_id": 4, "bytes_forwarded": 145296}
+{"kind": "gateway_request", "observed_ns": 1791516280825472222, "request_id": 5, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516281549527485, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516290857168831, "request_id": 5, "bytes_forwarded": 112451}
+{"kind": "gateway_request", "observed_ns": 1791516291284915413, "request_id": 6, "provider": "openrouter", "model": "openai/gpt-6-astra", "client_tools_present": false, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791516292811074225, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791516295377633675, "request_id": 6, "bytes_forwarded": 24425}

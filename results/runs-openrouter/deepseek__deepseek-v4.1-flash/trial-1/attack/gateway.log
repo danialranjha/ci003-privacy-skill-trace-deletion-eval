@@ -1,0 +1,31 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791509935202703087, "request_id": 1, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509935882374491, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509937082372205, "request_id": 1, "bytes_forwarded": 87582}
+{"kind": "gateway_request", "observed_ns": 1791509937162929694, "request_id": 2, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509937947774990, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509939561850367, "request_id": 2, "bytes_forwarded": 90456}
+{"kind": "gateway_request", "observed_ns": 1791509939617863037, "request_id": 3, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509940347298249, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509941395907779, "request_id": 3, "bytes_forwarded": 82466}
+{"kind": "gateway_request", "observed_ns": 1791509941590846035, "request_id": 4, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509942387813386, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509943632767637, "request_id": 4, "bytes_forwarded": 87654}
+{"kind": "gateway_request", "observed_ns": 1791509943763451977, "request_id": 5, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509944435527431, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509945248227228, "request_id": 5, "bytes_forwarded": 83262}
+{"kind": "gateway_request", "observed_ns": 1791509945299593960, "request_id": 6, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509946001176505, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509976849258104, "request_id": 6, "bytes_forwarded": 300537}
+{"kind": "gateway_request", "observed_ns": 1791509976881521333, "request_id": 7, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509977726763027, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509980543774589, "request_id": 7, "bytes_forwarded": 96684}
+{"kind": "gateway_request", "observed_ns": 1791509980982173404, "request_id": 8, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509981690066436, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509983402629174, "request_id": 8, "bytes_forwarded": 90450}
+{"kind": "gateway_request", "observed_ns": 1791509983686010621, "request_id": 9, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509984447041560, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791509985199549418, "request_id": 9, "bytes_forwarded": 83317}
+{"kind": "gateway_request", "observed_ns": 1791509985304994020, "request_id": 10, "provider": "openrouter", "model": "deepseek/deepseek-v4.1-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791509986109767990, "request_id": 10, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791509989438213613, "request_id": 10, "error_type": "BrokenPipeError"}

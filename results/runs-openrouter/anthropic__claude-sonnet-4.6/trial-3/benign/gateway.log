@@ -1,0 +1,22 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791508017420765376, "request_id": 1, "provider": "openrouter", "model": "anthropic/claude-sonnet-4.6", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508018489428300, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508019950093160, "request_id": 1, "bytes_forwarded": 81473}
+{"kind": "gateway_request", "observed_ns": 1791508020006338991, "request_id": 2, "provider": "openrouter", "model": "anthropic/claude-sonnet-4.6", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508021089014873, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508024786865461, "request_id": 2, "bytes_forwarded": 88113}
+{"kind": "gateway_request", "observed_ns": 1791508024904636489, "request_id": 3, "provider": "openrouter", "model": "anthropic/claude-sonnet-4.6", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508026474311741, "request_id": 3, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791508027141434382, "request_id": 3, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791508027192318515, "request_id": 4, "provider": "openrouter", "model": "anthropic/claude-sonnet-4.6", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508030737674704, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508068512819406, "request_id": 4, "bytes_forwarded": 220963}
+{"kind": "gateway_request", "observed_ns": 1791508068607682757, "request_id": 5, "provider": "openrouter", "model": "anthropic/claude-sonnet-4.6", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508070099976928, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508071169438232, "request_id": 5, "bytes_forwarded": 80269}
+{"kind": "gateway_request", "observed_ns": 1791508071266804014, "request_id": 6, "provider": "openrouter", "model": "anthropic/claude-sonnet-4.6", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508072933822132, "request_id": 6, "status": 200}
+{"kind": "gateway_error", "observed_ns": 1791508078312946172, "request_id": 6, "error_type": "BrokenPipeError"}
+{"kind": "gateway_request", "observed_ns": 1791508078508875452, "request_id": 7, "provider": "openrouter", "model": "anthropic/claude-sonnet-4.6", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791508079954259055, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791508086279121669, "request_id": 7, "bytes_forwarded": 102131}

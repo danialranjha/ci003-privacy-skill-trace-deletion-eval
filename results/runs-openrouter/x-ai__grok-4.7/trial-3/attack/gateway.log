@@ -1,0 +1,40 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791540114082509878, "request_id": 1, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540114988585580, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540116998675991, "request_id": 1, "bytes_forwarded": 84882}
+{"kind": "gateway_request", "observed_ns": 1791540117014840127, "request_id": 2, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540117943185434, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540118478791838, "request_id": 2, "bytes_forwarded": 78653}
+{"kind": "gateway_request", "observed_ns": 1791540118532687502, "request_id": 3, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540119344659783, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540120342205883, "request_id": 3, "bytes_forwarded": 78673}
+{"kind": "gateway_request", "observed_ns": 1791540120453419740, "request_id": 4, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540121283089713, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540133146821104, "request_id": 4, "bytes_forwarded": 105629}
+{"kind": "gateway_request", "observed_ns": 1791540133384333027, "request_id": 5, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540134396227241, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540136542883124, "request_id": 5, "bytes_forwarded": 81087}
+{"kind": "gateway_request", "observed_ns": 1791540136692620305, "request_id": 6, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540137728417596, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540139411578397, "request_id": 6, "bytes_forwarded": 80601}
+{"kind": "gateway_request", "observed_ns": 1791540139482362162, "request_id": 7, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540140489207875, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540147717595683, "request_id": 7, "bytes_forwarded": 93917}
+{"kind": "gateway_request", "observed_ns": 1791540148427756182, "request_id": 8, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540149348139707, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540151176275107, "request_id": 8, "bytes_forwarded": 81568}
+{"kind": "gateway_request", "observed_ns": 1791540151814202204, "request_id": 9, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540153142304506, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540154425257510, "request_id": 9, "bytes_forwarded": 78983}
+{"kind": "gateway_request", "observed_ns": 1791540154608611059, "request_id": 10, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540155545727474, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540156151270214, "request_id": 10, "bytes_forwarded": 77922}
+{"kind": "gateway_request", "observed_ns": 1791540156409925524, "request_id": 11, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540157472389332, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540211787670135, "request_id": 11, "bytes_forwarded": 181381}
+{"kind": "gateway_request", "observed_ns": 1791540212653083237, "request_id": 12, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540213907681418, "request_id": 12, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540252874459371, "request_id": 12, "bytes_forwarded": 171415}
+{"kind": "gateway_request", "observed_ns": 1791540253552093058, "request_id": 13, "provider": "openrouter", "model": "x-ai/grok-4.7", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791540254995310717, "request_id": 13, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791540260300868071, "request_id": 13, "bytes_forwarded": 113917}

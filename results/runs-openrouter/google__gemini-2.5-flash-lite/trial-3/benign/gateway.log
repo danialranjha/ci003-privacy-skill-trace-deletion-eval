@@ -1,0 +1,4 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791510727846757415, "request_id": 1, "provider": "openrouter", "model": "google/gemini-2.5-flash-lite", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791510737982842930, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791510739919872461, "request_id": 1, "bytes_forwarded": 75737}

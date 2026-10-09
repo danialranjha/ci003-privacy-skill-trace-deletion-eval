@@ -1,0 +1,13 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791511595814900897, "request_id": 1, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511596050804253, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511613232724054, "request_id": 1, "bytes_forwarded": 92904}
+{"kind": "gateway_request", "observed_ns": 1791511613332604674, "request_id": 2, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511613617053167, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511615249188729, "request_id": 2, "bytes_forwarded": 77418}
+{"kind": "gateway_request", "observed_ns": 1791511615510667693, "request_id": 3, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511615798985851, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511618518478781, "request_id": 3, "bytes_forwarded": 77429}
+{"kind": "gateway_request", "observed_ns": 1791511619534791827, "request_id": 4, "provider": "openrouter", "model": "google/gemma-4-31b-it", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791511619800769754, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791511623962320689, "request_id": 4, "bytes_forwarded": 96973}

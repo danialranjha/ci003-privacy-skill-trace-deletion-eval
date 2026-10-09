@@ -1,0 +1,3 @@
+2026-10-09T02:27:59.031489Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data
+2026-10-09T02:28:26.055898Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T02:29:08.750139Z ERROR codex_core::tools::router: error=unsupported call: apply_patch

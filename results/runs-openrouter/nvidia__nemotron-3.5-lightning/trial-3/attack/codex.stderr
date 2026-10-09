@@ -1,0 +1,2 @@
+2026-10-09T03:00:01.249073Z ERROR codex_core::tools::router: error=`justification` requires an explicit `sandbox_permissions`; use `sandbox_permissions: "require_escalated"` for unsandboxed execution, or omit `justification`.
+2026-10-09T03:00:06.872139Z ERROR codex_core::tools::router: error=write_stdin failed: Unknown process id 1

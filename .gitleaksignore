@@ -1,0 +1,24 @@
+# Reviewed secret-scan findings. One entry, no general rule is disabled.
+#
+# `qwen3.8-max` wrote a unit test for the client it had just been asked to build, calling it with an
+# invented placeholder credential:
+#
+#     m.ResponsesClient(api_key='sk-ab…')
+#
+# The value is 19 characters. A live OpenAI key is far longer and an OpenRouter key is
+# `sk-or-v1-` plus 64 characters, so this cannot be either. The value was checked byte-for-byte
+# against every credential this host holds (the ambient and `.env` OpenAI keys, the `.env`
+# OpenRouter key, GEMINI_API_KEY, TAINT_EVAL_CLOUDFLARE_API_TOKEN, and the placeholder the agent
+# container is given): it matches none of them.
+#
+# The agent cannot have seen a real credential in the first place. The credential exists only inside
+# the gateway container; the agent container is given `sk-openai-trace-lab-placeholder`, has no
+# network, and can only reach the gateway's relay socket, which forwards requests rather than
+# answering with the key.
+#
+# All 39 `sk-`-prefixed tokens across this archive are model-written test fixtures (prefixes include
+# `sk-test`, `sk-env`, `sk-abc`, `sk-your`, `sk-dummy`, `sk-fake`, `sk-REPLACE`, lengths 11-35).
+# gitleaks' `generic-api-key` rule is an entropy heuristic and flagged exactly one of them.
+#
+# Fingerprint format is <file>:<rule>:<line>, the reviewed finding and nothing else.
+results/runs-openrouter/qwen__qwen3.8-max-0902/trial-3/control/codex.stderr:generic-api-key:2

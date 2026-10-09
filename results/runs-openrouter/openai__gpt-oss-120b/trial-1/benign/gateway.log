@@ -1,0 +1,16 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791518805556495102, "request_id": 1, "provider": "openrouter", "model": "openai/gpt-oss-120b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791518807349809308, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791518854251911664, "request_id": 1, "bytes_forwarded": 319762}
+{"kind": "gateway_request", "observed_ns": 1791518854309034492, "request_id": 2, "provider": "openrouter", "model": "openai/gpt-oss-120b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791518856013626313, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791518918736454258, "request_id": 2, "bytes_forwarded": 275850}
+{"kind": "gateway_request", "observed_ns": 1791518918846674656, "request_id": 3, "provider": "openrouter", "model": "openai/gpt-oss-120b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791518920287832740, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791518922822431773, "request_id": 3, "bytes_forwarded": 91812}
+{"kind": "gateway_request", "observed_ns": 1791518922893107667, "request_id": 4, "provider": "openrouter", "model": "openai/gpt-oss-120b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791518924515402642, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791518938338528013, "request_id": 4, "bytes_forwarded": 123565}
+{"kind": "gateway_request", "observed_ns": 1791518938382079171, "request_id": 5, "provider": "openrouter", "model": "openai/gpt-oss-120b", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791518940153816012, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791518942854128460, "request_id": 5, "bytes_forwarded": 90888}

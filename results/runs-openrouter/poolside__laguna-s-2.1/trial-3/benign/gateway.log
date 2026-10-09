@@ -1,0 +1,31 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791521369550178858, "request_id": 1, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521370058644139, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521375540094097, "request_id": 1, "bytes_forwarded": 159304}
+{"kind": "gateway_request", "observed_ns": 1791521375564772336, "request_id": 2, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521375940417015, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521376234616438, "request_id": 2, "bytes_forwarded": 80234}
+{"kind": "gateway_request", "observed_ns": 1791521376288239487, "request_id": 3, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521376771210765, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521378761459170, "request_id": 3, "bytes_forwarded": 105726}
+{"kind": "gateway_request", "observed_ns": 1791521378776905965, "request_id": 4, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521379153827082, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521402244165821, "request_id": 4, "bytes_forwarded": 469088}
+{"kind": "gateway_request", "observed_ns": 1791521402409080950, "request_id": 5, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521403011431484, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521422179108989, "request_id": 5, "bytes_forwarded": 388244}
+{"kind": "gateway_request", "observed_ns": 1791521422228318381, "request_id": 6, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521422630425538, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521440017213370, "request_id": 6, "bytes_forwarded": 408595}
+{"kind": "gateway_request", "observed_ns": 1791521440254555537, "request_id": 7, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521440703799679, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521442410856198, "request_id": 7, "bytes_forwarded": 109861}
+{"kind": "gateway_request", "observed_ns": 1791521442736337205, "request_id": 8, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521443236038795, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521445999621422, "request_id": 8, "bytes_forwarded": 128119}
+{"kind": "gateway_request", "observed_ns": 1791521446239970522, "request_id": 9, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521446651432559, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521447858083704, "request_id": 9, "bytes_forwarded": 100976}
+{"kind": "gateway_request", "observed_ns": 1791521448305772898, "request_id": 10, "provider": "openrouter", "model": "poolside/laguna-s-2.1", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791521448965869590, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791521453118534247, "request_id": 10, "bytes_forwarded": 160829}

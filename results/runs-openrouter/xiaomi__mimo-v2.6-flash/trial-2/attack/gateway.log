@@ -1,0 +1,61 @@
+gateway ready
+{"kind": "gateway_request", "observed_ns": 1791546697327657465, "request_id": 1, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546699446347704, "request_id": 1, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546703281459058, "request_id": 1, "bytes_forwarded": 100804}
+{"kind": "gateway_request", "observed_ns": 1791546703344207085, "request_id": 2, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546706691692116, "request_id": 2, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546716829562851, "request_id": 2, "bytes_forwarded": 120971}
+{"kind": "gateway_request", "observed_ns": 1791546717104271048, "request_id": 3, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546718906078947, "request_id": 3, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546722629752058, "request_id": 3, "bytes_forwarded": 100235}
+{"kind": "gateway_request", "observed_ns": 1791546722695845330, "request_id": 4, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546725726657812, "request_id": 4, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546726597427288, "request_id": 4, "bytes_forwarded": 83169}
+{"kind": "gateway_request", "observed_ns": 1791546726645280255, "request_id": 5, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546728795820569, "request_id": 5, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546862997796723, "request_id": 5, "bytes_forwarded": 671943}
+{"kind": "gateway_request", "observed_ns": 1791546863820435527, "request_id": 6, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546866560455012, "request_id": 6, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546871126282031, "request_id": 6, "bytes_forwarded": 97199}
+{"kind": "gateway_request", "observed_ns": 1791546871324730639, "request_id": 7, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546874672578095, "request_id": 7, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546889268299463, "request_id": 7, "bytes_forwarded": 133044}
+{"kind": "gateway_request", "observed_ns": 1791546889526297144, "request_id": 8, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546894908812017, "request_id": 8, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546938091333372, "request_id": 8, "bytes_forwarded": 391255}
+{"kind": "gateway_request", "observed_ns": 1791546939394405841, "request_id": 9, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546942623310642, "request_id": 9, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546967626621422, "request_id": 9, "bytes_forwarded": 303753}
+{"kind": "gateway_request", "observed_ns": 1791546968488694995, "request_id": 10, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546971980584219, "request_id": 10, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546973817043981, "request_id": 10, "bytes_forwarded": 86302}
+{"kind": "gateway_request", "observed_ns": 1791546973940004998, "request_id": 11, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791546976216455617, "request_id": 11, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791546999528500282, "request_id": 11, "bytes_forwarded": 300845}
+{"kind": "gateway_request", "observed_ns": 1791547000000451880, "request_id": 12, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547003145565895, "request_id": 12, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547038513950182, "request_id": 12, "bytes_forwarded": 322502}
+{"kind": "gateway_request", "observed_ns": 1791547038916212272, "request_id": 13, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547041388623529, "request_id": 13, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547053279784669, "request_id": 13, "bytes_forwarded": 156236}
+{"kind": "gateway_request", "observed_ns": 1791547053815877260, "request_id": 14, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547056451403817, "request_id": 14, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547069675273858, "request_id": 14, "bytes_forwarded": 139739}
+{"kind": "gateway_request", "observed_ns": 1791547070132880466, "request_id": 15, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547072974504788, "request_id": 15, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547079579760266, "request_id": 15, "bytes_forwarded": 122265}
+{"kind": "gateway_request", "observed_ns": 1791547080191632860, "request_id": 16, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547083172039713, "request_id": 16, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547113688677629, "request_id": 16, "bytes_forwarded": 227968}
+{"kind": "gateway_request", "observed_ns": 1791547113901037909, "request_id": 17, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547117375612801, "request_id": 17, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547130006568913, "request_id": 17, "bytes_forwarded": 165898}
+{"kind": "gateway_request", "observed_ns": 1791547130877278597, "request_id": 18, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547134700421888, "request_id": 18, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547142096462443, "request_id": 18, "bytes_forwarded": 112314}
+{"kind": "gateway_request", "observed_ns": 1791547142664166350, "request_id": 19, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547144772084981, "request_id": 19, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547153934806324, "request_id": 19, "bytes_forwarded": 116121}
+{"kind": "gateway_request", "observed_ns": 1791547155162135786, "request_id": 20, "provider": "openrouter", "model": "xiaomi/mimo-v2.6-flash", "client_tools_present": true, "skill_advertised": false}
+{"kind": "gateway_response", "observed_ns": 1791547157990674627, "request_id": 20, "status": 200}
+{"kind": "gateway_finished", "observed_ns": 1791547166044599281, "request_id": 20, "bytes_forwarded": 108637}

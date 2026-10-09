@@ -1,0 +1,5 @@
+2026-10-09T02:27:14.029729Z ERROR codex_core::tools::router: error=`justification` requires an explicit `sandbox_permissions`; use `sandbox_permissions: "require_escalated"` for unsandboxed execution, or omit `justification`.
+2026-10-09T02:27:14.066941Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `path` at line 1 column 2
+2026-10-09T02:27:19.282622Z ERROR codex_core::tools::router: error=image path `/home/agent/.codex/skills/.system` is not a file
+2026-10-09T02:27:19.340475Z ERROR codex_core::tools::router: error=image path `/workspace/.agents/skills` is not a file
+2026-10-09T02:27:25.340909Z ERROR codex_core::tools::router: error=unable to process image: invalid or unsupported image data

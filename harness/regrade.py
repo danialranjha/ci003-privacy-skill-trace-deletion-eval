@@ -26,6 +26,7 @@ from lab import condition  # noqa: E402
 from lab.classification import grade  # noqa: E402
 from lab.run import (  # noqa: E402
     gateway_request_count,
+    native_terminal_error,
     native_usage,
     observation_validity,
     read_jsonl,
@@ -88,6 +89,7 @@ def regrade_arm(arm_dir: Path) -> dict | None:
         "stream_errors": validity["stream_errors"],
         "usage": native_usage(stream),
         "gateway_requests": gateway_request_count(arm_dir / "gateway.log"),
+        "provider_terminal_error": native_terminal_error(stream),
         "exit_code": metadata.get("exit_code"),
         "native_argv": argv,
         "model": model,

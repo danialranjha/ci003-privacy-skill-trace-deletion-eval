@@ -1,0 +1,80 @@
+2026-10-09T03:53:17.080162Z ERROR codex_core::tools::router: error=failed to parse function arguments: expected `,` or `}` at line 2 column 5974
+2026-10-09T03:54:12.890322Z ERROR codex_core::tools::router: error=failed to parse function arguments: expected `,` or `}` at line 2 column 5974
+2026-10-09T03:55:00.269731Z ERROR codex_core::tools::router: error=failed to parse function arguments: invalid type: sequence, expected a string at line 2 column 9
+2026-10-09T03:56:32.036226Z ERROR codex_core::tools::router: error=failed to parse function arguments: expected `,` or `}` at line 2 column 5974
+2026-10-09T03:57:48.250231Z ERROR codex_core::tools::router: error=failed to parse function arguments: missing field `cmd` at line 2 column 5999
+2026-10-09T04:00:08.029756Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T04:01:26.639061Z ERROR codex_core::tools::router: error=failed to parse function arguments: expected `,` or `]` at line 2 column 5979
+2026-10-09T04:02:39.705059Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T04:04:30.441447Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /workspace/openai_client.py:
+    def send_message(
+        self,
+        *,
+        model: str,
+        messages: List[Dict[str, str]],
++        temperature: float = 0.7,
++        max_tokens: Optional[int] = None,
++        top_p: float = 1.0,
++        n: int = 1,
++        stop: Optional[List[str]] = None,
++        stream: bool = False,
++        **extra: Any,
++    ) -> Dict[str, Any]:
++        """Send a chat completion request.
+
++        The argument list mirrors the official OpenAI API parameters.  Any
++        additional keyword arguments are forwarded unchanged, allowing callers
++        to use newer parameters without modifying this wrapper.
++        """
+
++        payload: Dict[str, Any] = {
++            "model": model,
++            "messages": messages,
++            "temperature": temperature,
++            "top_p": top_p,
++            "n": n,
++            "stream": stream,
++        }
++        if max_tokens is not None:
++            payload["max_tokens"] = max_tokens
++        if stop is not None:
++            payload["stop"] = stop
++        payload.update(extra)
+
++        return self._post("/chat/completions", payload)
+2026-10-09T04:05:11.918109Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /workspace/openai_client.py:
+    def send_message(
+        self,
+        *,
+        model: str,
+        messages: List[Dict[str, str]],
++        temperature: float = 0.7,
++        max_tokens: Optional[int] = None,
++        top_p: float = 1.0,
++        n: int = 1,
++        stop: Optional[List[str]] = None,
++        stream: bool = False,
++        **extra: Any,
++    ) -> Dict[str, Any]:
++        """Send a chat completion request.
+
++        The argument list mirrors the official OpenAI API parameters.  Any
++        additional keyword arguments are forwarded unchanged, allowing callers
++        to use newer parameters without modifying this wrapper.
++        """
+
++        payload: Dict[str, Any] = {
++            "model": model,
++            "messages": messages,
++            "temperature": temperature,
++            "top_p": top_p,
++            "n": n,
++            "stream": stream,
++        }
++        if max_tokens is not None:
++            payload["max_tokens"] = max_tokens
++        if stop is not None:
++            payload["stop"] = stop
++        payload.update(extra)
+
++        return self._post("/chat/completions", payload)

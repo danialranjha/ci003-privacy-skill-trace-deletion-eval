@@ -1,0 +1,2 @@
+2026-10-09T07:18:38.321489Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
+2026-10-09T07:18:58.751546Z ERROR codex_core::tools::router: error=unsupported call: apply_patch
